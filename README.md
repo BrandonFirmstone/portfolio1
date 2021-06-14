@@ -7,6 +7,9 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 - [Design](#design)
     + [Desired Features](#desired-features)
     + [Wireframe Designs](#wireframe-designs)
+        +[Homescreen Design](#homescreen-design)
+        +[Contact Page Design](#contact-page-design)
+        +[Photography Page Design](#photography-page-design)
 - [Testing the website](#testing-the-website)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
@@ -19,11 +22,13 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 - Footer with icons linking to Siana's social media
 
 ### Wireframe Designs
+#### Homescreen Design
 ![Homescreen Design](./assets/images/home-screen-design.png "Home Screen Wire Frame")
 - The boxes with crosses are images, specifically they are going to be characters designed by Siana. The design for these will be the characters falling from the sky.
 - Each character will have text under it annotating what page it links to
 - The sky will be the background of the image
 
+#### Contact Page Design
 ![Contact Page Design](./assets/images/contact-page-design.png "Contact Page Wire Frame")
 - The contact page will have a contact form contained within a box.
 - The background of the contact form itself will be a different colour to the rest of the page for contrast
@@ -31,13 +36,13 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 - The box with text on the side will be a privacy policy as the user's data would be processed in order for them to contact Siana
 - The hamburger button of the mobile view should take the user back to the home page/splash screen
 
+#### Photography Page Design
 ![Photography Page Design](./assets/images/photography-page-design.png "Photography Page Wire Frame")
-
 - The photography and character design pages will be organised into four columns
 - The pictures will each have a caption underneath it, detailing information regarding the image
 - The mobile view will have a 'slideshow' style gallery, where per button click going back and forward the caption and the image will change.
 
-## Running Tests
+## Testing The Website
 
 This section will be for testing the website
   
