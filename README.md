@@ -1,59 +1,56 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome BrandonFirmstone,
+# Siana's Gallery
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website was produced by myself for Siana Gilbertson, an artist wanting to expand their personal brand and reach. Siana's Gallery was designed based upon Siana's knowledge of the art community that they are a part of and is influenced by websites of other artists (these websites will be credited below)
 
-## Gitpod Reminders
+- [Siana's Gallery](#siana-s-gallery)
+- [Design](#design)
+    + [Desired Features](#desired-features)
+    + [Wireframe Designs](#wireframe-designs)
+- [Testing the website](#testing-the-website)
+- [Deployment](#deployment)
+- [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Design
+### Desired Features
+- Two galleries for showing Siana's Photography and Character Design separately
+- Unique 'Splash Screen' style menu as a separate page incorporating Siana's art
+- Contact page to allow people to contact Siana for collaboration, commisions and questions
+- Footer with icons linking to Siana's social media
 
-`python3 -m http.server`
+### Wireframe Designs
+![Homescreen Design](./assets/images/home-screen-design.png "Home Screen Wire Frame")
+- The boxes with crosses are images, specifically they are going to be characters designed by Siana. The design for these will be the characters falling from the sky.
+- Each character will have text under it annotating what page it links to
+- The sky will be the background of the image
 
-A blue button should appear to click: _Make Public_,
+![Contact Page Design](./assets/images/contact-page-design.png "Contact Page Wire Frame")
+- The contact page will have a contact form contained within a box.
+- The background of the contact form itself will be a different colour to the rest of the page for contrast
+- This design may differ from the finished project, as an alternative to having the icons for separate pages, having one icon to send the user back to the splash screen
+- The box with text on the side will be a privacy policy as the user's data would be processed in order for them to contact Siana
+- The hamburger button of the mobile view should take the user back to the home page/splash screen
 
-Another blue button should appear to click: _Open Browser_.
+![Photography Page Design](./assets/images/photography-page-design.png "Photography Page Wire Frame")
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- The photography and character design pages will be organised into four columns
+- The pictures will each have a caption underneath it, detailing information regarding the image
+- The mobile view will have a 'slideshow' style gallery, where per button click going back and forward the caption and the image will change.
 
-A blue button should appear to click: _Make Public_,
+## Running Tests
 
-Another blue button should appear to click: _Open Browser_.
+This section will be for testing the website
+  
+## Deployment
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This section will be about the deployment of the website to GitPages
 
-To log into the Heroku toolbelt CLI:
+## Acknowledgements
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This section will have acknowledgements of all of the sources of code, images, and inspiration used for this website.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+  
