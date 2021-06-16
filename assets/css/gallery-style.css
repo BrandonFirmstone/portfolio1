@@ -8,20 +8,33 @@
   
   /* Style the header */
   .header {
-    background-color: #f1f1f1;
+    background-color: #2e8af3;
     padding: 30px;
     text-align: center;
     font-size: 35px;
   }
-  
-  /* Create three equal columns that floats next to each other */
+  .row{
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+  }
+  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
     width: 25%;
+    max-width: 25%;
+    overflow: hidden;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    margin-top: 20px;
   }
-  
+  .img-size{
+      min-width: 250px;
+      min-height: 250px;
+      height: 400px;
+      width: 400px;
+      object-fit: cover;
+  }
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -42,3 +55,16 @@
       width: 100%;
     }
   }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .float-left{
+      float: left;
+  }
+  .float-right{
+      float: right;
+  }
+.column > p{
+    text-align: center;
+}
