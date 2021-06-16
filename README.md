@@ -52,8 +52,11 @@ This section will be about the deployment of the website to GitPages
 
 ## Acknowledgements
 
-This section will have acknowledgements of all of the sources of code, images, and inspiration used for this website.
-
+- W3Schools.com has provided insight and templates for the website and has been an invaluable tool (see w3schools.com)
+- Stack Overflow has helped me troubleshoot issues regarding the HTML and CSS of the website as well as some issues regarding Gitpod that I encountered (See Stackoverflow.com)
+- https://css-tricks.com/on-object-fit-and-object-position/ to help with positioning the images in the gallery
+- https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s helped with responsivity of the gallery
+- FontAwesome allows for the use of icons throughout the website, including the menu icon.
 
 
 

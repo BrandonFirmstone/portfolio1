@@ -4,36 +4,41 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #69D2E7;
+    margin: 0px;
+    padding: 0px;
   }
-  
-  /* Style the header */
-  .header {
-    background-color: #2e8af3;
-    padding: 30px;
-    text-align: center;
+  .topnav {
+    overflow: hidden;
+    background-color: #F38630;
+    width: 100%;
     font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
   }
+  /* Style the header */
   .row{
       width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
       padding-bottom: 5px;
   }
   /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: 25%;
-    max-width: 25%;
+    width: 24%;
     overflow: hidden;
-    padding: 10px;
-    margin-top: 20px;
+    padding-left: 50px;
+    margin-top: 20px;  
   }
   .img-size{
       min-width: 250px;
       min-height: 250px;
-      height: 400px;
+      height: 300px;
       width: 400px;
-      object-fit: cover;
+      object-fit: none;
+      object-position: 50% 50%;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -48,23 +53,56 @@
     padding: 10px;
     text-align: center;
   }
-  
+  @media (max-width: 1000px) {
+    .row{
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+    }
+    .column {
+      width: 42%;
+      margin: 2%;
+    } 
+  }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
+    .row{
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
     .column {
       width: 100%;
+      padding: 10px;
+      margin: 10px;
+    }
+    .topnav{
+      font-size: 30px;
     }
   }
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
+  header{
+      width: 100%;
   }
+
   .float-left{
       float: left;
+      padding-left: 30px;
   }
   .float-right{
       float: right;
+      padding-right: 30px;
   }
 .column > p{
     text-align: center;
-}
+  }
+.column > i{
+    display:inline-block;
+    font-size: 40px;
+    line-height: 50px;
+    color:white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    
+  }
