@@ -1,3 +1,30 @@
+#nav-wrapper{
+  width: 100%;
+  padding: 15px;
+  overflow: hidden;
+}
+#nav-img-left{
+  margin-right: 15px;
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+}
+#nav-img-center{
+  margin-right: 15px;
+  right: 50%;
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+}
+#nav-img-right{
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+}
+.nav-img{
+  width: 450px;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -107,16 +134,3 @@
     
   }
 
-  .nav-img-left{
-    float: left;
-    width: 33.33%;
-    overflow: hidden;
-  }
-  .nav-img-center{
-    right: 50%;
-    width: 33.33%;
-    overflow: hidden;
-  }
-  .nav-img-right{
-    
-  }
