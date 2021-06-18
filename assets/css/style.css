@@ -1,57 +1,41 @@
-#nav-wrapper{
-  width: 100%;
-  padding: 15px;
-  overflow: hidden;
-}
-#nav-img-left{
-  margin-right: 15px;
-  width: 30%;
-  display: inline-block;
-  overflow: hidden;
-}
-#nav-img-center{
-  margin-right: 15px;
-  right: 50%;
-  width: 30%;
-  display: inline-block;
-  overflow: hidden;
-}
-#nav-img-right{
-  width: 30%;
-  display: inline-block;
-  overflow: hidden;
-}
-.nav-img{
-  width: 450px;
-}
-
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #69D2E7;
-    margin: 0px;
-    padding: 0px;
-  }
-  .topnav {
-    overflow: hidden;
-    background-color: #F38630;
+  /* Splash screen/navigation screen specific CSS */
+  #nav-wrapper{
     width: 100%;
-    font-size: 35px;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden;
   }
-  /* Style the header */
+  #nav-img-left{
+    margin-right: 15px;
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  #nav-img-center{
+    margin-right: 15px;
+    right: 50%;
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  #nav-img-right{
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .nav-img{
+    width: 450px;
+  }
+  /*End of splash screen specific CSS */
+
+  /* Gallery CSS starts here */
+  /* The galleries and the navigation page use a table-style row and column system as a layout */
   .row{
-      width: 100%;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 5px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
   }
-  /* Create four equal columns that floats next to each other */
+  /* Create four equal columns that floats next to each other for the galleries */
   .column {
     float: left;
     width: 24%;
@@ -59,13 +43,16 @@
     padding-left: 50px;
     margin-top: 20px;  
   }
+  /* Ensures any description text in the columns is central to the image it's describing */
+  .column > p{
+    text-align: center;
+  }
+  /* Sets the image size for the gallery, centers the image using object-position */
   .img-size{
-      min-width: 250px;
-      min-height: 250px;
-      height: 300px;
-      width: 400px;
-      object-fit: none;
-      object-position: 50% 50%;
+    height: 300px;
+    width: 400px;
+    object-fit: none;
+    object-position: 50% 50%;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -73,25 +60,14 @@
     display: table;
     clear: both;
   }
+  /* Gallery CSS ends here */
+
+  /* Contact page specific CSS starts here */
+
+  /* End of Contact page specific CSS */
   
-  /* Style the footer */
-  .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-  }
-  @media (max-width: 1000px) {
-    .row{
-      width: 100%;
-      padding: 10px;
-      margin: 10px;
-    }
-    .column {
-      width: 42%;
-      margin: 2%;
-    } 
-  }
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  /* Responsive CSS starts here */
+  /* For phones and small screens */
   @media (max-width: 600px) {
     .row{
       width: 100%;
@@ -107,10 +83,21 @@
       font-size: 30px;
     }
   }
-  header{
+  /* For tablets and other smaller screens */
+  @media (max-width: 1000px) {
+    .row{
       width: 100%;
+      padding: 10px;
+      margin: 10px;
+    }
+    .column {
+      width: 42%;
+      margin: 2%;
+    } 
   }
+  /* End of responsive CSS */
 
+  /* Simple rules for floating left and right and adds padding */
   .float-left{
       float: left;
       padding-left: 30px;
@@ -119,18 +106,33 @@
       float: right;
       padding-right: 30px;
   }
-.column > p{
-    text-align: center;
-  }
-.column > i{
-    display:inline-block;
-    font-size: 40px;
-    line-height: 50px;
-    color:white;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    vertical-align: bottom;
-    
-  }
+  /* Float rules end */
 
+  /* Style the background of all pages. margin and padding set to 0px due to browser automatically adding rules */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #69D2E7;
+    margin: 0px;
+    padding: 0px;
+  }
+  /* Style the header */
+  .topnav {
+    overflow: hidden;
+    background-color: #F38630;
+    width: 100%;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
+  * {
+    box-sizing: border-box;
+  }
+  /* General CSS ends here */
