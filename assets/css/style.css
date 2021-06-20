@@ -73,9 +73,9 @@
     background-color: #E0E4CC;
     padding-left: 100px;
   }
-  #contact-form input{
+  .contact-form-input{
     width: 300px;
-    padding-right: 25px;
+    padding-left: 25px;
   }
   #submit{
     margin-bottom: 50px;
