@@ -57,6 +57,8 @@ This section will be about the deployment of the website to GitPages
 - https://css-tricks.com/on-object-fit-and-object-position/ to help with positioning the images in the gallery
 - https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s helped with responsivity of the gallery
 - FontAwesome allows for the use of icons throughout the website, including the menu icon.
+- Wallpaperaccess.com was used for a placeholder image of the sky
+- Placeholder images are from placeimg.com
 
 
 
