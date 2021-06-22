@@ -1,3 +1,66 @@
+    /* Google Fonts importing the font Grand Hotel by 'Astigmatic' for Siana's logo */
+    @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+    /* Simple rules for floating left and right and adds padding */
+    .float-left{
+      float: left;
+      padding-left: 30px;
+  }
+  .float-right{
+      float: right;
+      padding-right: 30px;
+  }
+  /* Float rules end */
+
+  /* Style the background of all pages. margin and padding set to 0px due to browser automatically adding rules */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #69D2E7;
+    margin: 0px;
+    padding: 0px;
+  }
+  /* Style the header */
+  .topnav {
+    overflow: hidden;
+    background-color: #F38630;
+    width: 100%;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    font-family: 'Grand Hotel', Helvetica, sans-serif;
+    font-weight: 500;
+    height: 100px;
+  }
+  .site-logo{
+    line-height: 10px;
+  }
+  .burger-button{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .burger-button:hover{
+    color: white;
+  }
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+  }
+  /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
+  * {
+    box-sizing: border-box;
+  }
+  /* General CSS ends here */
+  
   /* Splash screen/navigation screen specific CSS */
   #nav-page-body{
     background-image: url("../images/sky-background.jpg");
@@ -8,8 +71,10 @@
     overflow: hidden;
   }
   #index-header{
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: 300;
     margin: 25px 0 15px 50px;
+    font-family: 'Grand Hotel', Helvetica, sans-serif
   }
   .index-link{
     text-align: center;
@@ -180,52 +245,3 @@
   }
   /* End of responsive CSS */
 
-  /* Simple rules for floating left and right and adds padding */
-  .float-left{
-      float: left;
-      padding-left: 30px;
-  }
-  .float-right{
-      float: right;
-      padding-right: 30px;
-  }
-  /* Float rules end */
-
-  /* Style the background of all pages. margin and padding set to 0px due to browser automatically adding rules */
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #69D2E7;
-    margin: 0px;
-    padding: 0px;
-  }
-  /* Style the header */
-  .topnav {
-    overflow: hidden;
-    background-color: #F38630;
-    width: 100%;
-    font-size: 35px;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 20px;
-  }
-  .burger-button{
-    display: inline-block;
-    margin-top: 35px;
-    text-decoration: none;
-    color: black;
-  }
-  .burger-button:hover{
-    color: white;
-  }
-  /* Style the footer */
-  .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-  }
-  /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
-  * {
-    box-sizing: border-box;
-  }
-  /* General CSS ends here */
