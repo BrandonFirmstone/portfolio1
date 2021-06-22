@@ -141,7 +141,7 @@
   }
   /* Gallery CSS ends here */
 
-  /* Contact page specific CSS starts here */
+  /* About page specific CSS starts here */
   #contact-form{
     display: inline-block;
   }
@@ -184,7 +184,16 @@
     background-color: white;
     float: right;
   }
-  /* End of Contact page specific CSS */
+  .column-about {
+    text-align: center;
+    float: left;
+    width: 50%;
+    overflow-y: scroll;
+    padding: 15px 20px 15px 20px;
+    margin-top: 20px auto 0 auto;
+    height: 600px;
+  }
+  /* End of about page specific CSS */
 
   /* Responsive CSS starts here */
   /* For phones and small screens */
