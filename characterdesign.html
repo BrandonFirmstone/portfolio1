@@ -5,24 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/7a193223e3.js" crossorigin="anonymous"></script>
     <title>Siana's Characters</title>
 </head>
 <body>
-    <header class="topnav">
+    <nav class="topnav">
         <div>
-            <span>
-                <p class="float-left">Siana's Logo</p>
-                <a href="index.html">
-                    <i class="fas fa-bars float-right burger-button"></i>
-                </a>
-            </span>
+            <p class="float-left">Siana's Logo</p>
+            <a href="index.html"> <!-- Index page is used as a navigational page, this element takes you to said page -->
+                <i class="fas fa-bars float-right burger-button"></i> <!-- Burger button used for navigation -->
+            </a>
+        </div>
+    </nav>
+    <header>
+    <div class="page-title">
+            <h1>Siana's Character Design</h1>
+            <h2>A collection of digital, acrylic and many other forms of character art.</h2>
         </div>
     </header>
-    <div class="page-title">
-        <h1>Siana's Character Design</h1>
-        <h2>A collection of digital, acrylic and many other forms of character art.</h2>
-    </div>
     <div class="row">
         <div class="column">
             <a href="assets/images/tattoo-style-sketch.png" target="_blank">
@@ -80,24 +79,14 @@
             <img src="https://placeimg.com/600/600/any" class="img-size">
             <p class="image-caption">Image Description</p>
         </div>
-    </div>
-    <div class="row">
-        <div class="column">
-            <img src="https://placeimg.com/600/600/any" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-        <div class="column">
-            <img src="https://placeimg.com/600/600/any" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-        <div class="column">
-            <img src="https://placeimg.com/600/600/any" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-        <div class="column">
-            <img src="https://placeimg.com/600/600/any" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-    </div>    
-</body>
+    </div> 
+    <div class="footer"> <!-- Div for the footer. Footer will include social links for Siana. -->
+        <footer> <!-- Tag used for semantics and accessibility -->
+            <a href="" target="_blank">
+                <i class="fab fa-instagram-square"></i> <!-- Grabs the square Instagram logo using the fontawesome.com script at the bottom of the body -->
+            </a> <!-- Instagram icon for footer, opens to new tab so that user retains this website on their browser -->
+        </footer> <!-- End of footer -->
+    </div> <!-- End of footer div -->
+    <script src="https://kit.fontawesome.com/7a193223e3.js" crossorigin="anonymous"></script> <!-- Placed at the bottom of the page due to impact on system resources -->
+</body> <!-- End of page body -->
 </html>
