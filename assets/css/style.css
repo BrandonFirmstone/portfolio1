@@ -49,11 +49,11 @@
   .footer {
     background-color: #f1f1f1;
     padding: 10px;
+    margin-top: 15px;
     text-align: center;
     width: 100%;
     font-size: 25px;
     color: black;
-    position: fixed;
     bottom: 0;
   }
   /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
