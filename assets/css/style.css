@@ -1,90 +1,110 @@
-  /* Google Fonts importing the font Grand Hotel by 'Astigmatic' for Siana's logo */
-  @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/* Google Fonts importing the font Grand Hotel by 'Astigmatic' for Siana's logo */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 
-  /* Simple rules for floating left and right and adds padding */
-  .float-left{
-      float: left;
-      padding-left: 30px;
-  }
-  .float-right{
-      float: right;
-      padding-right: 30px;
-  }
-  /* Float rules end */
+/* Style the background of all pages. margin and padding set to 0px due to browser automatically adding rules */
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #69D2E7;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+}
 
-  /* Style the background of all pages. margin and padding set to 0px due to browser automatically adding rules */
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #69D2E7;
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
-  }
-  /* Style the header */
-  .topnav {
-    overflow: hidden;
-    background-color: #F38630;
-    width: 100%;
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 20px;
-    font-family: 'Grand Hotel', Helvetica, sans-serif;
-    font-weight: 500;
-    height: 100px;
-  }
-  .site-logo{
-    line-height: 10px;
-  }
-  .burger-button{
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
-    color: black;
-  }
-  .burger-button:hover{
-    color: white;
-  }
-  /* Style the footer */
-  .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    margin-top: 15px;
-    text-align: center;
-    width: 100%;
-    font-size: 25px;
-    color: black;
-    bottom: 0;
-  }
-  /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
-  * {
-    box-sizing: border-box;
-  }
-  /* General CSS ends here */
+/*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
+* {
+  box-sizing: border-box;
+}
+
+/* Simple rules for floating left and right and adds padding */
+.float-left{
+  float: left;
+  padding-left: 30px;
+}
+
+.float-right{
+  float: right;
+  padding-right: 30px;
+}
+/* Float rules end */
+
+/* Style the header */
+.topnav {
+  overflow: hidden;
+  background-color: #F38630;
+  width: 100%;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-family: 'Grand Hotel', Helvetica, sans-serif;
+  font-weight: 500;
+  height: 100px;
+}
+
+/* Style rules for the site logo present in the navigation bar */
+.site-logo{
+  line-height: 10px;
+}
+
+/* Style rules for the navigational "burger button" icon on the top navigation bar */
+.burger-button{
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Psuedo class to change the state of the previously mentioned navigation button */
+.burger-button:hover{
+  color: white;
+}
+
+/* Style the footer at the bottom of the page */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: black;
+  bottom: 0;
+}
+/* General CSS ends here */
   
-  /* Splash screen/navigation screen specific CSS */
-  #nav-page-body{
-    background-image: url("../images/sky-background.jpg");
-    background-attachment: fixed;
-  }
-  #nav-wrapper{
-    width: 100%;
-    padding: 15px;
-    overflow: hidden;
-  }
-  #index-header{
-    font-size: 70px;
-    font-weight: 300;
-    margin: 25px 0 15px 50px;
-    font-family: 'Grand Hotel', Helvetica, sans-serif
-  }
-  .index-link{
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    color: black;
-  }
-  #nav-img-left{
+/* Splash screen/navigation screen specific CSS */
+#nav-page-body{
+  background-image: url(../images/sky-background.jpg);
+  background-attachment: fixed;
+}
+
+/* Div containing the other elements of the splash screen */
+#nav-wrapper{
+  width: 100%;
+  padding: 15px;
+  overflow: hidden;
+}
+
+/* Site title/logo specifically on the index page */
+#index-header{
+  font-size: 70px;
+  font-weight: 300;
+  margin: 25px 0 15px 50px;
+  font-family: 'Grand Hotel', Helvetica, sans-serif
+}
+
+/* Style rules for the text captioning each image on the splash screen */
+.index-link{
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+/* Style rules specific to the left nav image */
+#nav-img-left{
     margin-right: 15px;
     width: 32%;
     display: inline-block;
@@ -98,6 +118,7 @@
   #nav-img-right{
     width: 32%;
     display: inline-block;
+    right: 100%
   }
   .nav-img{
     object-fit:cover;
@@ -187,13 +208,20 @@
     background-color: white;
     float: right;
   }
-  .column-about {
-    text-align: center;
+  .column-about-left {
+    text-align: left;
     float: left;
-    width: 50%;
-    overflow-y: scroll;
-    padding: 15px 20px 15px 20px;
-    margin-top: 20px auto 0 auto;
+    width: 60%;
+    overflow: hidden;
+    padding: 15px 0px 15px 20px;
+    margin: 20px auto 0 auto;
+    height: 400px;
+  }
+  .column-about-right{
+    width: 39%;
+    overflow: auto;
+    padding: 15px 0px 15px 20px;
+    float: right;
     height: 600px;
   }
   /* End of about page specific CSS */
@@ -204,8 +232,8 @@
   @media (max-width: 1100px) {
     .row{
       width: 100%;
-      padding: 10px;
-      margin: 10px;
+      padding: 0px;
+      margin: 0px;
     }
     .column {
       width: 42%;
@@ -239,16 +267,38 @@
     .contact-form-wrapper{
       padding-left: 10px;
     }
+    .column-about-left{
+      width: 90%;
+      padding: 2%;
+      margin: 2%;
+    }
+
+    .column-about-right{
+      width: 90%;
+      padding: 5%;
+      margin: 5%;
+      overflow: visible;
+      display: block;
+      height: fit-content;
+      text-align: center;
+    }
+    .instagram-style{
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      min-width: 0;
+    }
   }
     /* For phones and small screens */
     @media (max-width: 700px) {
       .row{
         width: 100%;
         padding: 0px;
-        margin: 10px;
+        margin: 0px;
       }
       .column {
-        width: 100%;
+        width: 80%;
         margin: 10px;
       }
       .topnav{
