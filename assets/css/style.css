@@ -1,8 +1,8 @@
-    /* Google Fonts importing the font Grand Hotel by 'Astigmatic' for Siana's logo */
-    @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+  /* Google Fonts importing the font Grand Hotel by 'Astigmatic' for Siana's logo */
+  @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 
-    /* Simple rules for floating left and right and adds padding */
-    .float-left{
+  /* Simple rules for floating left and right and adds padding */
+  .float-left{
       float: left;
       padding-left: 30px;
   }
@@ -18,6 +18,7 @@
     background-color: #69D2E7;
     margin: 0px;
     padding: 0px;
+    width: 100vw;
   }
   /* Style the header */
   .topnav {
@@ -25,8 +26,8 @@
     background-color: #F38630;
     width: 100%;
     font-size: 40px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     margin-bottom: 20px;
     font-family: 'Grand Hotel', Helvetica, sans-serif;
     font-weight: 500;
@@ -64,6 +65,7 @@
   /* Splash screen/navigation screen specific CSS */
   #nav-page-body{
     background-image: url("../images/sky-background.jpg");
+    background-attachment: fixed;
   }
   #nav-wrapper{
     width: 100%;
@@ -98,8 +100,8 @@
     display: inline-block;
   }
   .nav-img{
-    width: 450px;
-    height: 500px;
+    object-fit:cover;
+    margin: 20px auto 20px auto;
   }
   /*End of splash screen specific CSS */
 
@@ -114,10 +116,11 @@
   /* Create four equal columns that floats next to each other for the galleries */
   .column {
     float: left;
-    width: 24%;
+    width: 25%;
     overflow: hidden;
-    padding-left: 50px;
-    margin-top: 20px;  
+    margin: 20px auto 0 auto;
+    padding: 0 10px 0 10px;
+    text-align: center;
   }
   /* Ensures any description text in the columns is central to the image it's describing */
   .column > p{
@@ -196,25 +199,7 @@
   /* End of about page specific CSS */
 
   /* Responsive CSS starts here */
-  /* For phones and small screens */
-  @media (max-width: 600px) {
-    .row{
-      width: 100%;
-      padding: 0px;
-      margin: 0px;
-    }
-    .column {
-      width: 100%;
-      padding: 10px;
-      margin: 10px;
-    }
-    .topnav{
-      font-size: 30px;
-    }
-    .contact-form-input{
-      width: 80%;
-    }
-  }
+  
   /* For tablets and other smaller screens */
   @media (max-width: 1100px) {
     .row{
@@ -255,5 +240,29 @@
       padding-left: 10px;
     }
   }
+    /* For phones and small screens */
+    @media (max-width: 700px) {
+      .row{
+        width: 100%;
+        padding: 0px;
+        margin: 10px;
+      }
+      .column {
+        width: 100%;
+        margin: 10px;
+      }
+      .topnav{
+        font-size: 30px;
+      }
+      .contact-form-input{
+        width: 80%;
+      }
+      .nav-img{
+        width: 100%;
+        height: 80%;
+        margin: 0 auto;
+        object-fit: cover;
+      }
+    }
   /* End of responsive CSS */
 
