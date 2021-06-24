@@ -2,102 +2,178 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- Sets the site's character set to UTF-8 -->
+    <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Sets the size of the viewport to the device size -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Links the HTML page to the style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-- Sets the title shown by the browser to 'Siana's Characters' -->
     <title>Siana's Characters</title>
 </head>
 
 <body>
+
+    <!-- nav element used for semantics -->
     <nav class="topnav">
+        <!-- Div defining the area for the navigation bar -->
         <div class="topnav">
+            <!-- Adds the logo to the navbar at the top of the page-->
             <p class="float-left site-logo">Siana's Gallery</p>
-            <!-- Index page is used as a navigational page, this element takes you to said page -->
-            <a href="index.html">
-                <i class="fas fa-bars float-right burger-button"></i> <!-- Burger button used for navigation -->
-            </a>
+            <!-- Links the burger button below to the 'splashscreen' page index.html -->
+            <a href="index.html"> 
+                <!-- Burger button used for navigation -->
+                <i class="fas fa-bars float-right burger-button"></i> 
+            <!-- Closes the link -->
+            </a> 
+        <!-- End of the navigation div -->
         </div>
-    </nav>
+    <!-- End of the nav bar -->
+    </nav> 
 
+    <!-- For semantics, defines the below as the header of the page -->
     <header>
+        
+        <!-- Div for the page's title and subtitle -->
         <div>
+            <!-- The page's main title -->
             <h1 class="page-title">Siana's Character Design</h1>
-            <h2 class="page-title">A collection of digital, acrylic and many other forms of character art.</h2>
+            <!-- The page's subtitle -->
+            <h2 class="page-title">A collection of digital, acrylic and many other forms of character art</h2>
+        <!-- End of title area -->
         </div>
+    <!-- End of header section-->
     </header>
+    <!-- Defines the below as a section of content -->
+    <section>
+        <!-- div used to define the row. The row keeps four images next to one another through CSS. Row is also used to adjust the page for responsive design -->
+        <div class="row">
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/tattoo-style-sketch.png" target="_blank">
+                    <!-- Defines the image. src is used to locate the image file, alt to provide text if for whatever reason it cannot find the file and the title is used as the tooltip when hovering over the image. Alt text is also used for screen readers, allowing more accessibility. -->
+                    <img src="assets/images/character-design-images/tattoo-style-sketch.png" alt="Tattoo style sketch"
+                        title="Skeleton Tattoo Sketch" class="img-size">
+                <!-- Ends the clickable link to the image file -->
+                </a>
+                <!-- The caption for the image. -->
+                <p class="image-caption">A tattoo-style sketch.</p>
+            </div>
 
-    <div class="row">
-        <div class="column">
-            <a href="assets/images/tattoo-style-sketch.png" target="_blank">
-                <img src="assets/images/character-design-images/tattoo-style-sketch.png" alt="Tattoo style sketch"
-                    class="img-size">
-            </a>
-            <p class="image-caption">A tattoo style sketch. May 7th, 2020.</p>
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/character-design-images/tallulah-swimming.png">
+                    <!-- Defines the image. src is used to locate the image file, alt to provide text if for whatever reason it cannot find the file and the title is used as the tooltip when hovering over the image. Alt text is also used for screen readers, allowing more accessibility. -->
+                    <img src="assets/images/character-design-images/tallulah-swimming.png" alt="Tallulah Swimming"
+                        title="Tallulah Swimming" class="img-size">
+                <!-- Ends the clickable link to the image file -->
+                </a>
+                <!-- The caption for the image. -->
+                <p class="image-caption">A sketch of the character Tallulah swimming.</p>
+            </div>
+
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/character-design-images/tallulah-sketch.png" target="_blank">
+                    <!-- Defines the image. src is used to locate the image file, alt to provide text if for whatever reason it cannot find the file and the title is used as the tooltip when hovering over the image. Alt text is also used for screen readers, allowing more accessibility. -->
+                    <img src="assets/images/character-design-images/tallulah-sketch.png" alt="Tallulah Sketch"
+                        title="Sketch of Tallulah" class="img-size">
+                <!-- Ends the clickable link to the image file -->
+                </a>
+                <!-- The caption for the image. -->
+                <p class="image-caption">A sketch of Tallulah from different angles and poses. Includes a cute fish.</p>
+            </div>
+
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/character-design-images/spindle-sketch.png" target="_blank">
+                    <img src="assets/images/character-design-images/spindle-sketch.jpg"
+                        alt="Spindle drawing an Arrow Sketch" title="Sketch of Spindle drawing an arrow" class="img-size">
+                </a>
+                <p class="image-caption">Spindle drawing an arrow.</p>
+            </div>
+
         </div>
 
-        <div class="column">
-            <a>
-                <img src="assets/images/character-design-images/tallulah-swimming.png" alt="" class="img-size">
-            </a>
-            <p class="image-caption">Image Description</p>
+        <!-- div used to define the row. The row keeps four images next to one another through CSS. Row is also used to adjust the page for responsive design -->
+        <div class="row">
+
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/character-design-images/spindle-post-it-note.png" target="_blank">
+                    <img src="assets/images/character-design-images/spindle-post-it-note.png"
+                        alt="Spindle drawn on a post-it note" title="Post-It Note Spindle" class="img-size">
+                </a>
+                <p class="image-caption">Spindle drawn on a post-it note.</p>
+            </div>
+
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/character-design-images/spindle-sketch.png" target="_blank">
+                    <img src="assets/images/character-design-images/face-in-acrylic.png" alt="Face in acrylic"
+                        title="Face in acrylic" class="img-size">
+                </a>
+                <p class="image-caption">An acrylic piece of a mysterious face. Natural overtones. </p>
+            </div>
+
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/character-design-images/dahliah-swinging.png" target="_blank">
+                    <img src="assets/images/character-design-images/dahliah-swinging.png" alt="Dahliah Swinging her weapon"
+                        title="Dahliah swinging her weapon" class="img-size">
+                </a>
+                <p class="image-caption">Dahliah swinging her ball-on-chain viciously.</p>
+            </div>
+
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="assets/images/character-design-images/dahlia-first-look.png" target="_blank">
+                    <img src="assets/images/character-design-images/dahlia-first-look.png" alt="Dahliah post-violence"
+                        title="First look at Dahliah" class="img-size">
+                </a>
+                <p class="image-caption">Dagliah post-violence. Ouch.</p>
+            </div>
+
         </div>
-
-        <div class="column">
-            <img src="assets/images/character-design-images/tallulah-sketch.png" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <img src="assets/images/character-design-images/spindle-sketch.jpg" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-
-    </div>
-
-    <div class="row">
-
-        <div class="column">
-            <img src="assets/images/character-design-images/spindle-post-it-note.png" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <img src="assets/images/character-design-images/face-in-acrylic.png" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <img src="assets/images/character-design-images/daliah-swinging.png" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <img src="assets/images/character-design-images/dahlia-first-look.png" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-
-    </div>
-
+    </section>
+    <!-- Div for the footer. Footer will include social links for Siana. -->
     <div class="footer">
-        <!-- Div for the footer. Footer will include social links for Siana. -->
+        
+        <!-- Tag used for semantics and accessibility -->
         <footer>
-            <!-- Tag used for semantics and accessibility -->
+            
+            <!-- Wraps all of the icons in a paragraph tag to more easily center align them -->
             <p class="text-centered">
+                <!-- Icon for Facebook. Styled black by default, when hovered turns white and rotates. Opens Facebook in new tab. -->
                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Link to facebook."><i
                         class="fab fa-facebook-square"></i></a>
+                <!-- Icon for Twitter. Styled black by default, when hovered turns white and rotates. Opens Twitter in new tab. -->
                 <a href="https://www.twitter.com/" target="_blank" rel="noreferrer" aria-label="Go to twitter."><i
                         class="fab fa-twitter-square"></i></a>
+                <!-- Icon for Instagram. Styled black by default, when hovered turns white and rotates. Opens Instagram in new tab. -->
                 <a href="https://www.instagram.com/marshi3.mellow/" target="_blank" rel="noreferrer"
                     aria-label="Link to instagram."><i class="fab fa-instagram-square"></i></a>
+                <!-- Icon for YouTube. Styled black by default, when hovered turns white and rotates. Opens YouTube in new tab. -->
                 <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="Go to youtube."><i
                         class="fab fa-youtube-square"></i></a>
             </p>
-        </footer> <!-- End of footer -->
-    </div> <!-- End of footer div -->
+        <!-- End of footer -->
+        </footer>
 
+    <!-- End of footer div -->
+    </div> 
+    <!-- Script used to import icons for the navbar and the footer. Placed at the bottom of the page due to impact on system resources. Provided by fontawesome.com -->
     <script src="https://kit.fontawesome.com/7a193223e3.js" crossorigin="anonymous"></script>
-    <!-- Placed at the bottom of the page due to impact on system resources -->
+    
 </body> <!-- End of page body -->
 
 </html>
