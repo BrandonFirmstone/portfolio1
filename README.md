@@ -8,7 +8,7 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
     + [Desired Features](#desired-features)
     + [Wireframe Designs](#wireframe-designs)
         +[Homescreen Design](#homescreen-design)
-        +[Contact Page Design](#contact-page-design)
+        +[About Page Design](#about-page-design)
         +[Photography Page Design](#photography-page-design)
 - [Testing the website](#testing-the-website)
 - [Deployment](#deployment)
@@ -28,13 +28,20 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 - Each character will have text under it annotating what page it links to
 - The sky will be the background of the image
 
-#### Contact Page Design
-![Contact Page Design](./assets/images/contact-page-design.png "Contact Page Wire Frame")
+#### About Page Design (Previously Contact Page Design circa 22/06/2021)
+![About Page Design](./assets/images/contact-page-design.png "Contact Page Wire Frame")
 - The contact page will have a contact form contained within a box.
 - The background of the contact form itself will be a different colour to the rest of the page for contrast
 - This design may differ from the finished project, as an alternative to having the icons for separate pages, having one icon to send the user back to the splash screen
 - The box with text on the side will be a privacy policy as the user's data would be processed in order for them to contact Siana
 - The hamburger button of the mobile view should take the user back to the home page/splash screen
+/
+##### About Page Design Changes
+Due to time limitations, I will not be able to produce a wire frame for this new design. However, the layout will be very similar to the initial design. The about page will incorporate a contact form for the user to contact Siana, but extra information regarding the site owner and a video embedded from Youtube.com will be included. The contact form will be at the bottom of the page, the information regarding Siana at the top. The extra features to be included are as follows, in priority order:
+- Information regarding Siana
+- Video produced by Siana
+- Call to action to fill in the contact form
+- Small gallery, taking up one image space and revolving through the different images
 
 #### Photography Page Design
 ![Photography Page Design](./assets/images/photography-page-design.png "Photography Page Wire Frame")
