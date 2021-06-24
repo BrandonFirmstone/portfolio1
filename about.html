@@ -2,10 +2,14 @@
 <html lang="en">
 
 <head>
+    <!-- Sets the site's character set to UTF-8 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Sets the size of the viewport to the device size -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links the HTML page to the style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Sets the title shown by the browser to 'Contact Siana' -->
     <title>Contact Siana</title>
 </head>
 
@@ -17,29 +21,29 @@
             <!-- Adds the logo to the navbar at the top of the page-->
             <p class="float-left site-logo">Siana's Gallery</p>
             <!-- Links the burger button below to the 'splashscreen' page index.html -->
-            <a href="index.html"> 
+            <a href="index.html">
                 <!-- Burger button used for navigation -->
-                <i class="fas fa-bars float-right burger-button"></i> 
-            <!-- Closes the link -->
-            </a> 
-        <!-- End of the navigation div -->
+                <i class="fas fa-bars float-right burger-button"></i>
+                <!-- Closes the link -->
+            </a>
+            <!-- End of the navigation div -->
         </div>
-    <!-- End of the nav bar -->
+        <!-- End of the nav bar -->
     </nav>
 
     <!-- For semantics, defines the below as the header of the page -->
     <header>
-        
+
         <!-- Div for the page's title and subtitle -->
         <div>
             <!-- The page's main title -->
             <h1 class="page-title">About Siana</h1>
             <!-- The page's subtitle -->
             <h2 class="page-title">All about Siana and her art</h2>
-        <!-- End of title area -->
+            <!-- End of title area -->
         </div>
 
-    <!-- End of header section-->
+        <!-- End of header section-->
     </header>
 
     <div class="row">
@@ -57,8 +61,9 @@
         </div>
 
         <div class="column-about-right">
+            <!-- Aside used for semantics -->
             <aside>
-
+                <!-- Code below provided by Instagram to embed a post from Siana's Page -->
                 <blockquote id="instagram-media" class="instagram-media" data-instgrm-captioned
                     data-instgrm-permalink="https://www.instagram.com/p/B_5rVMwFNco/?utm_source=ig_embed&amp;utm_campaign=loading"
                     data-instgrm-version="13"
@@ -156,23 +161,32 @@
             </aside>
         </div>
     </div>
+    <!-- Div used to define the area for the contact form. Used for responsivity -->
     <div id="contact-form-wrapper">
+        <!-- Defines the below as a form. Using formdump.codeinstitute.net to test form functionality. ID is used to make it responsive -->
         <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
+            <!-- Labels used to define to the user what the different input boxes are for. A <br> tag after each one to put the input box below it -->
             <label for="fullname" class="contact-form-input">Full name:</label><br>
-            <input type="text" id="fullname" class="contact-form-input" name="fullname"
-                placeholder="Full name here"><br><br>
+            <!-- Using input type text for the user's full name. Complete accuracy over the name isn't necessary particularly, as a lot of people in the art community use usernames. Allows them to type any name without particularly specifying -->
+            <input type="text" id="fullname" class="contact-form-input" name="fullname" placeholder="Full name here"
+                required><br>
             <label for="email" class="contact-form-input">E-mail Address:</label><br>
+            <!-- Using the input type email to ensure that the email is validated by format-->
             <input type="email" id="email" class="contact-form-input" name="email"
-                placeholder="email-address@here.please"><br><br>
+                placeholder="email-address@here.please" required><br>
             <label for="enquiry" class="contact-form-input">Enquiry:</label><br>
+            <!-- Using a text area to provide a larger area for the user to type in their own enquiry.-->
             <textarea id="enquiry" class="contact-form-input" name="enquiry"
-                placeholder="Please type your enquiry in this box." rows="5" columns="100"></textarea><br><br>
+                placeholder="Please type your enquiry in this box." rows="5" columns="100"></textarea><br>
             <label for="consent" class="contact-form-input">Please read the privacy policy on this form. <br> Confirm
                 that you consent to being contacted.</label>
-            <input type="checkbox" id="consent" style="width:10;" name="consent"><br>
+            <!-- Using a checkbox to so that the user has to willingly give consent to be contacted and information provided used for said purpose. Using the required tag means they cannot proceed without agreeing -->
+            <input type="checkbox" id="consent" name="consent" required><br>
+            <!-- The submission button, used to complete the form -->
             <input id="submit" type="submit" value="Submit Enquiry">
         </form>
 
+        <!-- Div containing the privacy policy. The id is used to make it responsive -->
         <div id="privacy-policy">
             <p>
                 This privacy policy is to confirm with the user of this website, 'Siana's Gallery', the use of the data
@@ -197,11 +211,12 @@
         </div>
     </div>
 
+    <!-- Div defines the area of the footer and is used for style rules -->
     <div class="footer">
-        
+
         <!-- Tag used for semantics and accessibility -->
         <footer>
-            
+
             <!-- Wraps all of the icons in a paragraph tag to more easily center align them -->
             <p class="text-centered">
                 <!-- Icon for Facebook. Styled black by default, when hovered turns white and rotates. Opens Facebook in new tab. -->
@@ -217,11 +232,11 @@
                 <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="Go to youtube."><i
                         class="fab fa-youtube-square"></i></a>
             </p>
-        <!-- End of footer -->
+            <!-- End of footer -->
         </footer>
 
-    <!-- End of footer div -->
-    </div> 
+        <!-- End of footer div -->
+    </div>
     <!-- Script used to import icons for the navbar and the footer. Placed at the bottom of the page due to impact on system resources. Provided by fontawesome.com -->
     <script src="https://kit.fontawesome.com/7a193223e3.js" crossorigin="anonymous"></script>
 </body>
