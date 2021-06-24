@@ -51,11 +51,59 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 
 ## Testing The Website
 
-This section will be for testing the website
+This section will be for testing the website.
+
+<table>
+<tr>
+<td> TOOL/DEVICE </td><td> BROWSER </td><td> OPERATING SYSTEM </td><td>SCREEN SIZE</td>
+</tr>
+<tr>
+<td>REAL: Oppo Find X2 Lite</td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>REAL: Honor 20</td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>CHROME: Moto G4</td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>CHROME: iPhone 5/SE</td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>CHROME: iPhone 6/7/8</td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>CHROME: iPad</td><td></td><td></td><td></td>
+</tr>
+</table>
+  
   
 ## Deployment
 
-This section will be about the deployment of the website to GitPages
+This section will be about the deployment of the website to GitPages.
+
+In order to deploy a GitHub Pages site, we must first go to the repository where the desired website is located.
+
+![Github Repository](./assets/images/github-repo.png "This Website's GitHub Repository")
+
+This is the repository for this website. The next step is to go to the 'Settings' menu at the top of the page.
+
+![GitHub Settings](./assets/images/github-settings.png "Settings for this repository")
+
+Then, we move to 'Pages' near to the bottom of this list on the left.
+
+![GitHub Pages Before](./assets/images/github-pages.png "GitHub Pages before deployment")
+
+From this page, we go to 'Source' and select 'Master' from the dropdown list and save. Once we save, it refreshes the page and shows up as shown below.
+
+![GitHub Deployed](./assets/images/github-deployment.png "Deployment confirmed in GitHub")
+
+The link in the green box now takes us to the deployed website. From here, I need to check that all of the images are loaded correctly and try the website on multiple browsers on multiple different devices. This is to ensure that the website is functional on as many different platforms and screensizes as possible.
+
+![GitHub Settings](./assets/images/deployed-site.png "Deployed Website on Chrome. Screen Size: 1920px*1080px")
+
+The above is a screenshot of the splashscreen "index.html" on my laptop screen. The screensize is 1920px by 1080px. This shows that the images have loaded and that it looks as intended.
+
 
 ## Acknowledgements
 
@@ -66,6 +114,11 @@ This section will be about the deployment of the website to GitPages
 - FontAwesome allows for the use of icons throughout the website, including the menu icon.
 - Wallpaperaccess.com was used for a placeholder image of the sky
 - Placeholder images are from placeimg.com
+- https://www.markdownguide.org/cheat-sheet/ Helped with producing this document
+- https://stackoverflow.com/questions/33661263/footer-pops-up-halfway-up-page/33661595 helped with issues regarding the position of the footer
+- https://codepen.io/raubaca/pen/PZzpVe Helped with researching the possibility of a responsive drop down menu under the burger button
+- https://www.w3docs.com/snippets/css/how-to-set-the-size-of-a-checkbox-with-html-and-css.html helped with responsivity regarding the checkbox on the about page
+- Using Google Fonts for the site's Logo. Specifically the Grand Hotel font.
 
 
 
