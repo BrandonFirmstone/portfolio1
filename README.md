@@ -53,31 +53,55 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 
 This section will be for testing the website.
 
+### Testing Responsiveness
 <table>
 <tr>
 <td> TOOL/DEVICE </td><td> BROWSER </td><td> OPERATING SYSTEM </td><td>SCREEN SIZE</td>
 </tr>
 <tr>
-<td>REAL: Oppo Find X2 Lite</td><td></td><td></td><td></td>
+<td>REAL: Oppo Find X2 Lite</td><td>Opera Browser</td><td>Android 11</td><td>W1080px X H2400px</td><td>index.html: no issues. photography.html: no issues. characterdesign.html: no issues. about.html: no issues. </td>
 </tr>
 <tr>
-<td>REAL: Honor 20</td><td></td><td></td><td></td>
+<td>REAL: Honor 20</td><td>Chrome Android</td><td></td><td></td>
 </tr>
 <tr>
-<td>CHROME: Moto G4</td><td></td><td></td><td></td>
+<td>CHROME: Moto G4</td><td>Chrome Developer Tools</td><td></td><td></td>
 </tr>
 <tr>
-<td>CHROME: iPhone 5/SE</td><td></td><td></td><td></td>
+<td>CHROME: iPhone 5/SE</td><td>Chrome Developer Tools</td><td></td><td></td>
 </tr>
 <tr>
-<td>CHROME: iPhone 6/7/8</td><td></td><td></td><td></td>
+<td>CHROME: iPhone 6/7/8</td><td>Chrome Developer Tools</td><td></td><td></td>
 </tr>
 <tr>
 <td>CHROME: iPad</td><td></td><td></td><td></td>
 </tr>
 </table>
   
-  
+### W3.org Validators
+#### HTML Validator
+
+The first test using the HTML Validator available through validator.w3.org showed three errors on the index page. See below:
+
+![Index validator HTML 25-06-2021](./assets/images/html-validator-index-250621.png "HTML Validator Index")
+
+To fix these three errors I added alt text to the images on the index.html page. For example: `<img src="assets/images/daliah-falling.png" class="nav-img" alt="Photography Page Link">`
+
+Next, I tested the character design page. It showed the following warning:
+
+![Character validator HTML 25-06-2021](./assets/images/html-validator-characterdesign-250621.png "HTML Validator character design")
+
+This test came up with a warning that the section I used for semantics had no heading. To fix this, I moved the starting tag of the section to above the header. I checked the photography page for this same error but found that I had not added a section tag. So, I added a section tag around the header of the page and the contents.
+
+When testing the photography page the errors that came up were the same as the index page. No alt text was applied to any of the images present. At this time (25/06/2021 17:00) I have not been supplied any of the images to be put on the website by Siana, so I have used placeholders in the mean time. Until then, I will not know what alt text to add.
+
+Finally, testing the about page using the validator showed the following errors:
+
+![About validator HTML 25-06-2021](./assets/images/html-validator-about-250621.png "HTML Validator About")
+
+All of the errors shown bar the warning at the top are from the code provided by Instagram for embedding a post. At this time, I don't believe there is any reason to fix it as it is code provided by Instagram and I do not have the technical knowledge to understand the issues. However, I have fixed the section warning in the same manner that I fixed it on the character design and photography pages. 
+
+
 ## Deployment
 
 This section will be about the deployment of the website to GitPages.
