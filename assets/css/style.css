@@ -217,6 +217,7 @@ p.index-link{
     color: black;
     border: 1px solid gray;
     box-shadow: none;
+    display: block;
   }
   #submit:hover{
     color: #565656;
@@ -225,7 +226,7 @@ p.index-link{
 
   label.contact-form-input{
     font-size: 18px;
-    padding: 10px 0 10px; 0;
+    padding: 10px 0 10px 0;
     display: block;
     height: auto;
   }
@@ -236,14 +237,16 @@ p.index-link{
     padding-left: 20px;
   }
   #consent{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     padding: 0;
-    margin: 0 10px 0 0;
+    margin: 30px 10px 0 0;
     display: inline-block;
   }
-  .contact-form-input.checkbox{
-    display: inline-block;
+  #consent-label{
+    width: 90%;
+    margin: 0;
+    float: right;
   }
   #privacy-policy{
     width: 49%;
@@ -325,6 +328,11 @@ p.index-link{
     }
     .contact-form-wrapper{
       padding-left: 10px;
+    }
+    #consent-label{
+      width: auto;
+      float: none;
+      margin: 0 auto;
     }
     .column-about-left{
       width: 90%;
