@@ -16,104 +16,121 @@
 <body>
 
     <nav class="topnav">
-        <!-- Div defining the area for the navigation bar -->
-        <div class="topnav">
-            <!-- Adds the logo to the navbar at the top of the page-->
+        <div>
             <p class="float-left site-logo">Siana's Gallery</p>
-            <!-- Links the burger button below to the 'splashscreen' page index.html -->
-            <a href="index.html">
+            <!-- Sets the burger button as a check box to allow menu to open on click -->
+            <input type="checkbox" id="menu">
+            <!-- Label encapsulating the burger button icon -->
+            <label class="tab-label" for="menu">
                 <!-- Burger button used for navigation -->
                 <i class="fas fa-bars float-right burger-button"></i>
-                <!-- Closes the link -->
-            </a>
-            <!-- End of the navigation div -->
+            </label>
+            <!-- Unordered list for the navigation menu -->
+            <ul class="nav-menu">
+                <!-- Each link to each page is in a list item -->
+                <li>
+                    <!-- Links to the main splash page -->
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <!-- Links to the photography page -->
+                    <a href="photography.html">Photography</a>
+                </li>
+                <li>
+                    <!-- Links to the character page-->
+                    <a href="characterdesign.html">Character Design</a>
+                </li>
+                <li>
+                    <!-- About page link-->
+                    <a href="about.html">About me and Contact me</a>
+                </li>
+            </ul>
         </div>
-        <!-- End of the nav bar -->
     </nav>
 
     <section>
-    <!-- For semantics, defines the below as the header of the page -->
-    <header>
+        <!-- For semantics, defines the below as the header of the page -->
+        <header>
 
-        <!-- Div for the page's title and subtitle -->
-        <div>
-            <!-- The page's main title -->
-            <h1 class="page-title">Siana's Photography</h1>
-            <!-- The page's subtitle -->
-            <h2 class="page-title">A collection of Siana's photography</h2>
-            <!-- End of title area -->
+            <!-- Div for the page's title and subtitle -->
+            <div>
+                <!-- The page's main title -->
+                <h1 class="page-title">Siana's Photography</h1>
+                <!-- The page's subtitle -->
+                <h2 class="page-title">A collection of Siana's photography</h2>
+                <!-- End of title area -->
+            </div>
+
+            <!-- End of header section-->
+        </header>
+
+        <!-- div used to define the row. The row keeps four images next to one another through CSS. Row is also used to adjust the page for responsive design -->
+        <div class="row">
+
+            <!-- Defines a column. Each column contains an image and a caption about that image -->
+            <div class="column">
+                <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
+                <a href="" target="_blank">
+                    <!-- Defines the image. src is used to locate the image file, alt to provide text if for whatever reason it cannot find the file and the title is used as the tooltip when hovering over the image. Alt text is also used for screen readers, allowing more accessibility. -->
+                    <img src="https://placeimg.com/600/600/any" alt="" title="" class="img-size">
+                    <!-- Ends the clickable link to the image file -->
+                </a>
+                <!-- The caption for the image. -->
+                <p class="image-caption">Image Description</p>
+            </div>
+
+            <div class="column">
+                <a href="" target="_blank">
+                    <img src="https://placeimg.com/600/600/any" alt="" title="" class="img-size">
+                </a>
+                <p class="image-caption">Image Description</p>
+            </div>
+
+            <div class="column">
+                <a href="" target="_blank">
+                    <img src="https://placeimg.com/600/600/any" class="img-size">
+                </a>
+                <p class="image-caption">Image Description</p>
+            </div>
+
+            <div class="column">
+                <a href="" target="_blank">
+                    <img src="https://placeimg.com/600/600/any" class="img-size">
+                </a>
+                <p class="image-caption">Image Description</p>
+            </div>
+
         </div>
 
-        <!-- End of header section-->
-    </header>
+        <div class="row">
 
-    <!-- div used to define the row. The row keeps four images next to one another through CSS. Row is also used to adjust the page for responsive design -->
-    <div class="row">
-
-        <!-- Defines a column. Each column contains an image and a caption about that image -->
-        <div class="column">
-            <!-- When you click on the image, it will open the full image in a new tab on the browser using target="_blank" -->
-            <a href="" target="_blank">
-                <!-- Defines the image. src is used to locate the image file, alt to provide text if for whatever reason it cannot find the file and the title is used as the tooltip when hovering over the image. Alt text is also used for screen readers, allowing more accessibility. -->
-                <img src="https://placeimg.com/600/600/any" alt="" title="" class="img-size">
-                <!-- Ends the clickable link to the image file -->
-            </a>
-            <!-- The caption for the image. -->
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <a href="" target="_blank">
-                <img src="https://placeimg.com/600/600/any" alt="" title="" class="img-size">
-            </a>
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <a href="" target="_blank">
+            <div class="column">
+                <a href="" target="_blank"></a>
                 <img src="https://placeimg.com/600/600/any" class="img-size">
-            </a>
-            <p class="image-caption">Image Description</p>
+                <p class="image-caption">Image Description</p>
+            </div>
+
+            <div class="column">
+                <a href="" target="_blank">
+                    <img src="https://placeimg.com/600/600/any" class="img-size">
+                </a>
+                <p class="image-caption">Image Description</p>
+            </div>
+
+            <div class="column">
+                <a href="" target="_blank">
+                    <img src="https://placeimg.com/600/600/any" class="img-size">
+                </a>
+                <p class="image-caption">Image Description</p>
+            </div>
+
+            <div class="column">
+                <a href="" target="_blank">
+                    <img src="https://placeimg.com/600/600/any" class="img-size">
+                </a>
+                <p class="image-caption">Image Description</p>
+            </div>
         </div>
-
-        <div class="column">
-            <a href="" target="_blank">
-                <img src="https://placeimg.com/600/600/any" class="img-size">
-            </a>
-            <p class="image-caption">Image Description</p>
-        </div>
-
-    </div>
-
-    <div class="row">
-
-        <div class="column">
-            <a href="" target="_blank"></a>
-            <img src="https://placeimg.com/600/600/any" class="img-size">
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <a href="" target="_blank">
-                <img src="https://placeimg.com/600/600/any" class="img-size">
-            </a>
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <a href="" target="_blank">
-                <img src="https://placeimg.com/600/600/any" class="img-size">
-            </a>
-            <p class="image-caption">Image Description</p>
-        </div>
-
-        <div class="column">
-            <a href="" target="_blank">
-                <img src="https://placeimg.com/600/600/any" class="img-size">
-            </a>
-            <p class="image-caption">Image Description</p>
-        </div>
-    </div>
     </section>
     <div class="footer">
 

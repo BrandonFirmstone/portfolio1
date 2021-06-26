@@ -17,19 +17,36 @@
 
     <!-- nav element used for semantics -->
     <nav class="topnav">
-        <!-- Div defining the area for the navigation bar -->
-        <div class="topnav">
-            <!-- Adds the logo to the navbar at the top of the page-->
+        <div>
             <p class="float-left site-logo">Siana's Gallery</p>
-            <!-- Links the burger button below to the 'splashscreen' page index.html -->
-            <a href="index.html">
+            <!-- Sets the burger button as a check box to allow menu to open on click -->
+            <input type="checkbox" id="menu">
+            <!-- Label encapsulating the burger button icon -->
+            <label class="tab-label" for="menu">
                 <!-- Burger button used for navigation -->
-                <i class="fas fa-bars float-right burger-button"></i>
-                <!-- Closes the link -->
-            </a>
-            <!-- End of the navigation div -->
+                <i class="fas fa-bars float-right burger-button"></i> 
+            </label>
+            <!-- Unordered list for the navigation menu -->
+            <ul class="nav-menu">
+                <!-- Each link to each page is in a list item -->
+                <li>
+                    <!-- Links to the main splash page -->
+                    <a href="index.html">Home</a> 
+                </li>
+                <li>
+                    <!-- Links to the photography page -->
+                    <a href="photography.html">Photography</a>
+                </li>
+                <li>
+                    <!-- Links to the character page-->
+                    <a href="characterdesign.html">Character Design</a>
+                </li>
+                <li>
+                    <!-- About page link-->
+                    <a href="about.html">About me and Contact me</a>
+                </li>
+            </ul>
         </div>
-        <!-- End of the nav bar -->
     </nav>
     <!-- Defines the below as a section of content -->
     <section>
