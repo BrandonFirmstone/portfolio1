@@ -5,18 +5,36 @@
 html, body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #69D2E7;
-  margin: 0px;
-  padding: 0px;
-  width: 100vw;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   overflow-x: hidden;
-  height: 100vh;
 }
-
+body{
+  margin-top: 100px;
+}
+#nav-page-body{
+  margin-top: 0;
+  height: 100%;
+}
+#index-html{
+  height: 100%;
+}
 /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
 * {
   box-sizing: border-box;
 }
-
+a{
+  text-decoration: none;
+}
+a p{
+  color: black;
+  transition: all .2s ease-in-out;
+}
+a p:hover{
+  color: whitesmoke;
+  transform: scale(1.1);
+}
 /* Simple rules for floating left and right and adds padding */
 .float-left{
   float: left;
@@ -35,19 +53,21 @@ html, body {
   background-color: #F38630;
   width: 100%;
   font-size: 40px;
-  margin: 0;
+  margin: 0 0 40px 0;
   padding: 0;
-  margin-bottom: 20px;
   font-family: 'Grand Hotel', Helvetica, sans-serif;
   font-weight: 500;
   height: 100px;
   position: fixed;
+  top: 0;
 }
 /* Style rules for the site logo present in the navigation bar */
 .site-logo{
   line-height: 10px;
 }
-
+.page-title{
+  margin-top: 25px;
+}
 /* Style rules for the navigational "burger button" icon on the top navigation bar */
 .burger-button{
   display: inline-block;
@@ -200,6 +220,7 @@ p.index-link{
 
   /* Gallery CSS starts here */
   /* The galleries and the navigation page use a table-style row and column system as a layout */
+
   .row{
     width: 100%;
     padding-left: 15px;
@@ -239,6 +260,9 @@ p.index-link{
   iframe{
     display: block;
     margin: 50px auto;
+  }
+  #instagram-media{
+    overflow-y: scroll;
   }
   /* Gallery CSS ends here */
 
@@ -348,6 +372,7 @@ p.index-link{
       width: 100%;
       padding: 0px;
       margin: 0px;
+      height: auto;
     }
     .column {
       width: 42%;
@@ -402,17 +427,22 @@ p.index-link{
       width: 90%;
       padding: 5%;
       margin: 5%;
-      overflow: visible;
+      overflow-y: visible;
+      overflow-x: hidden;
       display: block;
-      height: fit-content;
+      height: 100%;
       text-align: center;
     }
-    #instagram-style{
+    aside{
+      height: 100%;
+    }
+    #instagram-media{
       width: 100%;
       text-align: center;
       padding: 0;
       margin: 0;
       min-width: 0;
+      overflow-y: visible;
     }
     form#contact-form{
       width: 100%;
@@ -451,6 +481,7 @@ p.index-link{
         margin: 10px;
       }
       .topnav{
+        margin-bottom: 20px;
         font-size: 30px;
       }
       .contact-form-input{
@@ -465,10 +496,12 @@ p.index-link{
       .instagram-style{
         margin: 0 auto;
       }
+      /* Responsive CSS for the nav menu */
       .topnav ul {
         min-width: 200px;
         margin-left: -244px;
       }
+      /* CSS to make the embedded YouTube video responsive */
       iframe{
         width: 100%;
         height: 300px;;

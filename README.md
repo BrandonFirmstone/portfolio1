@@ -7,9 +7,9 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 - [Design](#design)
     + [Desired Features](#desired-features)
     + [Wireframe Designs](#wireframe-designs)
-        +[Homescreen Design](#homescreen-design)
-        +[About Page Design](#about-page-design)
-        +[Photography Page Design](#photography-page-design)
+        + [Homescreen Design](#homescreen-design)
+        + [About Page Design](#about-page-design)
+        + [Photography Page Design](#photography-page-design)
 - [Testing the website](#testing-the-website)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
@@ -52,6 +52,17 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 ## Testing The Website
 
 This section will be for testing the website.
+
+### Bugs and errors
+
+#### 26/01/2021 - Instagram Embedded Post
+- Post functions normally under desktop conditions using a vertical scroll bar to view the whole post
+- When in mobile view the Instagram post should go to 100% height so that the whole post can be seen
+- When in mobile view, the post cannot be scrolled on and isn't the correct height
+- Possible causes:
+    + Container is preventing post from being full height
+    + Container has overflow: hidden; property
+        - Container column-about-right has property `overflow-y: visible;`
 
 ### Testing Responsiveness
 <table>
@@ -143,6 +154,7 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
 - https://codepen.io/raubaca/pen/PZzpVe Helped with researching the possibility of a responsive drop down menu under the burger button
 - https://www.w3docs.com/snippets/css/how-to-set-the-size-of-a-checkbox-with-html-and-css.html helped with responsivity regarding the checkbox on the about page
 - Using Google Fonts for the site's Logo. Specifically the Grand Hotel font.
+- https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ helped with animating the text on the index.html page.
 
 
 
