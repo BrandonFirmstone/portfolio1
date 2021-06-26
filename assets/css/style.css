@@ -235,6 +235,11 @@ p.index-link{
   .image-caption{
     text-align: center;
   }
+  /* Used for the YouTube iFrame in the character design page */
+  iframe{
+    display: block;
+    margin: 50px auto;
+  }
   /* Gallery CSS ends here */
 
   /* About page specific CSS starts here */
@@ -459,6 +464,14 @@ p.index-link{
       }
       .instagram-style{
         margin: 0 auto;
+      }
+      .topnav ul {
+        min-width: 200px;
+        margin-left: -244px;
+      }
+      iframe{
+        width: 100%;
+        height: 300px;;
       }
     }
   /* End of responsive CSS */
