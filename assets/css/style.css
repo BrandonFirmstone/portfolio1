@@ -346,18 +346,23 @@ p.index-link{
   .column-about-left {
     text-align: left;
     float: left;
-    width: 60%;
+    width: 45%;
     overflow: hidden;
     padding: 15px 0px 15px 20px;
     margin: 20px auto 0 auto;
-    height: 400px;
+    height: auto;
+  }
+  iframe.youtube-video{
+    overflow: visible;
+    margin: 25px auto;
   }
   .column-about-right{
-    width: 39%;
-    overflow: auto;
-    padding: 15px 0px 15px 20px;
+    width: 45%;
+    overflow: visible;
+    padding: 15px 10px 15px 20px;
+    margin-right: 10px;
     float: right;
-    height: 600px;
+    height: auto;
   }
   /* End of about page specific CSS */
 
@@ -585,7 +590,7 @@ p.index-link{
         margin-left: -244px;
       }
       /* CSS to make the embedded YouTube video responsive */
-      iframe#character-video{
+      iframe.youtube-video{
         width: 100%;
         height: 300px;;
       }
