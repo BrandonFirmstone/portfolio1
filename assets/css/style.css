@@ -60,6 +60,7 @@ a p:hover{
   height: 100px;
   position: fixed;
   top: 0;
+  z-index: 5;
 }
 /* Style rules for the site logo present in the navigation bar */
 .site-logo{
@@ -261,8 +262,10 @@ p.index-link{
     display: block;
     margin: 50px auto;
   }
-  #instagram-media{
-    overflow-y: scroll;
+  iframe.insta-iframe{
+    margin-left: calc(50% - 306px);
+    margin-left: -webkit-calc(50% - 306px);
+    margin-left: -moz-calc(50% - 306px);
   }
   /* Gallery CSS ends here */
 
@@ -421,6 +424,7 @@ p.index-link{
       width: 90%;
       padding: 2%;
       margin: 2%;
+      height: auto;
     }
 
     .column-about-right{
@@ -430,19 +434,8 @@ p.index-link{
       overflow-y: visible;
       overflow-x: hidden;
       display: block;
-      height: 100%;
+      height: auto;
       text-align: center;
-    }
-    aside{
-      height: 100%;
-    }
-    #instagram-media{
-      width: 100%;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-      min-width: 0;
-      overflow-y: visible;
     }
     form#contact-form{
       width: 100%;
@@ -468,6 +461,75 @@ p.index-link{
       font-size: 24px;
       text-align: center;
     }
+    form#contact-form {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact-form-input {
+      margin: 0 auto;
+      display: block;
+    }
+    input.contact-form-input {
+      font-size: 24px;
+      height: 46px;
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+      max-width: 100%;
+    }
+
+    textarea.contact-form-input{
+      width: 100%;
+      max-width: 100%;
+    }
+
+    #submit {
+      height: 60px;
+      width: 70%;
+    }
+
+    label.contact-form-input {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    iframe.insta-iframe {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    #contact-form-wrapper {
+      width: 100%;
+      height: auto;
+      margin: 30px 0 25px;
+      bottom: 50%;
+      border: none;
+      padding: 15px;
+    }
+
+    label.contact-form-input {
+      text-align: left;
+      padding-left: 0;
+      max-width: 100%;
+    }
+
+    #consent-label {
+      width: 90%;
+      margin: 0;
+      float: right;
+    }
+
+    #consent {
+      position: relative;
+      top: -15px;
+    }
+
+    #privacy-policy {
+      width: 100%;
+    }
+
   }
     /* For phones and small screens */
     @media (max-width: 700px) {
@@ -485,7 +547,31 @@ p.index-link{
         font-size: 30px;
       }
       .contact-form-input{
-        width: 80%;
+        width: 100%;
+      }
+      label.contact-form-input{
+        text-align: left;
+        padding-left: 0;
+      }
+      #consent-label{
+        width: 90%;
+        margin: 0;
+        float: right;
+      }
+      #submit{
+        font-size: 24px;
+        font-weight: 650;
+      }
+      #privacy-policy{
+        width: 100%;
+      }
+      #contact-form-wrapper{
+        width: 100%;
+        height: auto;
+        margin: 30px 0 25px;
+        bottom: 50%;
+        border: none;
+        padding: 15px;
       }
       .nav-img{
         width: 100%;
@@ -493,19 +579,29 @@ p.index-link{
         margin: 0 auto;
         object-fit: cover;
       }
-      .instagram-style{
-        margin: 0 auto;
-      }
       /* Responsive CSS for the nav menu */
       .topnav ul {
         min-width: 200px;
         margin-left: -244px;
       }
       /* CSS to make the embedded YouTube video responsive */
-      iframe{
+      iframe#character-video{
         width: 100%;
         height: 300px;;
       }
+      iframe.insta-iframe {
+        margin-left: 0;
+        width: 100%;
+     }
+      /* home page header text for phones*/
+      #index-header {
+        font-size: 60px;
+        margin: 25px 0 15px 15px;
+      }
+      footer i{
+        padding: 0 15px;
+      }
+
     }
   /* End of responsive CSS */
 
