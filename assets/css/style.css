@@ -171,7 +171,7 @@ footer a:hover i.fa-twitter-square{
   
 /* Splash screen/navigation screen specific CSS */
 #nav-page-body{
-  background-image: url(../images/sky-background.jpg);
+  background-image: url(../images/index-images/sky-background.jpg);
   background-attachment: fixed;
 }
 

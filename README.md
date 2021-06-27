@@ -23,13 +23,13 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 
 ### Wireframe Designs
 #### Homescreen Design
-![Homescreen Design](./assets/images/home-screen-design.png "Home Screen Wire Frame")
+![Homescreen Design](./assets/images/readme-images/home-screen-design.png "Home Screen Wire Frame")
 - The boxes with crosses are images, specifically they are going to be characters designed by Siana. The design for these will be the characters falling from the sky.
 - Each character will have text under it annotating what page it links to
 - The sky will be the background of the image
 
 #### About Page Design (Previously Contact Page Design circa 22/06/2021)
-![About Page Design](./assets/images/contact-page-design.png "Contact Page Wire Frame")
+![About Page Design](./assets/images/readme-images/contact-page-design.png "Contact Page Wire Frame")
 - The contact page will have a contact form contained within a box.
 - The background of the contact form itself will be a different colour to the rest of the page for contrast
 - This design may differ from the finished project, as an alternative to having the icons for separate pages, having one icon to send the user back to the splash screen
@@ -44,7 +44,7 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 - Small gallery, taking up one image space and revolving through the different images
 
 #### Photography Page Design
-![Photography Page Design](./assets/images/photography-page-design.png "Photography Page Wire Frame")
+![Photography Page Design](./assets/images/readme-images/photography-page-design.png "Photography Page Wire Frame")
 - The photography and character design pages will be organised into four columns
 - The pictures will each have a caption underneath it, detailing information regarding the image
 - The mobile view will have a 'slideshow' style gallery, where per button click going back and forward the caption and the image will change.
@@ -67,7 +67,7 @@ This section will be for testing the website.
 ### Testing Responsiveness
 <table>
 <tr>
-<td> TOOL/DEVICE </td><td> BROWSER </td><td> OPERATING SYSTEM </td><td>SCREEN SIZE</td>
+<td> TOOL/DEVICE </td><td> BROWSER </td><td> OPERATING SYSTEM </td><td>SCREEN SIZE</td><td>RESULT</td>
 </tr>
 <tr>
 <td>REAL: Oppo Find X2 Lite</td><td>Opera Browser</td><td>Android 11</td><td>W1080px X H2400px</td><td>index.html: no issues. photography.html: no issues. characterdesign.html: no issues. about.html: no issues. </td>
@@ -94,13 +94,13 @@ This section will be for testing the website.
 
 The first test using the HTML Validator available through validator.w3.org showed three errors on the index page. See below:
 
-![Index validator HTML 25-06-2021](./assets/images/html-validator-index-250621.png "HTML Validator Index")
+![Index validator HTML 25-06-2021](./assets/images/readme-images/html-validator-index-250621.png "HTML Validator Index")
 
 To fix these three errors I added alt text to the images on the index.html page. For example: `<img src="assets/images/daliah-falling.png" class="nav-img" alt="Photography Page Link">`
 
 Next, I tested the character design page. It showed the following warning:
 
-![Character validator HTML 25-06-2021](./assets/images/html-validator-characterdesign-250621.png "HTML Validator character design")
+![Character validator HTML 25-06-2021](./assets/images/readme-images/html-validator-characterdesign-250621.png "HTML Validator character design")
 
 This test came up with a warning that the section I used for semantics had no heading. To fix this, I moved the starting tag of the section to above the header. I checked the photography page for this same error but found that I had not added a section tag. So, I added a section tag around the header of the page and the contents.
 
@@ -108,7 +108,7 @@ When testing the photography page the errors that came up were the same as the i
 
 Finally, testing the about page using the validator showed the following errors:
 
-![About validator HTML 25-06-2021](./assets/images/html-validator-about-250621.png "HTML Validator About")
+![About validator HTML 25-06-2021](./assets/images/readme-images/html-validator-about-250621.png "HTML Validator About")
 
 All of the errors shown bar the warning at the top are from the code provided by Instagram for embedding a post. At this time, I don't believe there is any reason to fix it as it is code provided by Instagram and I do not have the technical knowledge to understand the issues. However, I have fixed the section warning in the same manner that I fixed it on the character design and photography pages. 
 
@@ -119,23 +119,23 @@ This section will be about the deployment of the website to GitPages.
 
 In order to deploy a GitHub Pages site, we must first go to the repository where the desired website is located.
 
-![Github Repository](./assets/images/github-repo.png "This Website's GitHub Repository")
+![Github Repository](./assets/images/readme-images/github-repo.png "This Website's GitHub Repository")
 
 This is the repository for this website. The next step is to go to the 'Settings' menu at the top of the page.
 
-![GitHub Settings](./assets/images/github-settings.png "Settings for this repository")
+![GitHub Settings](./assets/images/readme-images/github-settings.png "Settings for this repository")
 
 Then, we move to 'Pages' near to the bottom of this list on the left.
 
-![GitHub Pages Before](./assets/images/github-pages.png "GitHub Pages before deployment")
+![GitHub Pages Before](./assets/images/readme-images/github-pages.png "GitHub Pages before deployment")
 
 From this page, we go to 'Source' and select 'Master' from the dropdown list and save. Once we save, it refreshes the page and shows up as shown below.
 
-![GitHub Deployed](./assets/images/github-deployment.png "Deployment confirmed in GitHub")
+![GitHub Deployed](./assets/images/readme-images/github-deployment.png "Deployment confirmed in GitHub")
 
 The link in the green box now takes us to the deployed website. From here, I need to check that all of the images are loaded correctly and try the website on multiple browsers on multiple different devices. This is to ensure that the website is functional on as many different platforms and screensizes as possible.
 
-![GitHub Settings](./assets/images/deployed-site.png "Deployed Website on Chrome. Screen Size: 1920px*1080px")
+![GitHub Settings](./assets/images/readme-images/deployed-site.png "Deployed Website on Chrome. Screen Size: 1920px*1080px")
 
 The above is a screenshot of the splashscreen "index.html" on my laptop screen. The screensize is 1920px by 1080px. This shows that the images have loaded and that it looks as intended.
 
