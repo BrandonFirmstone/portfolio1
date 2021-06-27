@@ -10,6 +10,7 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
         + [Homescreen Design](#homescreen-design)
         + [About Page Design](#about-page-design)
         + [Photography Page Design](#photography-page-design)
+- [Features](#features)
 - [Testing the website](#testing-the-website)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
@@ -48,6 +49,13 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 - The photography and character design pages will be organised into four columns
 - The pictures will each have a caption underneath it, detailing information regarding the image
 - The mobile view will have a 'slideshow' style gallery, where per button click going back and forward the caption and the image will change.
+
+## Features
+
+### Implemented Features
+
+
+### Future Features
 
 ## Testing The Website
 
@@ -156,7 +164,16 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
 - Using Google Fonts for the site's Logo. Specifically the Grand Hotel font.
 - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ helped with animating the text on the index.html page.
 
+## Content
 
+Content on the page was written by myself (Brandon) and Siana. The privacy policy, temporary image descriptions in the photography page and the text in the about section was my doing. Soon, Siana will create her own content to overwrite these (bar the privacy policy).
+
+## Media
+
+All media on the page was created by Siana except the following:
+- Photography page gallery has placeholder images as mentioned in the acknowledgements section. These are from placeimg.com
+- The site's temporary favicon (an artist's pallet) is from favicon.io
+- Siana created the embedded media. She created the YouTube video in the characterdesign.html page and in about.html. The Instagram post embedded in about.html is also her creation.
 
 
   
