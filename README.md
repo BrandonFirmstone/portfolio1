@@ -3,7 +3,7 @@
 
 This website was produced by myself for Siana Gilbertson, an artist wanting to expand their personal brand and reach. Siana's Gallery was designed based upon Siana's knowledge of the art community that they are a part of and is influenced by websites of other artists (these websites will be credited below)
 
-- [Siana's Gallery](#siana-s-gallery)
+- [Website Purpose](#website-purpose)
 - [Design](#design)
     + [Desired Features](#desired-features)
     + [Wireframe Designs](#wireframe-designs)
@@ -14,6 +14,15 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 - [Testing the website](#testing-the-website)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
+
+## Website Purpose
+
+The purpose of the website is for Siana to expand her personal brand awareness and to be more visible to potential clients and employers. Due to the nature of Siana's work, this needs to be done through a portfolio-style gallery to show the end user demonstrations of Siana's skills. The website should also appeal to the art community that Siana is a part of.
+
+Website purpose: To expand Siana's personal brand and gain employment/clients 
+<br>
+Target audience: Employers, artistic community
+
 
 ## Design
 ### Desired Features
@@ -63,7 +72,7 @@ This section will be for testing the website.
 
 ### Bugs and errors
 
-#### 26/01/2021 - Instagram Embedded Post
+#### 26/06/2021 - Instagram Embedded Post (FIXED)
 - Post functions normally under desktop conditions using a vertical scroll bar to view the whole post
 - When in mobile view the Instagram post should go to 100% height so that the whole post can be seen
 - When in mobile view, the post cannot be scrolled on and isn't the correct height
@@ -71,6 +80,18 @@ This section will be for testing the website.
     + Container is preventing post from being full height
     + Container has overflow: hidden; property
         - Container column-about-right has property `overflow-y: visible;`
+
+#### 28/06/2021 - Gap on Chrome Mobile (UNFIXED)
+- No functionality is affected. When on Chrome on a mobile Android device, when you scroll down the top bar with the URL and tabs hides. This causes a gap on the bottom of the index page in the background image.
+- To attempt to fix this I increased the html height to 120%.
+- While the gap in the background is now hidden, the top bar on Chrome still causes a gap on the bottom and depending on how the user scrolls it can hide the 'about' caption on the bottom image. When scrolling, the bottom of the page appears to be above the text, but if you scroll again it shows the text. This is very non-intuitive for the user.
+- This issue doesn't appear through the Chrome Dev Tools, only on a real device.
+
+#### 28/06/2021 - Footer appears half way up 404.html page (UNFIXED)
+- When you attempt to access a page that isn't actually a part of the website, the 404 page should be thrown up.
+- When accessing the 404.html page through typing in an incorrect URL, the footer is half way up the page.
+- To see how I could go about fixing this, I have temporarily added in-line CSS. ` style="position:fixed;bottom:0;"`
+- As the 404 page does not work through Gitpod, I will have to push the code to Github and wait for Github Pages to update itself to see.
 
 ### Testing Responsiveness
 <table>
@@ -96,10 +117,13 @@ This section will be for testing the website.
 <td>CHROME: iPad</td><td>Chrome Dev Tools</td><td>Windows 10</td><td>W768px x H1024px</td><td>No issues found</td>
 </tr>
 </table>
-  
-### W3.org Validators
-#### HTML Validator
+<br>
 
+### W3.org Validators 
+<br>
+
+#### HTML Validator
+<br>
 The first test using the HTML Validator available through validator.w3.org showed three errors on the index page. See below:
 
 ![Index validator HTML 25-06-2021](./assets/images/readme-images/html-validator-index-250621.png "HTML Validator Index")
@@ -119,6 +143,11 @@ Finally, testing the about page using the validator showed the following errors:
 ![About validator HTML 25-06-2021](./assets/images/readme-images/html-validator-about-250621.png "HTML Validator About")
 
 All of the errors shown bar the warning at the top are from the code provided by Instagram for embedding a post. At this time, I don't believe there is any reason to fix it as it is code provided by Instagram and I do not have the technical knowledge to understand the issues. However, I have fixed the section warning in the same manner that I fixed it on the character design and photography pages. 
+
+#### CSS Validator
+
+I have tested the site using jigsaw.w3.org's css validator. The website passed the validator's tests as you can see in this link:
+https://bit.ly/sianas-gallery-css-validator
 
 
 ## Deployment
