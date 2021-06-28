@@ -3,6 +3,8 @@
 
 This website was produced by myself for Siana Gilbertson, an artist wanting to expand their personal brand and reach. Siana's Gallery was designed based upon Siana's knowledge of the art community that they are a part of and is influenced by websites of other artists (these websites will be credited below)
 
+![Siana's Gallery Overview Image](./assets/images/readme-images/sianas-gallery-overview.png)
+
 - [Website Purpose](#website-purpose)
 - [Design](#design)
   * [Desired Features](#desired-features)
@@ -271,6 +273,10 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
 - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ helped with animating the text on the index.html page.
 - Used https://ecotrust-canada.github.io/markdown-toc/ to generate a table of contents
 - Used this Codepen to fix Instagram embedded post issues. https://codepen.io/rexkirby/pen/LyFzB
+- The below sites influenced the development of the website as they're all artists with similar goals to Siana:
+    + https://www.wix.com/blog/2020/09/art-portfolio-website-examples/?utm_source=google&utm_medium=cpc&utm_campaign=9852964004^119455633872&experiment_id=^b^504214426013^^_DSA&gclid=Cj0KCQjw5uWGBhCTARIsAL70sLJVZzGc-ofGIt-a1bLLWSY_s8qHjUVtGzA5I2xSpvYpByMEDysdnrgaAl-OEALw_wcB
+    + https://www.pixpa.com/blog/artist-portfolio-websites
+    + https://www.format.com/customers/art
 
 ## Content
 
