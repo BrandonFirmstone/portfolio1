@@ -89,7 +89,14 @@ The top bar includes the site logo, which upon hover turns white and increases t
 
 <br>
 
+#### 404 page
+<br>
 
+![404 Page All Devices](./assets/images/readme-images/404.html-all-devices.png)
+
+The 404 page shows when the user goes to an incorrect URL. It includes the burger button to help the user navigate to where they need to be. The content on the page also includes another link to the index page.
+
+<br>
 
 ### Future Features
 
