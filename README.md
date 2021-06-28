@@ -93,6 +93,14 @@ This section will be for testing the website.
 - To see how I could go about fixing this, I have temporarily added in-line CSS. ` style="position:fixed;bottom:0;"`
 - As the 404 page does not work through Gitpod, I will have to push the code to Github and wait for Github Pages to update itself to see.
 
+#### 28/06/2021 - Gallery images are too large (FIXED)
+- When loading up the website, the images take some time to load.
+- This is because the images have not been compressed at all.
+- In order to fix this, I have used tinypng.com to quickly reduce the file size of these images.
+- When loading the characterdesign.html page after emptying the cache, it loads considerably faster.
+
+
+
 ### Testing Responsiveness
 <table>
 <tr>
