@@ -60,8 +60,35 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 - The mobile view will have a 'slideshow' style gallery, where per button click going back and forward the caption and the image will change.
 
 ## Features
+<br>
 
 ### Implemented Features
+
+<br>
+
+#### Index page
+<br>
+
+![Index Page All Devices](./assets/images/readme-images/index.html-all-devices.png)
+
+The index page has been designed to highlight Siana's creativity. The actual index.html page is a splash screen navigation page. The page features three of Siana's main character designs falling through the sky. Each image can be clicked on to take you to the respective page and when hovering over the labels underneath the text scales in size and changes colour to white. This is to better show that they are clickable links. Siana did not want the page to include a footer, as the main focus should be the navigational links and the character art itself.
+
+<br>
+
+#### Character Design Page
+<br>
+
+![Character Design Page All Devices](./assets/images/readme-images/characterdesign.html-all-devices.png)
+
+The character page includes two rows of four images. Each image has a brief description underneath. The page title is included on the top as well as a small caption. Underneath all of the gallery images is an embedded YouTube video of Siana going through one of her sketch books.
+The top bar includes the site logo, which upon hover turns white and increases to size (this links to the index.html page) and a burger button that changes white on hover. This pops a menu open that links to each page on the site. This was Siana's preferred approach for each device type. Rather than having the bar cluttered with navigational links on desktop, one burger button consistent on each screen size would suffice. When you click on any of the images, it opens the full size image in another tab. There is a footer on the bottom of the page linking to Siana's social media accounts.
+
+<br>
+
+#### About page
+
+<br>
+
 
 
 ### Future Features
@@ -85,13 +112,16 @@ This section will be for testing the website.
 - No functionality is affected. When on Chrome on a mobile Android device, when you scroll down the top bar with the URL and tabs hides. This causes a gap on the bottom of the index page in the background image.
 - To attempt to fix this I increased the html height to 120%.
 - While the gap in the background is now hidden, the top bar on Chrome still causes a gap on the bottom and depending on how the user scrolls it can hide the 'about' caption on the bottom image. When scrolling, the bottom of the page appears to be above the text, but if you scroll again it shows the text. This is very non-intuitive for the user.
-- This issue doesn't appear through the Chrome Dev Tools, only on a real device.
+- This issue also appears through the Chrome Dev Tools
+- To attempt to fix this, I will add a thin invisible div to the index page, so that hopefully that will be the hidden part of the page. Added the below to responsive CSS:
+- ` .index-footer{ width: 100%; height: 80px; display: block;} `
 
-#### 28/06/2021 - Footer appears half way up 404.html page (UNFIXED)
+#### 28/06/2021 - Footer appears half way up 404.html page (FIXED)
 - When you attempt to access a page that isn't actually a part of the website, the 404 page should be thrown up.
 - When accessing the 404.html page through typing in an incorrect URL, the footer is half way up the page.
 - To see how I could go about fixing this, I have temporarily added in-line CSS. ` style="position:fixed;bottom:0;"`
 - As the 404 page does not work through Gitpod, I will have to push the code to Github and wait for Github Pages to update itself to see.
+- This inline CSS has fixed the issue.
 
 #### 28/06/2021 - Gallery images are too large (FIXED)
 - When loading up the website, the images take some time to load.
