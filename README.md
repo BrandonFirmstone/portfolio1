@@ -57,40 +57,31 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 - Call to action to fill in the contact form
 - Small gallery, taking up one image space and revolving through the different images
 
-#### Photography Page Design
+#### Gallery Pages Design
 ![Photography Page Design](./assets/images/readme-images/photography-page-design.png "Photography Page Wire Frame")
+- The design for the Photography and Character Design pages are identical in terms of layout.
 - The photography and character design pages will be organised into four columns
 - The pictures will each have a caption underneath it, detailing information regarding the image
 - The mobile view will have a 'slideshow' style gallery, where per button click going back and forward the caption and the image will change.
 
 ## Features
-<br>
-
 ### Implemented Features
-
-<br>
+The below are features that have been incorporated into the website.
 
 #### Index page
-<br>
 
 ![Index Page All Devices](./assets/images/readme-images/index.html-all-devices.png)
 
 The index page has been designed to highlight Siana's creativity. The actual index.html page is a splash screen navigation page. The page features three of Siana's main character designs falling through the sky. Each image can be clicked on to take you to the respective page and when hovering over the labels underneath the text scales in size and changes colour to white. This is to better show that they are clickable links. Siana did not want the page to include a footer, as the main focus should be the navigational links and the character art itself. However, temporarily to fix a responsivity issue detailed in the testing section, I've added a footer with Siana's agreement that it's more important for it to be responsive for the time being.
 
-<br>
-
-#### Character Design Page
-<br>
+#### Character Page Design
 
 ![Character Design Page All Devices](./assets/images/readme-images/characterdesign.html-all-devices.png)
 
 The character page includes two rows of four images. Each image has a brief description underneath. The page title is included on the top as well as a small caption. Underneath all of the gallery images is an embedded YouTube video of Siana going through one of her sketch books.
-The top bar includes the site logo, which upon hover turns white and increases to size (this links to the index.html page) and a burger button that changes white on hover. This pops a menu open that links to each page on the site. This was Siana's preferred approach for each device type. Rather than having the bar cluttered with navigational links on desktop, one burger button consistent on each screen size would suffice. When you click on any of the images, it opens the full size image in another tab. This is so that the user retains the website in their browser to return to. There is a footer on the bottom of the page linking to Siana's social media accounts. Each of the icons on the footer grow in size and rotate left or right alternatively in order to catch the eye of the user. Currently, only YouTube and Instagram have functioning links to Siana's accounts.
-
-<br>
+The top bar includes the site logo, which upon hover turns white and increases to size (this links to the index.html page) and a burger button that changes white on hover. This pops a menu open that links to each page on the site. This was Siana's preferred approach for each device type. Rather than having the bar cluttered with navigational links on desktop, one burger button consistent on each screen size would suffice. When you click on any of the images, it opens the full size image in another tab. This is so that the user retains the website in their browser to return to. There is a footer on the bottom of the page linking to Siana's social media accounts. Each of the icons on the footer grow in size and rotate left or right alternatively in order to catch the eye of the user. Currently, only YouTube and Instagram have functioning links to Siana's accounts. The Photography page design is very similar to this, but currently only holds placeholder images as Siana hasn't transferred the photos she wants to use to me.
 
 #### About page
-<br>
 
 ![About Page top](./assets/images/readme-images/about.html-top-all-devices.png)
 
@@ -106,16 +97,11 @@ This is the contact form used to get in touch with Siana. It contains four main 
 <br><br>
 The about page has changed considerably since the wireframe drawings. Originally just a contact page, the about page has evolved into a more practical being. The about section should help to draw the user into contacting Siana by telling them that she is open for work and any enquiries. There is also a link to the contact form in the about section acting as a text-based call to action.
 
-
-
-
 #### 404 page
 
 ![404 Page All Devices](./assets/images/readme-images/404.html-all-devices.png)
 
 The 404 page shows when the user goes to an incorrect URL. It includes the burger button to help the user navigate to where they need to be. The content on the page also includes another link to the index page.
-
-<br>
 
 ### Future Features
 
@@ -144,10 +130,9 @@ The 404 page shows when the user goes to an incorrect URL. It includes the burge
 - A page with e-commerce features built in
 - Used for purchasing prints and other artistic creations by Siana.
 
-
 ## Testing The Website
 
-This section will be for testing the website.
+This section will be for testing the website and ensuring that functionality and responsivity work as expected.
 
 ### Bugs and errors
 
@@ -159,6 +144,7 @@ This section will be for testing the website.
     + Container is preventing post from being full height
     + Container has overflow: hidden; property
         - Container column-about-right has property `overflow-y: visible;`
+- To fix the issue, I've used https://codepen.io/rexkirby/pen/LyFzB to fix the embedded post.
 
 #### 28/06/2021 - Gap on Chrome Mobile (TEMP FIXED)
 - No functionality is affected. When on Chrome on a mobile Android device, when you scroll down the top bar with the URL and tabs hides. This causes a gap on the bottom of the index page in the background image.
@@ -284,6 +270,7 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
 - Using Google Fonts for the site's Logo. Specifically the Grand Hotel font.
 - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ helped with animating the text on the index.html page.
 - Used https://ecotrust-canada.github.io/markdown-toc/ to generate a table of contents
+- Used this Codepen to fix Instagram embedded post issues. https://codepen.io/rexkirby/pen/LyFzB
 
 ## Content
 
