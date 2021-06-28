@@ -81,19 +81,19 @@ This section will be for testing the website.
 <td>REAL: Oppo Find X2 Lite</td><td>Opera Browser</td><td>Android 11</td><td>W1080px X H2400px</td><td>index.html: no issues. photography.html: no issues. characterdesign.html: no issues. about.html: no issues. </td>
 </tr>
 <tr>
-<td>REAL: Honor 20</td><td>Chrome Android</td><td></td><td></td>
+<td>REAL: Honor 20</td><td>Chrome</td><td>Android 11</td><td>W1080px x H2340px</td><td>index.html: Noticed that on the index page there is a blank space when scrolling down due to Chrome hiding the url bar at the top. No other issues</td>
 </tr>
 <tr>
-<td>CHROME: Moto G4</td><td>Chrome Developer Tools</td><td></td><td></td>
+<td>CHROME: Moto G4</td><td>Chrome Developer Tools</td><td>Windows 10</td><td>W360px x H640px</td><td>No issues found</td>
 </tr>
 <tr>
-<td>CHROME: iPhone 5/SE</td><td>Chrome Developer Tools</td><td></td><td></td>
+<td>CHROME: iPhone 5/SE</td><td>Chrome Developer Tools</td><td>Windows 10</td><td>W320px x H568px</td><td>No issues found</td>
 </tr>
 <tr>
-<td>CHROME: iPhone 6/7/8</td><td>Chrome Developer Tools</td><td></td><td></td>
+<td>CHROME: iPhone 6/7/8</td><td>Chrome Developer Tools</td><td>Windows 10</td><td>W375px x H667px</td><td>No issues found</td>
 </tr>
 <tr>
-<td>CHROME: iPad</td><td></td><td></td><td></td>
+<td>CHROME: iPad</td><td>Chrome Dev Tools</td><td>Windows 10</td><td>W768px x H1024px</td><td>No issues found</td>
 </tr>
 </table>
   

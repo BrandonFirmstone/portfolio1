@@ -1,612 +1,718 @@
 /* Google Fonts importing the font Grand Hotel by 'Astigmatic' for Siana's logo */
+
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 
 /* Style the background of all pages. margin and padding set to 0px due to browser automatically adding rules */
-html, body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #69D2E7;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
-body{
-  margin-top: 100px;
-}
-#nav-page-body{
-  margin-top: 0;
-  height: 100%;
-}
-#index-html{
-  height: 100%;
-}
-/*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
-* {
-  box-sizing: border-box;
-}
-a{
-  text-decoration: none;
-}
-a p{
-  color: black;
-  transition: all .2s ease-in-out;
-}
-a p:hover{
-  color: whitesmoke;
-  transform: scale(1.1);
-}
-/* Simple rules for floating left and right and adds padding */
-.float-left{
-  float: left;
-  padding-left: 30px;
+
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #69D2E7;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
 }
 
-.float-right{
-  float: right;
-  padding-right: 30px;
+body {
+	margin-top: 100px;
 }
+
+#nav-page-body {
+	margin-top: 0;
+	height: 100%;
+}
+
+#index-html {
+	height: 100%;
+}
+
+
+/*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+a p {
+	color: black;
+	transition: all .2s ease-in-out;
+}
+
+a p:hover {
+	color: whitesmoke;
+	transform: scale(1.1);
+}
+
+
+/* Simple rules for floating left and right and adds padding */
+
+.float-left {
+	float: left;
+	padding-left: 30px;
+}
+
+.float-right {
+	float: right;
+	padding-right: 30px;
+}
+
+
 /* Float rules end */
 
+
 /* Style the header */
+
 .topnav {
-  overflow: hidden;
-  background-color: #F38630;
-  width: 100%;
-  font-size: 40px;
-  margin: 0 0 40px 0;
-  padding: 0;
-  font-family: 'Grand Hotel', Helvetica, sans-serif;
-  font-weight: 500;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  z-index: 5;
+	overflow: hidden;
+	background-color: #F38630;
+	width: 100%;
+	font-size: 40px;
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-family: 'Grand Hotel', Helvetica, sans-serif;
+	font-weight: 500;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	z-index: 5;
 }
+
+
 /* Style rules for the site logo present in the navigation bar */
-.site-logo{
-  line-height: 10px;
+
+.site-logo {
+	line-height: 10px;
 }
-.page-title{
-  margin-top: 25px;
+
+.page-title {
+	margin-top: 25px;
 }
+
+
 /* Style rules for the navigational "burger button" icon on the top navigation bar */
-.burger-button{
-  display: inline-block;
-  margin-top: 20px;
-  text-decoration: none;
-  color: black;
+
+.burger-button {
+	display: inline-block;
+	margin-top: 20px;
+	text-decoration: none;
+	color: black;
 }
+
+
 /* menu navigation */
+
 .topnav ul {
-  list-style: none;
-  margin: 0 10px 0 0;
-  padding: 0;
-  background: white;
-  color: black;
-  display: inline-block;
-  position: fixed;
-  width: 100%;
-  top: 100px;
-  overflow-x: hidden;
+	list-style: none;
+	margin: 0 10px 0 0;
+	padding: 0;
+	background: white;
+	color: black;
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	top: 100px;
+	overflow-x: hidden;
 }
+
 .topnav label {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
+
 .topnav label:hover i {
-  color: white;
+	color: white;
 }
+
 .topnav ul li a {
-  padding: 10px 15px;
-  display: block;
-  background: white;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: none;
-  width: 100%;
+	padding: 10px 15px;
+	display: block;
+	background: white;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: none;
+	width: 100%;
 }
+
 .topnav ul li a:hover {
-  background: #f9b27a;
-  color: #565656;
+	background: #f9b27a;
+	color: #565656;
 }
+
 .topnav input[type="checkbox"] {
-  position: absolute;
-  left: -9999px;
+	position: absolute;
+	left: -9999px;
 }
+
 .topnav input[type="checkbox"]~ul {
-  height: 0;
-  transform: scaleY(0);
+	height: 0;
+	transform: scaleY(0);
 }
+
 .topnav input[type="checkbox"]:checked~ul {
-  height: auto;
-  transform-origin: top;
-  transition: transform .2s ease-out;
-  transform: scaleY(1);
+	height: auto;
+	transform-origin: top;
+	transition: transform .2s ease-out;
+	transform: scaleY(1);
 }
+
 .topnav input[type="checkbox"]:checked+label {
-  background: white;
-  color: black;
+	background: white;
+	color: black;
 }
+
+
 /* Psuedo class to change the state of the previously mentioned navigation button */
-.burger-button:hover{
-  color: white;
+
+.burger-button:hover {
+	color: white;
 }
+
 
 /* Style the footer at the bottom of the page */
+
 .footer {
-  background-color: #F38630;
-  padding: 10px;
-  margin-top: 15px;
-  text-align: center;
-  width: 100%;
-  font-size: 25px;
-  color: black;
-  bottom: 0;
+	background-color: #F38630;
+	padding: 10px;
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+	font-size: 25px;
+	color: black;
+	bottom: 0;
 }
-footer i{
-  font-size: 150%;
-  margin: 5px;
-  padding: 0 20px;
-  color: black;
+
+footer i {
+	font-size: 150%;
+	margin: 5px;
+	padding: 0 20px;
+	color: black;
 }
-footer a:hover i{
-  transform: rotate(15deg) scale(1.7);
-  color: whitesmoke;
+
+footer a:hover i {
+	transform: rotate(15deg) scale(1.7);
+	color: whitesmoke;
 }
-footer a:hover i.fa-youtube-square{
-  transform: rotate(-30deg) scale(1.7);
+
+footer a:hover i.fa-youtube-square {
+	transform: rotate(-30deg) scale(1.7);
 }
-footer a:hover i.fa-twitter-square{
-  transform: rotate(-30deg) scale(1.7);
+
+footer a:hover i.fa-twitter-square {
+	transform: rotate(-30deg) scale(1.7);
 }
-.text-centered{
-  text-align: center;
+
+.text-centered {
+	text-align: center;
 }
-.page-title{
-  padding-left: 50px;
+
+.page-title {
+	padding-left: 50px;
 }
+
+
 /* General CSS ends here */
-  
+
+
 /* Splash screen/navigation screen specific CSS */
-#nav-page-body{
-  background-image: url(../images/index-images/sky-background.jpg);
-  background-attachment: fixed;
+
+#nav-page-body {
+	background-image: url(../images/index-images/sky-background.jpg);
+	background-attachment: fixed;
 }
+
 
 /* Div containing the other elements of the splash screen */
-#nav-wrapper{
-  width: 100%;
-  padding: 15px;
-  overflow: hidden;
+
+#nav-wrapper {
+	width: 100%;
+	padding: 15px;
+	overflow: hidden;
 }
+
+
 /* Site title/logo specifically on the index page */
-#index-header{
-  font-size: 70px;
-  font-weight: 300;
-  margin: 25px 0 15px 50px;
-  font-family: 'Grand Hotel', Helvetica, sans-serif
+
+#index-header {
+	font-size: 70px;
+	font-weight: 300;
+	margin: 25px 0 15px 50px;
+	font-family: 'Grand Hotel', Helvetica, sans-serif
 }
+
 
 /* Style rules for the text captioning each image on the splash screen */
-p.index-link{
-  text-align: center;
-  text-decoration: none;
-  font-size: 24px;
-  color: black;
+
+p.index-link {
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	color: black;
 }
+
+
 /* Style rules specific to the left nav image */
-#nav-img-left{
-    margin-right: 15px;
-    width: 32%;
-    display: inline-block;
-  }
-  #nav-img-center{
-    margin-right: 15px;
-    right: 50%;
-    width: 32%;
-    display: inline-block;
-  }
-  #nav-img-right{
-    width: 32%;
-    display: inline-block;
-    right: 100%
-  }
-  .nav-img{
-    object-fit:cover;
-    margin: 20px auto 20px auto;
-  }
-  /*End of splash screen specific CSS */
 
-  /* Gallery CSS starts here */
-  /* The galleries and the navigation page use a table-style row and column system as a layout */
+#nav-img-left {
+	margin-right: 15px;
+	width: 32%;
+	display: inline-block;
+}
 
-  .row{
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-  }
-  /* Create four equal columns that floats next to each other for the galleries */
-  .column {
-    float: left;
-    width: 25%;
-    overflow: hidden;
-    margin: 20px auto 0 auto;
-    padding: 0 10px 0 10px;
-    text-align: center;
-  }
-  /* Ensures any description text in the columns is central to the image it's describing */
-  .column > p{
-    text-align: center;
-  }
-  /* Sets the image size for the gallery, centers the image using object-position */
-  .img-size{
-    height: 300px;
-    width: 300px;
-    object-fit: fill;
-    object-position: 50% 50%;
-  }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .image-caption{
-    text-align: center;
-  }
-  /* Used for the YouTube iFrame in the character design page */
-  iframe{
-    display: block;
-    margin: 50px auto;
-  }
-  iframe.insta-iframe{
-    margin-left: calc(50% - 306px);
-    margin-left: -webkit-calc(50% - 306px);
-    margin-left: -moz-calc(50% - 306px);
-  }
-  /* Gallery CSS ends here */
+#nav-img-center {
+	margin-right: 15px;
+	right: 50%;
+	width: 32%;
+	display: inline-block;
+}
 
-  /* About page specific CSS starts here */
-  #contact-form{
-    display: inline-block;
-  }
-  #contact-form-wrapper{
-    width: 80%;
-    height: 800px;
-    margin: 30px auto 25px auto;
-    bottom: 50%;
-    border: black 1px solid;
-    background-color: #E0E4CC;
-    padding: 30px 0px 0px 100px;
-  }
-  .contact-form-input{
-    max-width: 300px;
-    width: 100%;
-    display: block;
-  }
-  input.contact-form-input{
-    padding-left: 25px;
-    font-size: 18px;
-    height: 30px;
-  }
-  #submit{
-    border-radius: 15px;
-    height: 50px;
-    padding: 10px 15px;
-    margin: 20px auto;
-    width: auto;
-    background: #F38630;
-    color: black;
-    border: 1px solid gray;
-    box-shadow: none;
-    display: block;
-  }
-  #submit:hover{
-    color: #565656;
-    background: #f9b27a;
-  }
+#nav-img-right {
+	width: 32%;
+	display: inline-block;
+	right: 100%
+}
 
-  label.contact-form-input{
-    font-size: 18px;
-    padding: 10px 0 10px 0;
-    display: block;
-    height: auto;
-  }
-  textarea{
-    resize: none;
-    width: 300px;
-    font-size: 18px;
-    padding-left: 20px;
-  }
-  #consent{
-    width: 18px;
-    height: 18px;
-    padding: 0;
-    margin: 30px 10px 0 0;
-    display: inline-block;
-  }
-  #consent-label{
-    width: 90%;
-    margin: 0;
-    float: right;
-  }
-  #privacy-policy{
-    width: 49%;
-    height: 400px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px 20px 10px 10px;
-    overflow-y: scroll;
-    background-color: white;
-    float: right;
-  }
-  .column-about-left {
-    text-align: left;
-    float: left;
-    width: 45%;
-    overflow: hidden;
-    padding: 15px 0px 15px 20px;
-    margin: 20px auto 0 auto;
-    height: auto;
-  }
-  iframe.youtube-video{
-    overflow: visible;
-    margin: 25px auto;
-  }
-  .column-about-right{
-    width: 45%;
-    overflow: visible;
-    padding: 15px 10px 15px 20px;
-    margin-right: 10px;
-    float: right;
-    height: auto;
-  }
-  /* End of about page specific CSS */
+.nav-img {
+	object-fit: cover;
+	margin: 20px auto 20px auto;
+}
 
-  /* Responsive CSS starts here */
-  
-  /* For tablets and other smaller screens */
-  @media (max-width: 1100px) {
-    p{
-      font-size: 18px;
-    }
-    .site-logo{
-      font-size: 46px;
-    }
-    .row{
-      width: 100%;
-      padding: 0px;
-      margin: 0px;
-      height: auto;
-    }
-    .column {
-      width: 42%;
-      margin: 2%;
-    }
-    #nav-wrapper{
-      width: 100%;
-    }
-    #nav-img-left{
-      width: 80%;
-      display: block;
-      margin: 0 auto 60px auto;
-      right: 50%;
-    }
-    #nav-img-center{
-      width: 80%;
-      display: block;
-      margin: 0 auto 60px auto;
-      object-position: 50% 50%;
-    }
-    #nav-img-right{
-      width: 80%;
-      display: block;
-      margin: 0 auto 60px auto;
-      right: 70%;
-      object-position: 50% 50%;
-    }
-    #contact-form-wrapper{
-      height:fit-content;
-      padding: 5%;
-    }
-    #privacy-policy{
-      float: none;
-      width: 80%;
-      margin: 0 auto;
-    }
-    .contact-form-wrapper{
-      padding-left: 10px;
-    }
-    #consent-label{
-      width: auto;
-      float: none;
-      margin: 0 auto;
-    }
-    .column-about-left{
-      width: 90%;
-      padding: 2%;
-      margin: 2%;
-      height: auto;
-    }
 
-    .column-about-right{
-      width: 90%;
-      padding: 5%;
-      margin: 5%;
-      overflow-y: visible;
-      overflow-x: hidden;
-      display: block;
-      height: auto;
-      text-align: center;
-    }
-    form#contact-form{
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .contact-form-input{
-      margin: 0 auto;
-      display: block;
-    }
-    input.contact-form-input{
-      font-size: 24px;
-      height: 46px;
-      width: 100%;
-      margin: 0 auto;
-      display: block;
-    }
-    #submit{
-      height: 60px;
-      width: 70%;
-    }
-    label.contact-form-input{
-      font-size: 24px;
-      text-align: center;
-    }
-    form#contact-form {
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-    }
+/*End of splash screen specific CSS */
 
-    .contact-form-input {
-      margin: 0 auto;
-      display: block;
-    }
-    input.contact-form-input {
-      font-size: 24px;
-      height: 46px;
-      width: 100%;
-      margin: 0 auto;
-      display: block;
-      max-width: 100%;
-    }
 
-    textarea.contact-form-input{
-      width: 100%;
-      max-width: 100%;
-    }
+/* Gallery CSS starts here */
 
-    #submit {
-      height: 60px;
-      width: 70%;
-    }
 
-    label.contact-form-input {
-      font-size: 24px;
-      text-align: center;
-    }
+/* The galleries and the navigation page use a table-style row and column system as a layout */
 
-    iframe.insta-iframe {
-      margin-left: 0;
-      width: 100%;
-    }
+.row {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
 
-    #contact-form-wrapper {
-      width: 100%;
-      height: auto;
-      margin: 30px 0 25px;
-      bottom: 50%;
-      border: none;
-      padding: 15px;
-    }
 
-    label.contact-form-input {
-      text-align: left;
-      padding-left: 0;
-      max-width: 100%;
-    }
+/* Create four equal columns that floats next to each other for the galleries */
 
-    #consent-label {
-      width: 90%;
-      margin: 0;
-      float: right;
-    }
+.column {
+	float: left;
+	width: 25%;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
 
-    #consent {
-      position: relative;
-      top: -15px;
-    }
 
-    #privacy-policy {
-      width: 100%;
-    }
+/* Ensures any description text in the columns is central to the image it's describing */
 
-  }
-    /* For phones and small screens */
-    @media (max-width: 700px) {
-      .row{
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-      }
-      .column {
-        width: 80%;
-        margin: 10px;
-      }
-      .topnav{
-        margin-bottom: 20px;
-        font-size: 30px;
-      }
-      .contact-form-input{
-        width: 100%;
-      }
-      label.contact-form-input{
-        text-align: left;
-        padding-left: 0;
-      }
-      #consent-label{
-        width: 90%;
-        margin: 0;
-        float: right;
-      }
-      #submit{
-        font-size: 24px;
-        font-weight: 650;
-      }
-      #privacy-policy{
-        width: 100%;
-      }
-      #contact-form-wrapper{
-        width: 100%;
-        height: auto;
-        margin: 30px 0 25px;
-        bottom: 50%;
-        border: none;
-        padding: 15px;
-      }
-      .nav-img{
-        width: 100%;
-        height: 80%;
-        margin: 0 auto;
-        object-fit: cover;
-      }
-      /* Responsive CSS for the nav menu */
-      .topnav ul {
-        min-width: 200px;
-        margin-left: -244px;
-      }
-      /* CSS to make the embedded YouTube video responsive */
-      iframe.youtube-video{
-        width: 100%;
-        height: 300px;;
-      }
-      iframe.insta-iframe {
-        margin-left: 0;
-        width: 100%;
-     }
-      /* home page header text for phones*/
-      #index-header {
-        font-size: 60px;
-        margin: 25px 0 15px 15px;
-      }
-      footer i{
-        padding: 0 15px;
-      }
+.column>p {
+	text-align: center;
+}
 
-    }
-  /* End of responsive CSS */
 
+/* Sets the image size for the gallery, centers the image using object-position */
+
+.img-size {
+	height: 300px;
+	width: 300px;
+	object-fit: fill;
+	object-position: 50% 50%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.image-caption {
+	text-align: center;
+}
+
+
+/* Used for the YouTube iFrame in the character design page */
+
+iframe {
+	display: block;
+	margin: 50px auto;
+}
+
+iframe.insta-iframe {
+	margin-left: calc(50% - 306px);
+	margin-left: -webkit-calc(50% - 306px);
+	margin-left: -moz-calc(50% - 306px);
+}
+
+
+/* Gallery CSS ends here */
+
+
+/* About page specific CSS starts here */
+
+#contact-form {
+	display: inline-block;
+}
+
+
+/* The contact form on the about page is wrapped in a div with this ID */
+
+#contact-form-wrapper {
+	width: 80%;
+	height: 800px;
+	margin: 30px auto 25px auto;
+	bottom: 50%;
+	border: black 1px solid;
+	background-color: #E0E4CC;
+	padding: 30px 0px 0px 100px;
+}
+
+
+/* Applies to each element in the contact form*/
+
+.contact-form-input {
+	max-width: 300px;
+	width: 100%;
+	display: block;
+}
+
+input.contact-form-input {
+	padding-left: 25px;
+	font-size: 18px;
+	height: 30px;
+}
+
+#submit {
+	border-radius: 15px;
+	height: 50px;
+	padding: 10px 15px;
+	margin: 20px auto;
+	width: auto;
+	background: #F38630;
+	color: black;
+	border: 1px solid gray;
+	box-shadow: none;
+	display: block;
+}
+
+#submit:hover {
+	color: #565656;
+	background: #f9b27a;
+}
+
+label.contact-form-input {
+	font-size: 18px;
+	padding: 10px 0 10px 0;
+	display: block;
+	height: auto;
+}
+
+textarea {
+	resize: none;
+	width: 300px;
+	font-size: 18px;
+	padding-left: 20px;
+}
+
+#consent {
+	width: 18px;
+	height: 18px;
+	padding: 0;
+	margin: 30px 10px 0 0;
+	display: inline-block;
+}
+
+#consent-label {
+	width: 90%;
+	margin: 0;
+	float: right;
+}
+
+#privacy-policy {
+	width: 49%;
+	height: 400px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px 20px 10px 10px;
+	overflow-y: scroll;
+	background-color: white;
+	float: right;
+}
+
+.column-about-left {
+	text-align: left;
+	float: left;
+	width: 45%;
+	overflow: hidden;
+	padding: 15px 0px 15px 20px;
+	margin: 20px auto 0 auto;
+	height: auto;
+}
+
+iframe.youtube-video {
+	overflow: visible;
+	margin: 25px auto;
+}
+
+.column-about-right {
+	width: 45%;
+	overflow: visible;
+	padding: 15px 10px 15px 20px;
+	margin-right: 10px;
+	float: right;
+	height: auto;
+}
+
+
+/* End of about page specific CSS */
+
+
+/* Responsive CSS starts here */
+
+
+/* For tablets and other smaller screens */
+
+@media (max-width: 1100px) {
+	p {
+		font-size: 18px;
+	}
+	.site-logo {
+		font-size: 46px;
+	}
+	.row {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		height: auto;
+	}
+	.column {
+		width: 42%;
+		margin: 2%;
+	}
+	#nav-wrapper {
+		width: 100%;
+	}
+	#nav-img-left {
+		width: 80%;
+		display: block;
+		margin: 0 auto 60px auto;
+		right: 50%;
+	}
+	#nav-img-center {
+		width: 80%;
+		display: block;
+		margin: 0 auto 60px auto;
+		object-position: 50% 50%;
+	}
+	#nav-img-right {
+		width: 80%;
+		display: block;
+		margin: 0 auto 60px auto;
+		right: 70%;
+		object-position: 50% 50%;
+	}
+	#contact-form-wrapper {
+		height: fit-content;
+		padding: 5%;
+	}
+	#privacy-policy {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.contact-form-wrapper {
+		padding-left: 10px;
+	}
+	#consent-label {
+		width: auto;
+		float: none;
+		margin: 0 auto;
+	}
+	.column-about-left {
+		width: 90%;
+		padding: 2%;
+		margin: 2%;
+		height: auto;
+	}
+	.column-about-right {
+		width: 90%;
+		padding: 5%;
+		margin: 5%;
+		overflow-y: visible;
+		overflow-x: hidden;
+		display: block;
+		height: auto;
+		text-align: center;
+	}
+	form#contact-form {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact-form-input {
+		margin: 0 auto;
+		display: block;
+	}
+	input.contact-form-input {
+		font-size: 24px;
+		height: 46px;
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+	#submit {
+		height: 60px;
+		width: 70%;
+	}
+	label.contact-form-input {
+		font-size: 24px;
+		text-align: center;
+	}
+	form#contact-form {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact-form-input {
+		margin: 0 auto;
+		display: block;
+	}
+	input.contact-form-input {
+		font-size: 24px;
+		height: 46px;
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+		max-width: 100%;
+	}
+	textarea.contact-form-input {
+		width: 100%;
+		max-width: 100%;
+	}
+	#submit {
+		height: 60px;
+		width: 70%;
+	}
+	label.contact-form-input {
+		font-size: 24px;
+		text-align: center;
+	}
+	iframe.insta-iframe {
+		margin-left: 0;
+		width: 100%;
+	}
+	#contact-form-wrapper {
+		width: 100%;
+		height: auto;
+		margin: 30px 0 25px;
+		bottom: 50%;
+		border: none;
+		padding: 15px;
+	}
+	label.contact-form-input {
+		text-align: left;
+		padding-left: 0;
+		max-width: 100%;
+	}
+	#consent-label {
+		width: 90%;
+		margin: 0;
+		float: right;
+	}
+	#consent {
+		position: relative;
+		top: -15px;
+	}
+	#privacy-policy {
+		width: 100%;
+	}
+}
+
+
+/* For phones and small screens */
+
+@media (max-width: 700px) {
+	.row {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.column {
+		width: 80%;
+		margin: 10px;
+	}
+	.topnav {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.contact-form-input {
+		width: 100%;
+	}
+	label.contact-form-input {
+		text-align: left;
+		padding-left: 0;
+	}
+	#consent-label {
+		width: 90%;
+		margin: 0;
+		float: right;
+	}
+	#submit {
+		font-size: 24px;
+		font-weight: 700;
+	}
+	#privacy-policy {
+		width: 100%;
+	}
+	#contact-form-wrapper {
+		width: 100%;
+		height: auto;
+		margin: 30px 0 25px;
+		bottom: 50%;
+		border: none;
+		padding: 15px;
+	}
+	.nav-img {
+		width: 100%;
+		height: 80%;
+		margin: 0 auto;
+		object-fit: cover;
+	}
+	/* Responsive CSS for the nav menu */
+	.topnav ul {
+		min-width: 200px;
+		margin-left: -244px;
+	}
+	/* CSS to make the embedded YouTube video responsive */
+	iframe.youtube-video {
+		width: 100%;
+		height: 300px;
+		;
+	}
+	iframe.insta-iframe {
+		margin-left: 0;
+		width: 100%;
+	}
+	/* home page header text for phones*/
+	#index-header {
+		font-size: 60px;
+		margin: 25px 0 15px 15px;
+	}
+	footer i {
+		padding: 0 15px;
+	}
+}
+
+
+/* End of responsive CSS */
