@@ -223,10 +223,38 @@ This section will be for testing the website and ensuring that functionality and
 <td>Do all of the images open in a new tab?</td>
 <td>characterdesign.html</td>
 <td>Images spindle-sketch.jpg and face-in-acrylic.png throw up error 404. Corrected links to fix this.</td>
-<td>  </td><td> </td> <td>  </td>
-<td>  </td><td> </td> <td>  </td>
+</tr>
+<tr>
+<td>Does the text link to the contact form work as intended?</td>
+<td>about.html</td>
+<td>The link takes you to the contact form</td>
+</tr>
+<tr>
+<td>Does the contact form prevent you from submitting the form without filling required fields?</td>
+<td>about.html</td>
+<td>The form cannot be submitted without being filled out correctly.</td>
+</tr>
+<tr>
+<td>Does the form submit to Code Institute form dump correctly?</td>
+<td>about.html</td>
+<td>The form is submitted to the Code Institute form dump correctly. (see Form dump screenshot belpw)</td>
+</tr>
+<tr>
+<td>Do the footer links take you to the right places?</td>
+<td>index.html, about.html, characterdesign.html, photography.html</td>
+<td>The Instagram and YouTube icons take you to Siana's pages correctly. The other two do not work as Siana hasn't made accounts for them yet. (but is planning on creating them)</td>
+</tr>
+<tr>
+<td>Does the website flow correctly when navigating using the Tab key? (for accessibility)</td>
+<td>index.html, about.html, characterdesign.html, photography.html</td>
+<td>The tab key cycles through the navigation links despite them being hidden on all pages. The rest of the page works as expected.</td>
+</tr>
 </table>
 
+
+
+#### Form dump screenshot
+![Form Dump Screenshot](./assets/images/readme-images/form-dump.png)
 
 ### End User testing
 In order to see how a user would react to the website and use the website, I found a volunteer to use the website and try to find any issues or bugs with it. My volunteer is a man named Harry, aged 31. From using the site, the only issue raised is that the page titles were uneven. There was a gap on the left, but not on the right. To fix this, I added `padding-right: 50px;` to .page-title in the css file. This makes for a more aesthetically pleasing experience for the end user.
@@ -260,6 +288,9 @@ All of the errors shown bar the warning at the top are from the code provided by
 
 I have tested the site using jigsaw.w3.org's css validator. The website passed the validator's tests as you can see in this link:
 https://bit.ly/sianas-gallery-css-validator
+
+### Known bugs
+- 28/06/21 - Using tab to navigate cycles through the navigation links despite them being hidden.s
 
 
 ## Deployment
