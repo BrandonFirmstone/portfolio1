@@ -198,6 +198,39 @@ This section will be for testing the website and ensuring that functionality and
 </table>
 <br>
 
+### Functionality testing
+<table>
+<tr>
+<td><strong> Test </strong></td>
+<td><strong> Page </strong></td>
+<td><strong> Result </strong></td>
+</tr>
+<tr>
+<td>Do the navigation links take the user to the right place?</td>
+<td>index.html</td>
+<td>Each link takes you to the correct page</td>
+</tr>
+<tr>
+<td>Are the text links animated correctly?</td>
+<td>about.html, characterdesign.html, photography.html (logo), caption text on each image (index.html) </td> 
+<td>All text grows in size in a transition and changes colour to white (whitesmoke)</td>
+</tr>
+<tr>
+<td>Do the links in the navigation drop down work correctly?</td>
+<td>about.html, characterdesign.html, photography.html</td>
+<td>The links take you to the correct pages</td>
+</tr>
+<td>Do all of the images open in a new tab?</td>
+<td>characterdesign.html</td>
+<td>Images spindle-sketch.jpg and face-in-acrylic.png throw up error 404. Corrected links to fix this.</td>
+<td>  </td><td> </td> <td>  </td>
+<td>  </td><td> </td> <td>  </td>
+</table>
+
+
+### End User testing
+In order to see how a user would react to the website and use the website, I found a volunteer to use the website and try to find any issues or bugs with it. My volunteer is a man named Harry, aged 31. From using the site, the only issue raised is that the page titles were uneven. There was a gap on the left, but not on the right. To fix this, I added `padding-right: 50px;` to .page-title in the css file. This makes for a more aesthetically pleasing experience for the end user.
+
 ### W3.org Validators 
 <br>
 
