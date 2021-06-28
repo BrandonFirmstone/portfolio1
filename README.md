@@ -5,6 +5,7 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 
 ![Siana's Gallery Overview Image](./assets/images/readme-images/sianas-gallery-overview.png)
 
+## Table of Contents
 - [Website Purpose](#website-purpose)
 - [Design](#design)
   * [Desired Features](#desired-features)
@@ -56,7 +57,7 @@ Target audience: Employers, artistic community
 Due to time limitations, I will not be able to produce a wire frame for this new design. However, the layout will be very similar to the initial design. The about page will incorporate a contact form for the user to contact Siana, but extra information regarding the site owner and a video embedded from Youtube.com will be included. The contact form will be at the bottom of the page, the information regarding Siana at the top. The extra features to be included are as follows, in priority order:
 - Information regarding Siana
 - Video produced by Siana
-- Call to action to fill in the contact form
+- Call to action to send the user to the contact form
 - Small gallery, taking up one image space and revolving through the different images
 
 #### Gallery Pages Design
