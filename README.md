@@ -5,15 +5,19 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 
 - [Website Purpose](#website-purpose)
 - [Design](#design)
-    + [Desired Features](#desired-features)
-    + [Wireframe Designs](#wireframe-designs)
-        + [Homescreen Design](#homescreen-design)
-        + [About Page Design](#about-page-design)
-        + [Photography Page Design](#photography-page-design)
+  * [Desired Features](#desired-features)
+  * [Wireframe Designs](#wireframe-designs)
 - [Features](#features)
-- [Testing the website](#testing-the-website)
+  * [Implemented Features](#implemented-features)
+  * [Future Features](#future-features)
+- [Testing The Website](#testing-the-website)
+  * [Bugs and errors](#bugs-and-errors)
+  * [Testing Responsiveness](#testing-responsiveness)
+  * [W3.org Validators](#w3org-validators)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
+- [Content](#content)
+- [Media](#media)
 
 ## Website Purpose
 
@@ -71,7 +75,7 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 
 ![Index Page All Devices](./assets/images/readme-images/index.html-all-devices.png)
 
-The index page has been designed to highlight Siana's creativity. The actual index.html page is a splash screen navigation page. The page features three of Siana's main character designs falling through the sky. Each image can be clicked on to take you to the respective page and when hovering over the labels underneath the text scales in size and changes colour to white. This is to better show that they are clickable links. Siana did not want the page to include a footer, as the main focus should be the navigational links and the character art itself.
+The index page has been designed to highlight Siana's creativity. The actual index.html page is a splash screen navigation page. The page features three of Siana's main character designs falling through the sky. Each image can be clicked on to take you to the respective page and when hovering over the labels underneath the text scales in size and changes colour to white. This is to better show that they are clickable links. Siana did not want the page to include a footer, as the main focus should be the navigational links and the character art itself. However, temporarily to fix a responsivity issue detailed in the testing section, I've added a footer with Siana's agreement that it's more important for it to be responsive for the time being.
 
 <br>
 
@@ -81,16 +85,31 @@ The index page has been designed to highlight Siana's creativity. The actual ind
 ![Character Design Page All Devices](./assets/images/readme-images/characterdesign.html-all-devices.png)
 
 The character page includes two rows of four images. Each image has a brief description underneath. The page title is included on the top as well as a small caption. Underneath all of the gallery images is an embedded YouTube video of Siana going through one of her sketch books.
-The top bar includes the site logo, which upon hover turns white and increases to size (this links to the index.html page) and a burger button that changes white on hover. This pops a menu open that links to each page on the site. This was Siana's preferred approach for each device type. Rather than having the bar cluttered with navigational links on desktop, one burger button consistent on each screen size would suffice. When you click on any of the images, it opens the full size image in another tab. There is a footer on the bottom of the page linking to Siana's social media accounts.
+The top bar includes the site logo, which upon hover turns white and increases to size (this links to the index.html page) and a burger button that changes white on hover. This pops a menu open that links to each page on the site. This was Siana's preferred approach for each device type. Rather than having the bar cluttered with navigational links on desktop, one burger button consistent on each screen size would suffice. When you click on any of the images, it opens the full size image in another tab. This is so that the user retains the website in their browser to return to. There is a footer on the bottom of the page linking to Siana's social media accounts. Each of the icons on the footer grow in size and rotate left or right alternatively in order to catch the eye of the user. Currently, only YouTube and Instagram have functioning links to Siana's accounts.
 
 <br>
 
 #### About page
-
 <br>
+
+![About Page top](./assets/images/readme-images/about.html-top-all-devices.png)
+
+The top of the about page details information about Siana and her interests. This page is used to tell the user a brief summary of what she does and the fact that she is open to work and also provides a means of contact. A YouTube and Instagram post is embedded to link to her two main social channels to gain brand awareness - one of the main goals of the website. The content in the about section was written by myself as a temporary placeholder for the content Siana wants to write. This about includes a call-to-action style link to the contact section at the bottom of the page.
+
+![About Page Contact Form](./assets/images/readme-images/about.html-contact-all-devices.png)
+
+This is the contact form used to get in touch with Siana. It contains four main fields:
+- The full name in order for the user to tell Siana their name. The user does not have to fill this out as in the artist community people do not normally use their real names.
+- The e-mail address is used for Siana to contact the user and is a required field - there's no point in the user filling out the form if Siana can't respond to them.
+- The enquiry section uses a text area so that the user can type out whatever enquiry they would like. This isn't required as simply with their e-mail address Siana could contact them and ask what they contacted for.
+- The consent checkbox is a required field with the attached label telling the user to read the privacy policy. The privacy policy, writted by myself, in a nutshell tells the user that their information will only be used to contact them and will not be saved longer than necessary. If this was not a required field there would be no point in the user filling out the form as they wouldn't be consenting to being contacted. 
+<br><br>
+The about page has changed considerably since the wireframe drawings. Originally just a contact page, the about page has evolved into a more practical being. The about section should help to draw the user into contacting Siana by telling them that she is open for work and any enquiries. There is also a link to the contact form in the about section acting as a text-based call to action.
+
+
+
 
 #### 404 page
-<br>
 
 ![404 Page All Devices](./assets/images/readme-images/404.html-all-devices.png)
 
@@ -99,6 +118,32 @@ The 404 page shows when the user goes to an incorrect URL. It includes the burge
 <br>
 
 ### Future Features
+
+#### Index page
+- No footer at the bottom of the page
+- Animated characters on hover
+- Caption under Siana's Gallery title
+- Animation when transitioning to a different page
+
+#### Character Design Page
+- Case Studies under gallery to show what people have commisioned or what Siana has done in employment
+- Sliding/revolution gallery on mobile view
+- Image doesn't open to new tab - appears large in middle of page with x button in corner to close
+
+#### Photography page
+- Siana needs to transfer photographs to me in order for me to upload them
+- Videos embedded in page such as nature vidoes, blogs, any freelance photography Siana has done.
+- Call to action to go to contact page
+
+#### About page
+- Content provided by Siana for the contact page
+- Contact information so that users can contact Siana themselves (IE a business telephone number and e-mail address.)
+- Blog-style about me video done in an artistic manner (for example, see https://en.wikipedia.org/wiki/Draw_My_Life)
+
+#### Store page
+- A page with e-commerce features built in
+- Used for purchasing prints and other artistic creations by Siana.
+
 
 ## Testing The Website
 
@@ -115,13 +160,14 @@ This section will be for testing the website.
     + Container has overflow: hidden; property
         - Container column-about-right has property `overflow-y: visible;`
 
-#### 28/06/2021 - Gap on Chrome Mobile (UNFIXED)
+#### 28/06/2021 - Gap on Chrome Mobile (TEMP FIXED)
 - No functionality is affected. When on Chrome on a mobile Android device, when you scroll down the top bar with the URL and tabs hides. This causes a gap on the bottom of the index page in the background image.
 - To attempt to fix this I increased the html height to 120%.
 - While the gap in the background is now hidden, the top bar on Chrome still causes a gap on the bottom and depending on how the user scrolls it can hide the 'about' caption on the bottom image. When scrolling, the bottom of the page appears to be above the text, but if you scroll again it shows the text. This is very non-intuitive for the user.
 - This issue also appears through the Chrome Dev Tools
 - To attempt to fix this, I will add a thin invisible div to the index page, so that hopefully that will be the hidden part of the page. Added the below to responsive CSS:
 - ` .index-footer{ width: 100%; height: 80px; display: block;} `
+- The above did not work. Unfortunately, to resolve this issue I've added the standard footer to the page. This has resolved the issue.
 
 #### 28/06/2021 - Footer appears half way up 404.html page (FIXED)
 - When you attempt to access a page that isn't actually a part of the website, the 404 page should be thrown up.
@@ -237,6 +283,7 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
 - https://www.w3docs.com/snippets/css/how-to-set-the-size-of-a-checkbox-with-html-and-css.html helped with responsivity regarding the checkbox on the about page
 - Using Google Fonts for the site's Logo. Specifically the Grand Hotel font.
 - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ helped with animating the text on the index.html page.
+- Used https://ecotrust-canada.github.io/markdown-toc/ to generate a table of contents
 
 ## Content
 
