@@ -24,7 +24,7 @@ body {
 }
 
 #index-html {
-	height: 100%;
+	height: 100%; 
 }
 
 
@@ -35,17 +35,17 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none; /* Removes text-decoration from anchor elements */
 }
 
 a p {
 	color: black;
-	transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out; /* Sets a transitional animation for the p elements */
 }
 
 a p:hover {
 	color: whitesmoke;
-	transform: scale(1.1);
+	transform: scale(1.1); /* Increases the size of the text by a scale of 1.1 */
 }
 
 
@@ -74,12 +74,12 @@ a p:hover {
 	font-size: 40px;
 	margin: 0 0 40px 0;
 	padding: 0;
-	font-family: 'Grand Hotel', Helvetica, sans-serif;
+	font-family: 'Grand Hotel', Helvetica, sans-serif; /* Sets the font for the site logo */
 	font-weight: 500;
 	height: 100px;
-	position: fixed;
+	position: fixed; /* Stays permanently at the top of the page */
 	top: 0;
-	z-index: 5;
+	z-index: 5; /* Places the top bar above everything else. Previously had overlap issues with checkbox on about page */
 }
 
 
@@ -99,7 +99,6 @@ a p:hover {
 .burger-button {
 	display: inline-block;
 	margin-top: 20px;
-	text-decoration: none;
 	color: black;
 }
 
@@ -107,25 +106,28 @@ a p:hover {
 /* menu navigation */
 
 .topnav ul {
-	list-style: none;
-	margin: 0 10px 0 0;
+	list-style: none; /* Removes bullet points from list */
+	margin: 0 10px 0 0; 
 	padding: 0;
 	background: white;
-	color: black;
+	color: black; 
 	display: inline-block;
-	position: fixed;
+	position: fixed; /* Nav bar is fixed so when the navigation list appears it too must be fixed */
 	width: 100%;
 	top: 100px;
 	overflow-x: hidden;
 }
 
+
+/* Styling the labels used for navigation in the top nav. */
+
 .topnav label {
 	display: block;
-	cursor: pointer;
+	cursor: pointer; /* Allows the cursor to display as a pointer, showing the user the label is clickable */
 }
 
 .topnav label:hover i {
-	color: white;
+	color: white; 
 }
 
 .topnav ul li a {
@@ -485,29 +487,32 @@ iframe.youtube-video {
 
 @media (max-width: 1100px) {
 	p {
-		font-size: 18px;
+		font-size: 18px; /* Increases size of text on smaller screens to make it easier to read */
 	}
+  #index-html{
+    height: 120%; /* Should fix gap issue on Chrome mobile */
+  }
 	.site-logo {
 		font-size: 46px;
 	}
 	.row {
-		width: 100%;
-		padding: 0px;
+		width: 100%; /* Sets the row to 100% width */
+		padding: 0px; /* Removes any padding */
 		margin: 0px;
-		height: auto;
+		height: auto; /* Height sets automatically */
 	}
 	.column {
-		width: 42%;
+		width: 42%; /* Column set to 42%, should allow two images to display comfortably on tablet */
 		margin: 2%;
 	}
 	#nav-wrapper {
-		width: 100%;
+		width: 100%; 
 	}
 	#nav-img-left {
-		width: 80%;
+		width: 80%; /* Each nav image on the index page will be stacked vertically rather than horizontally */
 		display: block;
 		margin: 0 auto 60px auto;
-		right: 50%;
+		right: 50%; /* Should help center the image */
 	}
 	#nav-img-center {
 		width: 80%;
@@ -523,13 +528,13 @@ iframe.youtube-video {
 		object-position: 50% 50%;
 	}
 	#contact-form-wrapper {
-		height: fit-content;
+		height: fit-content; /* The contact form should be exactly the right height for what it is containing */
 		padding: 5%;
 	}
 	#privacy-policy {
-		float: none;
+		float: none; /* Removes any float previously applied */
 		width: 80%;
-		margin: 0 auto;
+		margin: 0 auto; /* Should center the privacy policy to its container */
 	}
 	.contact-form-wrapper {
 		padding-left: 10px;
@@ -540,10 +545,10 @@ iframe.youtube-video {
 		margin: 0 auto;
 	}
 	.column-about-left {
-		width: 90%;
+		width: 90%; /* Increases the width enough to have all of the content vertical to make it easier to see on tablet and mobile */
 		padding: 2%;
 		margin: 2%;
-		height: auto;
+		height: auto; /* Height set to auto so that the container scales to the content */
 	}
 	.column-about-right {
 		width: 90%;
