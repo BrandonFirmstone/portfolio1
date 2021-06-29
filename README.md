@@ -342,6 +342,7 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
     + https://www.wix.com/blog/2020/09/art-portfolio-website-examples/?utm_source=google&utm_medium=cpc&utm_campaign=9852964004^119455633872&experiment_id=^b^504214426013^^_DSA&gclid=Cj0KCQjw5uWGBhCTARIsAL70sLJVZzGc-ofGIt-a1bLLWSY_s8qHjUVtGzA5I2xSpvYpByMEDysdnrgaAl-OEALw_wcB
     + https://www.pixpa.com/blog/artist-portfolio-websites
     + https://www.format.com/customers/art
+- Smooth scrolling found at https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2 
 
 ## Content
 
