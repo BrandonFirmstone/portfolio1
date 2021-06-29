@@ -19,11 +19,6 @@ body {
 	margin-top: 100px;
 }
 
-/* Specifically for the navigation page body */
-#nav-page-body {
-	margin-top: 0;
-	height: 100%;
-}
 
 /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
 
@@ -231,26 +226,38 @@ footer a:hover i.fa-twitter-square {
 /* Splash screen/navigation screen specific CSS */
 
 #nav-page-body {
-	background-image: url(../images/index-images/sky-background.jpg);
-	background-attachment: fixed;
+	margin-top: 0;
+	height: 100vh;
+	padding-bottom: 50px;
 }
-
+#nav-page-body #index-wrapper {
+	background-image: url(../images/index-images/sky-background.jpg);
+    background-attachment: fixed;
+    min-height: calc(100vh - 80px);
+	background-size: cover;
+}
+#nav-page-body .footer{
+	position: fixed;
+	margin-top: 0;
+	z-index: 0;
+}
 
 /* Div containing the other elements of the splash screen */
 
 #nav-wrapper {
 	width: 100%;
 	padding: 15px;
+	margin-bottom: 50px;
 	overflow: hidden;
 }
-
 
 /* Site title/logo specifically on the index page */
 
 #index-header {
 	font-size: 70px;
 	font-weight: 300;
-	margin: 25px 0 15px 50px;
+	margin: 0 0 15px 50px;
+	padding: 25px 0 10px 0;
 	font-family: 'Grand Hotel', Helvetica, sans-serif
 }
 
@@ -262,6 +269,7 @@ p.index-link {
 	text-decoration: none;
 	font-size: 24px;
 	color: black;
+	margin: 0 20px;
 }
 
 
@@ -508,9 +516,6 @@ iframe.youtube-video {
 	p {
 		font-size: 18px; /* Increases size of text on smaller screens to make it easier to read */
 	}
-  	#index-html{
-    	height: 120%; /* Should fix gap issue on Chrome mobile */
-  	}	
 	.site-logo {
 		font-size: 46px;
 	}
@@ -758,7 +763,7 @@ iframe.youtube-video {
 	/* home page header text for phones*/
 	#index-header {
 		font-size: 60px;
-		margin: 25px 0 15px 15px;
+		margin: 0 0 15px 15px;
 	}
 	footer i {
 		padding: 0 15px;
