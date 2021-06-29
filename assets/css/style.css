@@ -46,11 +46,13 @@ a p:hover {
 	color: whitesmoke;
 	transform: scale(1.1); /* Increases the size of the text by a scale of 1.1 */
 }
-
+article h3{
+	margin: 1.1rem;
+}
 article p {
 	font-size: 16px;
 	line-height: 28px;
-	margin: 1.1rem 1.1rem;
+	margin: 1.1rem;
  }
  
 
@@ -95,7 +97,7 @@ article p {
 }
 
 .page-title {
-	margin: 25px 20px 20px 20px;
+	margin: 25px 30px 20px 30px;
 }
 
 
@@ -103,8 +105,9 @@ article p {
 
 .burger-button {
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 30px;
 	color: black;
+	font-size: 40px;
 }
 
 
@@ -569,7 +572,7 @@ iframe.youtube-video {
 	.column-about-right {
 		width: 90%;
 		padding: 5%;
-		margin: 5%;
+		margin: 10px 20px 10px 20px;
 		overflow-y: visible;
 		overflow-x: hidden;
 		display: block;
