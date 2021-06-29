@@ -123,9 +123,9 @@
             <!-- Defines the below as a form. Using formdump.codeinstitute.net to test form functionality. ID is used to make it responsive -->
             <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
                 <!-- Labels used to define to the user what the different input boxes are for. A <br> tag after each one to put the input box below it -->
-                <label for="fullname" class="contact-form-input">Full name:</label>
+                <label for="name" class="contact-form-input">Name/Username:</label>
                 <!-- Using input type text for the user's full name. Complete accuracy over the name isn't necessary particularly, as a lot of people in the art community use usernames. Allows them to type any name without particularly specifying -->
-                <input type="text" id="fullname" class="contact-form-input" name="fullname" placeholder="Full name here"><br>
+                <input type="text" id="name" class="contact-form-input" name="name" placeholder="Name or Username here" required><br>
                 <label for="email" class="contact-form-input">E-mail Address:</label>
                 <!-- Using the input type email to ensure that the email is validated by format-->
                 <input type="email" id="email" class="contact-form-input" name="email"
@@ -133,7 +133,7 @@
                 <label for="enquiry" class="contact-form-input">Enquiry:</label>
                 <!-- Using a text area to provide a larger area for the user to type in their own enquiry.-->
                 <textarea id="enquiry" class="contact-form-input" name="enquiry"
-                    placeholder="Please type your enquiry in this box." rows="5" columns="100"></textarea><br>
+                    placeholder="Please type your enquiry in this box." rows="5" columns="100" required></textarea><br>
                 <!-- Using a checkbox to so that the user has to willingly give consent to be contacted and information provided used for said purpose. Using the required tag means they cannot proceed without agreeing -->
                 <input type="checkbox" class="contact-form-input" id="consent" name="consent" required>
                 <label for="consent" class="contact-form-input" id="consent-label">I have read the privacy policy on

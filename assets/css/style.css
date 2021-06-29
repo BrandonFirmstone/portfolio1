@@ -19,15 +19,11 @@ body {
 	margin-top: 100px;
 }
 
+/* Specifically for the navigation page body */
 #nav-page-body {
 	margin-top: 0;
 	height: 100%;
 }
-
-#index-html {
-	height: 100%; 
-}
-
 
 /*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
 
@@ -39,11 +35,13 @@ a {
 	text-decoration: none; /* Removes text-decoration from anchor elements */
 }
 
+/* Applies to all paragraph elements in an a tag */
 a p {
 	color: black;
 	transition: all .2s ease-in-out; /* Sets a transitional animation for the p elements */
 }
 
+/* Psuedo class hover to apply an effect to the link text when hovered over */
 a p:hover {
 	color: whitesmoke;
 	transform: scale(1.1); /* Increases the size of the text by a scale of 1.1 */
@@ -110,7 +108,7 @@ article p {
 }
 
 
-/* menu navigation */
+/* Start of menu navigation rules */
 
 .topnav ul {
 	list-style: none; /* Removes bullet points from list */
@@ -183,6 +181,7 @@ article p {
 	color: white;
 }
 
+/* End of style rules for navigation menu */
 
 /* Style the footer at the bottom of the page */
 
@@ -218,6 +217,7 @@ footer a:hover i.fa-twitter-square {
 	transform: rotate(-30deg) scale(1.7);
 }
 
+/* Class used to center elements using p elements */
 .text-centered {
 	text-align: center;
 }
@@ -387,9 +387,10 @@ iframe.insta-iframe {
 /* Applies to each element in the contact form*/
 
 .contact-form-input {
-	max-width: 300px;
+	max-width: 300px; 
 	width: 100%;
 	display: block;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 input.contact-form-input {
@@ -656,18 +657,23 @@ iframe.youtube-video {
 	}
 	#privacy-policy {
 		width: 100%;
+		font-size: 18px;
 	}
+	/* Hides submit button when in mobile view */
 	#submit.mobile-hidden{
 		display: none;
 	}
+	/* Shows the submit button placed under the privacy policy */
 	#submit.desktop-hidden{
 		display: block;
 	}
+	/* Hides the privacy policy that's below the submit button */
 	.mobile-hidden{
 		display: none;
 	}
+	/* Shows the privacy policy that's above the submit button */
 	.desktop-hidden{
-		display: block;
+		display: block; 
 	}
 }
 
