@@ -228,18 +228,16 @@ footer a:hover i.fa-twitter-square {
 #nav-page-body {
 	margin-top: 0;
 	height: 100vh;
-	padding-bottom: 50px;
 }
 #nav-page-body #index-wrapper {
 	background-image: url(../images/index-images/sky-background.jpg);
     background-attachment: fixed;
     min-height: calc(100vh - 80px);
-	background-size: cover;
+
 }
 #nav-page-body .footer{
 	position: fixed;
 	margin-top: 0;
-	z-index: 0;
 }
 
 /* Div containing the other elements of the splash screen */
@@ -257,7 +255,7 @@ footer a:hover i.fa-twitter-square {
 	font-size: 70px;
 	font-weight: 300;
 	margin: 0 0 15px 50px;
-	padding: 25px 0 10px 0;
+	padding: 25px 0;
 	font-family: 'Grand Hotel', Helvetica, sans-serif
 }
 
