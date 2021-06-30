@@ -171,12 +171,12 @@ This section will be for testing the website and ensuring that functionality and
 - In order to fix this, I have used tinypng.com to quickly reduce the file size of these images.
 - When loading the characterdesign.html page after emptying the cache, it loads considerably faster.
 
-#### 30/06/2021 - Footer on index page covering labels for each image on certain screen sizes (UNFIXED)
+#### 30/06/2021 - Footer on index page covering labels for each image on certain screen sizes (FIXED)
 - On my personal laptop loading up the website, I noticed that the footer was covering the bottom text under each image on the index page. 
 - Looking at Chrome developer tools, this only happens on extremely short screens
 - To temporarily fix this, I increased the margin-bottom on #nav-wrapper in order to make the scroll bar appear so that the user can scroll to see the text.
 - I know that this is not user friendly, but due to time contraints and the fact it happens on very few screen sizes this is an issue that may have to be fixed fully at a later date.
-
+- When trying to repeat the issue on the deployed site, the issue does not exist. I left enough time to ensure that Github pages had updated to make sure that the problem was fixed. 
 
 ### Testing Responsiveness
 <table>
