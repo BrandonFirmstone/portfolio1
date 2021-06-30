@@ -57,7 +57,7 @@ Target audience: Employers, artistic community
 - The hamburger button of the mobile view should take the user back to the home page/splash screen
 /
 ##### About Page Design Changes
-Due to time limitations, I will not be able to produce a wire frame for this new design. However, the layout will be very similar to the initial design. The about page will incorporate a contact form for the user to contact Siana, but extra information regarding the site owner and a video embedded from Youtube.com will be included. The contact form will be at the bottom of the page, the information regarding Siana at the top. The extra features to be included are as follows, in priority order:
+Due to time limitations, I will not be able to produce a wire frame for this new design. However, the layout will be very similar to the initial design. The about page will incorporate a contact form for the user to contact Siana, but extra information regarding the site owner and a **video embedded from Youtube.com will be included.** The contact form will be at the bottom of the page, the information regarding Siana at the top. The extra features to be included are as follows, in priority order:
 - Information regarding Siana
 - Video produced by Siana
 - Call to action to send the user to the contact form
@@ -70,6 +70,33 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 - The pictures will each have a caption underneath it, detailing information regarding the image
 - The mobile view will have a 'slideshow' style gallery, where per button click going back and forward the caption and the image will change.
 
+## Design Choices
+
+### Colours
+![Colour Pallet](./assets/images/readme-images/colour-scheme.png)
+- The colour pallet was chosen by myself and Siana after researching different potential pallets and colour schemes.
+- The primarily orange and blue colour scheme was chosen as I believe it invokes a positive experience from the user
+- Both colours I believe suit the website. Siana's art is very vibrant and bold in colour. 
+- According to [this document](https://www.verywellmind.com/the-color-psychology-of-blue-2795815), the colour blue invokes "feelings of calmness or serenity. It is often described as peaceful, tranquil, secure, and orderly."
+- From [this document](https://www.verywellmind.com/the-color-psychology-of-orange-2795818#:~:text=Orange%20calls%20to%20mind%20feelings,in%20traffic%20signs%20and%20advertising.), the colour orange causes feelings of excitement, enthusiasm, and warmth", feelings I believe benefit the website
+- The above document also mentions the following: "Orange is often used to draw attention, such as in traffic signs and advertising." - why it is used in the header and footer sections.
+
+
+### Typography
+
+- The majority of the page is in the font family Arial, Helvetica, sans-serif; 
+- This is a very standard font selection as it is highly accessible and easy to read due to it's sans-serif nature.
+- The font that Siana chose for her logo is a [Google Fonts](fonts.google.com) font called Grand Hotel, with Helvetica and sans-serif as the backup fonts
+
+### Images
+
+
+
+### Animations and Transitions
+
+
+
+
 ## Features
 ### Implemented Features
 The below are features that have been incorporated into the website.
@@ -78,20 +105,32 @@ The below are features that have been incorporated into the website.
 
 ![Index Page All Devices](./assets/images/readme-images/index.html-all-devices.png)
 
-The index page has been designed to highlight Siana's creativity. The actual index.html page is a splash screen navigation page. The page features three of Siana's main character designs falling through the sky. Each image can be clicked on to take you to the respective page and when hovering over the labels underneath the text scales in size and changes colour to white. This is to better show that they are clickable links. Siana did not want the page to include a footer, as the main focus should be the navigational links and the character art itself. However, temporarily to fix a responsivity issue detailed in the testing section, I've added a footer with Siana's agreement that it's more important for it to be responsive for the time being.
+- The index page has been designed to highlight Siana's creativity.
+- The actual index.html page is a splash screen navigation page.
+- The page features three of Siana's main character designs falling through the sky.
+- Each image can be clicked on to take you to the respective page and when hovering over the labels underneath the text scales in size and changes colour to white. This is to better show that they are clickable links. 
+- Siana did not want the page to include a footer, as the main focus should be the navigational links and the character art itself. However, temporarily to fix a responsivity issue detailed in the testing section, I've added a footer with Siana's agreement that it's more important for it to be responsive for the time being.
 
 #### Character Page Design
 
 ![Character Design Page All Devices](./assets/images/readme-images/characterdesign.html-all-devices.png)
 
-The character page includes two rows of four images. Each image has a brief description underneath. The page title is included on the top as well as a small caption. Underneath all of the gallery images is an embedded YouTube video of Siana going through one of her sketch books.
-The top bar includes the site logo, which upon hover turns white and increases to size (this links to the index.html page) and a burger button that changes white on hover. This pops a menu open that links to each page on the site. This was Siana's preferred approach for each device type. Rather than having the bar cluttered with navigational links on desktop, one burger button consistent on each screen size would suffice. When you click on any of the images, it opens the full size image in another tab. This is so that the user retains the website in their browser to return to. There is a footer on the bottom of the page linking to Siana's social media accounts. Each of the icons on the footer grow in size and rotate left or right alternatively in order to catch the eye of the user. Currently, only YouTube and Instagram have functioning links to Siana's accounts. The Photography page design is very similar to this, but currently only holds placeholder images as Siana hasn't transferred the photos she wants to use to me.
+- The character page includes two rows of four images.
+- Each image has a brief description underneath.
+- The page title is included on the top as well as a small caption.
+- Underneath all of the gallery images is an **embedded YouTube video** of Siana going through one of her sketch books.
+- When the device size reduces to that of a tablet or similar, the images are then displayed in rows of two
+- When reduced to mobile, a single image is shown in a row
 
 #### About page
 
 ![About Page top](./assets/images/readme-images/about.html-top-all-devices.png)
 
-The top of the about page details information about Siana and her interests. This page is used to tell the user a brief summary of what she does and the fact that she is open to work and also provides a means of contact. A YouTube and Instagram post is embedded to link to her two main social channels to gain brand awareness - one of the main goals of the website. The content in the about section was written by myself as a temporary placeholder for the content Siana wants to write. This about includes a call-to-action style link to the contact section at the bottom of the page.
+- The top of the about page details information about Siana and her interests. 
+- This page is used to tell the user a brief summary of what she does and the fact that she is open to work and also provides a means of contact. 
+- A **YouTube video and Instagram post is embedded** to link to her two main social channels to gain brand awareness - one of the main goals of the website.
+- The content in the about section was written by myself as a temporary placeholder for the content Siana wants to write.
+- The about includes a call-to-action style link to the contact section at the bottom of the page.
 
 ![About Page Contact Form](./assets/images/readme-images/about.html-contact-all-devices.png)
 
@@ -107,7 +146,29 @@ The about page has changed considerably since the wireframe drawings. Originally
 
 ![404 Page All Devices](./assets/images/readme-images/404.html-all-devices.png)
 
-The 404 page shows when the user goes to an incorrect URL. It includes the burger button to help the user navigate to where they need to be. The content on the page also includes another link to the index page.
+- The 404 page shows when the user goes to an incorrect URL.
+- It includes the burger button to help the user navigate to where they need to be.
+- The layout of the page is identical to the rest of the website, making it consistent in style, layout and in terms of navigation
+- The content on the page also includes another link to the index page.
+
+#### Header
+![Navigation Screenshot](./assets/images/readme-images/navigation-screenshot.png)
+- The navigation bar is used to enable the user to easily navigate between pages
+- The list of pages is only opened when the user clicks the burger button on the top right
+- When you hover over the burger button it changes colour to white
+- On the left is Siana's logo, using an imported Google Font
+- When hovering the cursor over the logo, it transforms to a scale of 1.1 in an animation of 2 seconds in duration
+- When clicking on the logo, it takes you to index.html
+
+
+#### Footer
+![Footer Screenshot](./assets/images/readme-images/footer-screenshot.png)
+
+- The footer is used to link the user to Siana's different social media channels
+- This is to help Siana achieve her website's end goal - expand her personal brand
+- Each icon rotates by 30 degrees left and right alternatively.
+- Each link opens into a new tab on the browser to ensure the user retains Siana's website
+- Currently, only Youtube and Instagram icons take you to Siana's accounts/pages. This is because Siana plans on but hasn't currently created accounts for Twitter or Facebook.
 
 ### Future Features
 
