@@ -137,7 +137,7 @@ The 404 page shows when the user goes to an incorrect URL. It includes the burge
 
 This section will be for testing the website and ensuring that functionality and responsivity work as expected.
 
-### Bugs and errors
+### Known Bugs and errors
 
 #### 26/06/2021 - Instagram Embedded Post (FIXED)
 - Post functions normally under desktop conditions using a vertical scroll bar to view the whole post
@@ -178,10 +178,16 @@ This section will be for testing the website and ensuring that functionality and
 - I know that this is not user friendly, but due to time contraints and the fact it happens on very few screen sizes this is an issue that may have to be fixed fully at a later date.
 - When trying to repeat the issue on the deployed site, the issue does not exist. I left enough time to ensure that Github pages had updated to make sure that the problem was fixed. 
 
-### Testing Responsiveness
+#### 30/06/2021 - Burger button on very small mobiles not visible (FIXED)
+- When using ami.responsivedesign.is the burger button is not visible on the small phone displayed.
+- Luckily, I had already made it so that the logo could be clicked to take the user to index.html
+- This is not perfect, and in the future it'd be nice to have the logo move to two lines so that the burger button can still be displayed but in the mean time the user is still able to navigate the website successfully.
+
+### Testing Responsiveness and functionality
+The below table details testing of the responsiveness of the site as well as functionality on different browsers. 
 <table>
 <tr>
-<td> TOOL/DEVICE </td><td> BROWSER </td><td> OPERATING SYSTEM </td><td>SCREEN SIZE</td><td>RESULT</td>
+<td><STRONG> TOOL/DEVICE </STRONG</td><td><STRONG> BROWSER </STRONG></td><td><STRONG> OPERATING SYSTEM </STRONG></td><td><STRONG>SCREEN SIZE</STRONG></td><td><STRONG>RESULT</STRONG></td>
 </tr>
 <tr>
 <td>REAL: Oppo Find X2 Lite</td><td>Opera Browser</td><td>Android 11</td><td>W1080px X H2400px</td><td>index.html: no issues. photography.html: no issues. characterdesign.html: no issues. about.html: no issues. </td>
@@ -200,6 +206,20 @@ This section will be for testing the website and ensuring that functionality and
 </tr>
 <tr>
 <td>CHROME: iPad</td><td>Chrome Dev Tools</td><td>Windows 10</td><td>W768px x H1024px</td><td>No issues found</td>
+</tr>
+<tr>
+<td>Thin laptop</td>
+<td>Internet Explorer 11</td>
+<td>Windows 10</td>
+<td>W1920px x H1080px</td>
+<td>Site logo pushes down images, hiding text a little bit under footer - decreased padding to compensate</td>
+</tr>
+<tr>
+<td>Thin laptop</td>
+<td>Microsoft Edge</td>
+<td>Windows 10</td>
+<td>W1920px x H1080px</td>
+<td>No issues found</td>
 </tr>
 </table>
 <br>

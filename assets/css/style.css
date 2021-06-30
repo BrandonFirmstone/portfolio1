@@ -255,8 +255,8 @@ footer a:hover i.fa-twitter-square {
 #index-header {
 	font-size: 70px;
 	font-weight: 300;
-	margin: 0 0 15px 50px;
-	padding: 25px 0;
+	margin: 0 0 0 50px;
+	padding: 10px 0 10px 0;
 	font-family: 'Grand Hotel', Helvetica, sans-serif
 }
 
