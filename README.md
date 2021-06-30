@@ -6,21 +6,24 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
 ![Siana's Gallery Overview Image](./assets/images/readme-images/sianas-gallery-overview.png)
 
 ## Table of Contents
-- [Website Purpose](#website-purpose)
-- [Design](#design)
-  * [Desired Features](#desired-features)
-  * [Wireframe Designs](#wireframe-designs)
-- [Features](#features)
-  * [Implemented Features](#implemented-features)
-  * [Future Features](#future-features)
-- [Testing The Website](#testing-the-website)
-  * [Bugs and errors](#bugs-and-errors)
-  * [Testing Responsiveness](#testing-responsiveness)
-  * [W3.org Validators](#w3org-validators)
-- [Deployment](#deployment)
-- [Acknowledgements](#acknowledgements)
-- [Content](#content)
-- [Media](#media)
+  * [Website Purpose](#website-purpose)
+  * [Design](#design)
+    + [Desired Features](#desired-features)
+    + [Wireframe Designs](#wireframe-designs)
+  * [Features](#features)
+    + [Implemented Features](#implemented-features)
+    + [Future Features](#future-features)
+  * [Testing The Website](#testing-the-website)
+    + [Known Bugs and errors](#known-bugs-and-errors)
+    + [Testing Responsiveness](#testing-responsiveness)
+    + [Functionality testing](#functionality-testing)
+      - [Form dump screenshot](#form-dump-screenshot)
+    + [End User testing](#end-user-testing)
+    + [W3.org Validators](#w3org-validators)
+  * [Deployment](#deployment)
+  * [Acknowledgements](#acknowledgements)
+  * [Content](#content)
+  * [Media](#media)
 
 ## Website Purpose
 
@@ -158,6 +161,9 @@ This section will be for testing the website and ensuring that functionality and
 - ` .index-footer{ width: 100%; height: 80px; display: block;} `
 - The above did not work. Unfortunately, to resolve this issue I've added the standard footer to the page. This has resolved the issue.
 
+#### 28/06/21 - Using tab to navigate cycles through the navigation links despite them being hidden (KNOWN - UNFIXED)
+- When using the tab key to navigate the page, the navigation links (accessed using the burger button) are selected despite not being visible to the user.
+
 #### 28/06/2021 - Footer appears half way up 404.html page (FIXED)
 - When you attempt to access a page that isn't actually a part of the website, the 404 page should be thrown up.
 - When accessing the 404.html page through typing in an incorrect URL, the footer is half way up the page.
@@ -183,7 +189,7 @@ This section will be for testing the website and ensuring that functionality and
 - Luckily, I had already made it so that the logo could be clicked to take the user to index.html
 - This is not perfect, and in the future it'd be nice to have the logo move to two lines so that the burger button can still be displayed but in the mean time the user is still able to navigate the website successfully.
 
-### Testing Responsiveness and functionality
+### Testing Responsiveness
 The below table details testing of the responsiveness of the site as well as functionality on different browsers. 
 <table>
 <tr>
@@ -315,10 +321,6 @@ All of the errors shown bar the warning at the top are from the code provided by
 I have tested the site using jigsaw.w3.org's css validator. The website passed the validator's tests as you can see in this link:
 https://bit.ly/sianas-gallery-css-validator
 
-### Known bugs
-- 28/06/21 - Using tab to navigate cycles through the navigation links despite them being hidden.s
-
-
 ## Deployment
 
 This section will be about the deployment of the website to GitPages.
@@ -368,6 +370,7 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
     + https://www.pixpa.com/blog/artist-portfolio-websites
     + https://www.format.com/customers/art
 - Smooth scrolling found at https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2 
+- http://ami.responsivedesign.is/# used to take pictures of each page on different devices.
 
 ## Content
 
