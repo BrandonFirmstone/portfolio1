@@ -74,6 +74,7 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 
 ### Colours
 ![Colour Pallet](./assets/images/readme-images/colour-scheme.png)
+The picture above was taken from coolors.co. 
 - The colour pallet was chosen by myself and Siana after researching different potential pallets and colour schemes.
 - The primarily orange and blue colour scheme was chosen as I believe it invokes a positive experience from the user
 - Both colours I believe suit the website. Siana's art is very vibrant and bold in colour. 
@@ -82,18 +83,28 @@ Due to time limitations, I will not be able to produce a wire frame for this new
 - The above document also mentions the following: "Orange is often used to draw attention, such as in traffic signs and advertising." - why it is used in the header and footer sections.
 
 
+
 ### Typography
 
 - The majority of the page is in the font family Arial, Helvetica, sans-serif; 
 - This is a very standard font selection as it is highly accessible and easy to read due to it's sans-serif nature.
 - The font that Siana chose for her logo is a [Google Fonts](fonts.google.com) font called Grand Hotel, with Helvetica and sans-serif as the backup fonts
+- Siana chose this font because she believed that it suited the artistic nature of herself and the website. 
+- It's not perfectly easy to read but it is still very easy to read in itself because each letter is quite distinctive in the font
 
 ### Images
 
-
+- All of the images bar the background image for index.html were created by Siana
+- The purpose of these images is to demonstrate Siana's skills and the variety of them
+- While not all of the images are currently on the website, primarily in photography.html, every image will be unique in itself in order to show Siana's abilities
+- The cloud background was found on wallpaperaccess.com and is copyright free.
+- The only images with functionality and website-specific purpose are the index.html navigational images
+- The idea behind these images was that the characters will be falling out of the sky and that each one would be a functional link to a page
+- This is a fun and quirky approach to a navigational page/splash screen and I believe that users will be intrigued by the unusual choice
 
 ### Animations and Transitions
 
+-
 
 
 
