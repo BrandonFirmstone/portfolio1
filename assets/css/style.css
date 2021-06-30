@@ -67,7 +67,7 @@ article p {
 
 /* Style rules for the 404 page */
 #error-text{
-	padding-left: 50px;
+	padding-left: 30px;
 }
 #error-footer{
 	position:fixed;
