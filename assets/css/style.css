@@ -432,7 +432,7 @@ input.contact-form-input {
 	height: 30px;
 }
 
-#submit {
+.submit {
 	border-radius: 15px;
 	height: 50px;
 	padding: 10px 15px;
@@ -447,7 +447,7 @@ input.contact-form-input {
 	font-weight: 700;
 }
 
-#submit:hover {
+.submit:hover {
 	color: #565656;
 	background: #f9b27a;
 }
@@ -517,7 +517,7 @@ iframe.youtube-video {
 .desktop-hidden{
 	display: none;
 }
-#submit.desktop-hidden{
+.submit.desktop-hidden{
 	display: none;
 }
 
@@ -624,7 +624,7 @@ iframe.youtube-video {
 		padding: 0;
 		display: block;
 	}
-	#submit {
+	.submit {
 		height: 60px;
 		width: 70%;
 	}
@@ -653,7 +653,7 @@ iframe.youtube-video {
 		width: 100%;
 		max-width: 100%;
 	}
-	#submit {
+	.submit {
 		height: 60px;
 		width: 70%;
 	}
@@ -693,11 +693,11 @@ iframe.youtube-video {
 		text-align: left;
 	}
 	/* Hides submit button when in mobile view */
-	#submit.mobile-hidden{
+	.submit.mobile-hidden{
 		display: none;
 	}
 	/* Shows the submit button placed under the privacy policy */
-	#submit.desktop-hidden{
+	.submit.desktop-hidden{
 		display: block;
 	}
 	/* Hides the privacy policy that's below the submit button */
@@ -739,7 +739,7 @@ iframe.youtube-video {
 		margin: 0;
 		float: right;
 	}
-	#submit {
+	.submit {
 		font-size: 24px;
 		font-weight: 700;
 	}
