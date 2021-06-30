@@ -1,4 +1,3 @@
-
 # Siana's Gallery
 
 This website was produced by myself for Siana Gilbertson, an artist wanting to expand their personal brand and reach. Siana's Gallery was designed based upon Siana's knowledge of the art community that they are a part of and is influenced by websites of other artists (these websites will be credited below)
@@ -10,6 +9,7 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
   * [Design](#design)
     + [Desired Features](#desired-features)
     + [Wireframe Designs](#wireframe-designs)
+  * [Design Choices](#design-choices)
   * [Features](#features)
     + [Implemented Features](#implemented-features)
     + [Future Features](#future-features)
@@ -104,8 +104,15 @@ The picture above was taken from coolors.co.
 
 ### Animations and Transitions
 
--
-
+- The main animations are on the navigational links on the website
+- On the splash screen page, each text label scales to 1.1 and changes to white on hover. 
+- This is to ensure that the user is aware that this is a clickable link
+- The logo on each page bar the index page also has this feature, in order for the user to know that it can be clicked to take them back to the splash screen.
+- An animation is used for opening the navigational menu with the burger button (of which changes colour to white on hover)
+- The menu opens up in two seconds, revealing the links to each page.
+- I believe this feature keeps the website more in-tune with modern websites.
+- A navigation menu that opens up instantaneously doesn't feel to have the same polish as one that opens up slowly.
+- Each list item in the navigational menu transforms from a white background to a faint orange one and the text changes to grey.
 
 
 ## Features
@@ -121,6 +128,7 @@ The below are features that have been incorporated into the website.
 - The page features three of Siana's main character designs falling through the sky.
 - Each image can be clicked on to take you to the respective page and when hovering over the labels underneath the text scales in size and changes colour to white. This is to better show that they are clickable links. 
 - Siana did not want the page to include a footer, as the main focus should be the navigational links and the character art itself. However, temporarily to fix a responsivity issue detailed in the testing section, I've added a footer with Siana's agreement that it's more important for it to be responsive for the time being.
+- The page has a navigation bar and a footer containing icons.
 
 #### Character Page Design
 
@@ -132,6 +140,16 @@ The below are features that have been incorporated into the website.
 - Underneath all of the gallery images is an **embedded YouTube video** of Siana going through one of her sketch books.
 - When the device size reduces to that of a tablet or similar, the images are then displayed in rows of two
 - When reduced to mobile, a single image is shown in a row
+- The page has a navigation bar and a footer containing icons.
+
+#### Photography page
+![Photography Page](./assets/images/readme-images/photography.html-all-devices.png)
+
+- The photography page in terms of format is identical to that of the character design page.
+- The page has two rows of 4 images on desktop, 2 items per row on tablets and 1 item per row for phones.
+- The site has none of Siana's photographs as she has not currently provided them
+- The placeholder images are from **https://placeimg.com/600/600/any**
+- The page has a navigation bar and a footer containing icons.
 
 #### About page
 
@@ -142,6 +160,7 @@ The below are features that have been incorporated into the website.
 - A **YouTube video and Instagram post is embedded** to link to her two main social channels to gain brand awareness - one of the main goals of the website.
 - The content in the about section was written by myself as a temporary placeholder for the content Siana wants to write.
 - The about includes a call-to-action style link to the contact section at the bottom of the page.
+- The page has a navigation bar and a footer containing icons.
 
 ![About Page Contact Form](./assets/images/readme-images/about.html-contact-all-devices.png)
 
@@ -161,6 +180,7 @@ The about page has changed considerably since the wireframe drawings. Originally
 - It includes the burger button to help the user navigate to where they need to be.
 - The layout of the page is identical to the rest of the website, making it consistent in style, layout and in terms of navigation
 - The content on the page also includes another link to the index page.
+- The page has a navigation bar and a footer containing icons.
 
 #### Header
 ![Navigation Screenshot](./assets/images/readme-images/navigation-screenshot.png)
