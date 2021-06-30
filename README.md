@@ -189,6 +189,13 @@ This section will be for testing the website and ensuring that functionality and
 - Luckily, I had already made it so that the logo could be clicked to take the user to index.html
 - This is not perfect, and in the future it'd be nice to have the logo move to two lines so that the burger button can still be displayed but in the mean time the user is still able to navigate the website successfully.
 
+#### 30/06/2021 - Chrome Developer Tools Errors (UNFIXED)
+- When on Chrome Developer tools, the following errors are shown on the about page and the character design page:
+![Chrome Errors](./assets/images/readme-images/chrome-errors.png)
+- I believe that these are caused by third party websites/embedded code.
+- As these errors seem to have no effect on the functionality of the website and time constraints, I have left these alone.
+- For future development, I would like to address these to see if there is any possibility of fixing these errors or if they are purely caused by the third party websites.
+
 ### Testing Responsiveness
 The below table details testing of the responsiveness of the site as well as functionality on different browsers. 
 <table>
