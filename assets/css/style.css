@@ -244,9 +244,10 @@ footer a:hover i.fa-twitter-square {
 
 #nav-wrapper {
 	width: 100%;
-	padding: 15px;
-	margin-bottom: 50px;
+	padding: 10px;
+	margin-bottom: 117px;
 	overflow: hidden;
+	margin-top: 0;
 }
 
 /* Site title/logo specifically on the index page */
@@ -528,7 +529,8 @@ iframe.youtube-video {
 		margin: 2%;
 	}
 	#nav-wrapper {
-		width: 100%; 
+		width: 100%;
+		margin-bottom: 50px;
 	}
 	#nav-img-left {
 		width: 80%; /* Each nav image on the index page will be stacked vertically rather than horizontally */
