@@ -214,11 +214,14 @@ The about page has changed considerably since the wireframe drawings. Originally
 - Case Studies under gallery to show what people have commisioned or what Siana has done in employment
 - Sliding/revolution gallery on mobile view
 - Image doesn't open to new tab - appears large in middle of page with x button in corner to close
+- Images are lower resolution and have a watermark so that they cannot be copied/stolen off of the website
+- Call to action to go to contact page
 
 #### Photography page
 - Siana needs to transfer photographs to me in order for me to upload them
 - Videos embedded in page such as nature vidoes, blogs, any freelance photography Siana has done.
 - Call to action to go to contact page
+- Images are lower resolution and have a watermark so that they cannot be copied/stolen off of the website
 
 #### About page
 - Content provided by Siana for the contact page
