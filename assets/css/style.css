@@ -1,6 +1,6 @@
 /* Google Fonts importing the font Grand Hotel by 'Astigmatic' for Siana's logo */
-
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
 
 /* Style the background of all pages. margin and padding set to 0px due to browser automatically adding rules */
 
@@ -20,72 +20,7 @@ body {
 }
 
 
-/*allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
-
-* {
-	box-sizing: border-box;
-}
-
-a {
-	text-decoration: none; /* Removes text-decoration from anchor elements */
-}
-
-/* Applies to all paragraph elements in an a tag */
-a p {
-	color: black;
-	transition: all .2s ease-in-out; /* Sets a transitional animation for the p elements */
-}
-
-/* Psuedo class hover to apply an effect to the link text when hovered over */
-a p:hover {
-	color: whitesmoke;
-	transform: scale(1.1); /* Increases the size of the text by a scale of 1.1 */
-}
-article h3{
-	margin: 1.1rem;
-}
-article p {
-	font-size: 16px;
-	line-height: 28px;
-	margin: 1.1rem;
- }
- 
-
-/* Simple rules for floating left and right and adds padding */
-
-.float-left {
-	float: left;
-	padding-left: 30px;
-}
-
-.float-right {
-	float: right;
-	padding-right: 30px;
-}
-
-/* Float rules end */
-
-/* Style rules for the 404 page */
-#error-text{
-	padding-left: 30px;
-}
-#error-footer{
-	position:fixed;
-	bottom:0;
-}
-
-/* End of 404 style rules */
-
-/* Style used for a elements within text content */
-.page-link{
-	text-decoration:underline;
-	color:red;
-	transition: all .2s ease-in-out;
-}
-.page-link:hover{
-	color: #F38630;	
-}
-/* Style the header */
+/* Style rules for the top navigation bar */
 
 .topnav {
 	overflow: hidden;
@@ -102,9 +37,7 @@ article p {
 	z-index: 5; /* Places the top bar above everything else. Previously had overlap issues with checkbox on about page */
 }
 
-
 /* Style rules for the site logo present in the navigation bar */
-
 .site-logo {
 	line-height: 10px;
 }
@@ -113,16 +46,13 @@ article p {
 	margin: 25px 30px 20px 30px;
 }
 
-
 /* Style rules for the navigational "burger button" icon on the top navigation bar */
-
 .burger-button {
 	display: inline-block;
 	margin-top: 30px;
 	color: black;
 	font-size: 40px;
 }
-
 
 /* Start of menu navigation rules */
 
@@ -147,10 +77,12 @@ article p {
 	cursor: pointer; /* Allows the cursor to display as a pointer, showing the user the label is clickable */
 }
 
+/* Used to change the burger button to white on hover */
 .topnav label:hover i {
 	color: white; 
 }
 
+/* The below style rules are for the styling of the navigation menu and allowing for it to open smoothly and when the burger button is checked */
 .topnav ul li a {
 	padding: 10px 15px;
 	display: block;
@@ -190,17 +122,17 @@ article p {
 	color: black;
 }
 
-
 /* Psuedo class to change the state of the previously mentioned navigation button */
-
 .burger-button:hover {
 	color: white;
 }
 
-/* End of style rules for navigation menu */
+/* End of style rules for navigation menu and navigation bar */
+
 
 /* Style the footer at the bottom of the page */
 
+/* Style rules for the footer div */
 .footer {
 	background-color: #F38630;
 	padding: 10px;
@@ -212,6 +144,7 @@ article p {
 	bottom: 0;
 }
 
+/* Style rules for each footer icon */
 footer i {
 	font-size: 150%;
 	margin: 5px;
@@ -220,15 +153,18 @@ footer i {
 	z-index: 5;
 }
 
+/* Used to transform and rotate the Facebook and Instagram icons on the footer */
 footer a:hover i {
 	transform: rotate(15deg) scale(1.7);
 	color: whitesmoke;
 }
 
+/* Used to rotate the YouTube icon on the footer and increase the size */
 footer a:hover i.fa-youtube-square {
 	transform: rotate(-30deg) scale(1.7);
 }
 
+/* Used to rotate the Twitter icon on the footer and increase the size */
 footer a:hover i.fa-twitter-square {
 	transform: rotate(-30deg) scale(1.7);
 }
@@ -236,6 +172,86 @@ footer a:hover i.fa-twitter-square {
 /* Class used to center elements using p elements */
 .text-centered {
 	text-align: center;
+}
+
+/* End of Footer style rules */
+
+
+/* Allows for padding and margin to be accounted into the size for every element so that the width and height is the actual size */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none; /* Removes text-decoration from anchor elements */
+}
+
+/* Applies to all paragraph elements in an a tag */
+a p {
+	color: black;
+	transition: all .2s ease-in-out; /* Sets a transitional animation for the p elements */
+}
+
+/* Psuedo class hover to apply an effect to the link text when hovered over */
+a p:hover {
+	color: whitesmoke;
+	transform: scale(1.1); /* Increases the size of the text by a scale of 1.1 */
+}
+
+
+/* Style rules for text and headings within article elements */
+
+article h3{
+	margin: 1.1rem;
+}
+article p {
+	font-size: 16px;
+	line-height: 28px;
+	margin: 1.1rem;
+ }
+
+/* End of article style rules */
+
+
+/* Simple rules for floating left and right and adds padding */
+
+.float-left {
+	float: left;
+	padding-left: 30px;
+}
+
+.float-right {
+	float: right;
+	padding-right: 30px;
+}
+
+/* Float rules end */
+
+
+/* Style rules for the 404 page */
+
+#error-text{
+	padding-left: 30px;
+}
+
+#error-footer{
+	position:fixed;
+	bottom:0;
+}
+
+/* End of 404 style rules */
+
+
+/* Style used for a elements within text content */
+.page-link{
+	text-decoration:underline;
+	color:red;
+	transition: all .2s ease-in-out;
+}
+
+.page-link:hover{
+	color: #F38630;	
 }
 
 /* General CSS ends here */
@@ -247,19 +263,19 @@ footer a:hover i.fa-twitter-square {
 	margin-top: 0;
 	height: 100vh;
 }
+
 #nav-page-body #index-wrapper {
 	background-image: url(../images/index-images/sky-background.jpg);
     background-attachment: fixed;
     min-height: calc(100vh - 80px);
-
 }
+
 #nav-page-body .footer{
 	position: fixed;
 	margin-top: 0;
 }
 
 /* Div containing the other elements of the splash screen */
-
 #nav-wrapper {
 	width: 100%;
 	padding: 10px;
@@ -269,7 +285,6 @@ footer a:hover i.fa-twitter-square {
 }
 
 /* Site title/logo specifically on the index page */
-
 #index-header {
 	font-size: 70px;
 	font-weight: 300;
@@ -278,9 +293,7 @@ footer a:hover i.fa-twitter-square {
 	font-family: 'Grand Hotel', Helvetica, sans-serif
 }
 
-
 /* Style rules for the text captioning each image on the splash screen */
-
 p.index-link {
 	text-align: center;
 	text-decoration: none;
@@ -289,15 +302,14 @@ p.index-link {
 	margin: 0 20px;
 }
 
-
-/* Style rules specific to the left nav image */
-
+/* Style rules specific to the left nav image to position it correctly */
 #nav-img-left {
 	margin-right: 15px;
 	width: 32%;
 	display: inline-block;
 }
 
+/* Style rules specific to the center nav image to position it correctly */
 #nav-img-center {
 	margin-right: 15px;
 	right: 50%;
@@ -305,26 +317,24 @@ p.index-link {
 	display: inline-block;
 }
 
+/* Style rules specific to the right nav image to position it correctly */
 #nav-img-right {
 	width: 32%;
 	display: inline-block;
 	right: 100%
 }
 
+/* Style rules for each navigation image on the splash screen. Object-fit: cover is used to position the image correctly within it's container */
 .nav-img {
 	object-fit: cover;
 	margin: 20px auto 20px auto;
 }
 
-
 /*End of splash screen specific CSS */
-
 
 /* Gallery CSS starts here */
 
-
 /* The galleries and the navigation page use a table-style row and column system as a layout */
-
 .row {
 	width: 100%;
 	padding-left: 15px;
@@ -332,9 +342,7 @@ p.index-link {
 	padding-bottom: 5px;
 }
 
-
 /* Create four equal columns that floats next to each other for the galleries */
-
 .column {
 	float: left;
 	width: 25%;
@@ -344,16 +352,13 @@ p.index-link {
 	text-align: center;
 }
 
-
 /* Ensures any description text in the columns is central to the image it's describing */
-
 .column>p {
 	text-align: center;
 }
 
 
 /* Sets the image size for the gallery, centers the image using object-position */
-
 .img-size {
 	height: 300px;
 	width: 300px;
@@ -361,9 +366,7 @@ p.index-link {
 	object-position: 50% 50%;
 }
 
-
 /* Clear floats after the columns */
-
 .row:after {
 	content: "";
 	display: table;
@@ -382,6 +385,7 @@ iframe {
 	margin: 50px auto;
 }
 
+/* Used to center the Instagram post as best as possible */
 iframe.insta-iframe {
 	margin-left: calc(50% - 306px);
 	margin-left: -webkit-calc(50% - 306px);
@@ -394,6 +398,7 @@ iframe.insta-iframe {
 
 /* About page specific CSS starts here */
 
+/* Displays the form as an inline-block so that the privacy policy can be displayed next to it */
 #contact-form {
 	display: inline-block;
 }
@@ -410,6 +415,7 @@ iframe.insta-iframe {
 	background-color: #E0E4CC;
 	padding: 30px 0 0 100px;
 }
+
 #contact-form-header{
 	text-align: center;
 	font-size: 38px;
@@ -418,7 +424,6 @@ iframe.insta-iframe {
 
 
 /* Applies to each element in the contact form*/
-
 .contact-form-input {
 	max-width: 300px; 
 	width: 100%;
@@ -426,12 +431,14 @@ iframe.insta-iframe {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Specifies each input element */
 input.contact-form-input {
 	padding-left: 25px;
 	font-size: 18px;
 	height: 30px;
 }
 
+/* Styles the submit button to have it more in keeping with the style and theme of the rest of the website */
 .submit {
 	border-radius: 15px;
 	height: 50px;
@@ -447,11 +454,13 @@ input.contact-form-input {
 	font-weight: 700;
 }
 
+/* Changes the font colour and background colour to evoke a positive experience from the user */
 .submit:hover {
 	color: #565656;
 	background: #f9b27a;
 }
 
+/* Style rules for each label */
 label.contact-form-input {
 	font-size: 18px;
 	padding: 10px 0 10px 0;
@@ -459,6 +468,7 @@ label.contact-form-input {
 	height: auto;
 }
 
+/* Style rules for the enquiry text area */
 textarea {
 	resize: none;
 	width: 300px;
@@ -466,6 +476,7 @@ textarea {
 	padding-left: 20px;
 }
 
+/* Style rules for the checkbox used for consent */
 #consent {
 	width: 18px;
 	height: 18px;
@@ -474,23 +485,26 @@ textarea {
 	display: inline-block;
 }
 
+/* Style rules for the label - positions it to the right of the checkbox */
 #consent-label {
 	width: 90%;
 	margin: 0;
 	float: right;
 }
 
+/* CSS for the privacy policy */
 #privacy-policy {
 	width: 49%;
 	height: 400px;
-	border: 1px solid black;
+	border: 1px solid black; /* Gives the div a border so that is looks and feels more like a text box */
 	padding: 10px;
-	margin: 10px 20px 10px 10px;
+	margin: 10px 20px 10px 10px; /* Overflow-y: scroll; is used for adding a scroll bar to the right of the privacy policy div */
 	overflow-y: scroll;
 	background-color: white;
 	float: right;
 }
 
+/* The about page is split into two equal columns. This is the CSS for the left column */
 .column-about-left {
 	text-align: left;
 	float: left;
@@ -501,11 +515,13 @@ textarea {
 	height: auto;
 }
 
+/* CSS for the Youtube Video iframe */
 iframe.youtube-video {
 	overflow: visible;
 	margin: 25px auto;
 }
 
+/* The about page is split into two equal columns. This is the CSS for the right column */
 .column-about-right {
 	width: 45%;
 	overflow: visible;
@@ -514,9 +530,13 @@ iframe.youtube-video {
 	float: right;
 	height: auto;
 }
+
+/* Hides any elements that have this class when on a desktop view */
 .desktop-hidden{
 	display: none;
 }
+
+/* Hides the mobile-only form submission button */
 .submit.desktop-hidden{
 	display: none;
 }
@@ -535,38 +555,46 @@ iframe.youtube-video {
     	height: 80px;
     	display: block;
   	}
+
 	p {
 		font-size: 18px; /* Increases size of text on smaller screens to make it easier to read */
 	}
+
 	.site-logo {
 		font-size: 46px;
 	}
+
 	.row {
 		width: 100%; /* Sets the row to 100% width */
 		padding: 0; /* Removes any padding */
 		margin: 0;
 		height: auto; /* Height sets automatically */
 	}
+
 	.column {
 		width: 42%; /* Column set to 42%, should allow two images to display comfortably on tablet */
 		margin: 2%;
 	}
+
 	#nav-wrapper {
 		width: 100%;
 		margin-bottom: 50px;
 	}
+
 	#nav-img-left {
 		width: 80%; /* Each nav image on the index page will be stacked vertically rather than horizontally */
 		display: block;
 		margin: 0 auto 60px auto;
 		right: 50%; /* Should help center the image */
 	}
+
 	#nav-img-center {
 		width: 80%;
 		display: block;
 		margin: 0 auto 60px auto;
 		object-position: 50% 50%;
 	}
+
 	#nav-img-right {
 		width: 80%;
 		display: block;
@@ -574,29 +602,35 @@ iframe.youtube-video {
 		right: 70%;
 		object-position: 50% 50%;
 	}
+
 	#contact-form-wrapper {
 		height: fit-content; /* The contact form should be exactly the right height for what it is containing */
 		padding: 5%;
 	}
+
 	#privacy-policy {
 		float: none; /* Removes any float previously applied */
 		width: 80%;
 		margin: 0 auto; /* Should center the privacy policy to its container */
 	}
+
 	.contact-form-wrapper {
 		padding-left: 10px;
 	}
+
 	#consent-label {
 		width: auto;
 		float: none;
 		margin: 0 auto;
 	}
+
 	.column-about-left {
 		width: 90%; /* Increases the width enough to have all of the content vertical to make it easier to see on tablet and mobile */
 		padding: 2%;
 		margin: 2%;
 		height: auto; /* Height set to auto so that the container scales to the content */
 	}
+
 	.column-about-right {
 		width: 90%;
 		padding: 5%;
@@ -607,15 +641,18 @@ iframe.youtube-video {
 		height: auto;
 		text-align: center;
 	}
+
 	form#contact-form {
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
+
 	.contact-form-input {
 		margin: 0 auto;
 		display: block;
 	}
+
 	input.contact-form-input {
 		font-size: 18px;
 		height: 46px;
@@ -624,23 +661,28 @@ iframe.youtube-video {
 		padding: 0;
 		display: block;
 	}
+
 	.submit {
 		height: 60px;
 		width: 70%;
 	}
+
 	label.contact-form-input {
 		font-size: 24px;
 		text-align: center;
 	}
+
 	form#contact-form {
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
+
 	.contact-form-input {
 		margin: 0 auto;
 		display: block;
 	}
+
 	input.contact-form-input {
 		font-size: 24px;
 		height: 46px;
@@ -649,22 +691,27 @@ iframe.youtube-video {
 		display: block;
 		max-width: 100%;
 	}
+
 	textarea.contact-form-input {
 		width: 100%;
 		max-width: 100%;
 	}
+
 	.submit {
 		height: 60px;
 		width: 70%;
 	}
+
 	label.contact-form-input {
 		font-size: 24px;
 		text-align: center;
 	}
+
 	iframe.insta-iframe {
 		margin-left: 0;
 		width: 100%;
 	}
+
 	#contact-form-wrapper {
 		width: 100%;
 		height: auto;
@@ -673,20 +720,24 @@ iframe.youtube-video {
 		border: none;
 		padding: 15px;
 	}
+
 	label.contact-form-input {
 		text-align: left;
 		padding-left: 0;
 		max-width: 100%;
 	}
+
 	#consent-label {
 		width: 90%;
 		margin: 0;
 		float: right;
 	}
+
 	#consent {
 		position: relative;
 		top: -15px;
 	}
+
 	#privacy-policy {
 		width: 100%;
 		font-size: 18px;
@@ -714,39 +765,55 @@ iframe.youtube-video {
 /* For phones and small screens */
 
 @media (max-width: 700px) {
+	/* Increases row to 100% width to allow images to take up more screen space within it */
 	.row {
 		width: 100%;
 		padding: 0;
 		margin: 0;
 	}
+
+	/* Increases column width to 80% to go from two images next to each other to one image at a time (on photography and characterdesign pages) */
 	.column {
 		width: 80%;
 		margin: 10px;
 	}
+
 	.topnav {
 		margin-bottom: 20px;
 		font-size: 30px;
 	}
+
+	/* Takes 100% of the width of it's container to make sure it can be easily read and clicked by users */
 	.contact-form-input {
 		width: 100%;
 	}
+
+	/* Left alignts text and removes padding */
 	label.contact-form-input {
 		text-align: left;
 		padding-left: 0;
 	}
+
+	/* Removes margin and floats consent label to the right in order to allow the checkbox to be positioned to it's left */
 	#consent-label {
 		width: 90%;
 		margin: 0;
 		float: right;
 	}
+
+	/* Increases the font size and weight of the submit button to make it easier to read and click on mobile */
 	.submit {
 		font-size: 24px;
 		font-weight: 700;
 	}
+
+	/* Increases the privacy policy size to 100% of it's container. Added text-align: left as it was center aligned by other CSS */
 	#privacy-policy {
 		width: 100%;
 		text-align: left;
 	}
+
+	/* The wrapper for the contact form, used to make it more friendly to mobile users through increasing size and decreasing margins/padding */
 	#contact-form-wrapper {
 		width: 100%;
 		height: auto;
@@ -755,17 +822,21 @@ iframe.youtube-video {
 		border: none;
 		padding: 15px;
 	}
+
+	/* Makes the nav image 100% in width in order to ensure that the picture can be seen and clicked easily on mobile devices */
 	.nav-img {
 		width: 100%;
 		height: 80%;
 		margin: 0 auto;
 		object-fit: cover;
 	}
+
 	/* Responsive CSS for the nav menu */
 	.topnav ul {
 		min-width: 200px;
 		margin-left: -244px;
 	}
+
 	/* CSS to make the embedded YouTube video responsive */
 	.youtube-video-div {
 		position: relative;
@@ -774,6 +845,8 @@ iframe.youtube-video {
   		height: 0;
 		margin: 10px 20px 50px 20px;
 	}
+
+	/* Makes embedded YouTube videos 100% width of it's container on mobile devices to ensure the video can be seen easily */
 	.youtube-video-div iframe{
 		position: absolute;
 		top:0;
@@ -782,18 +855,23 @@ iframe.youtube-video {
 		height: 100%;
 		margin-bottom: 20px;
 	}
+
+	/* Styles the Embedded instagram post(s) to be 100% width on small devices */
 	iframe.insta-iframe {
 		margin-left: 0;
 		width: 100%;
 	}
+
 	/* home page header text for phones*/
 	#index-header {
 		font-size: 60px;
 		margin: 0 0 15px 15px;
 	}
+
 	footer i {
 		padding: 0 15px;
 	}
+
 }
 
 
