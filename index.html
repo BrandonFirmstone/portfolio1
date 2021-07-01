@@ -2,37 +2,61 @@
 <html id="index-html" lang="en">
 
 <head>
+    <!-- Sets the site's character set to UTF-8 -->
     <meta charset="UTF-8">
+    <!-- Adds a description to the page for search engines -->
     <meta name="description" content="A website full of Siana Gilbertson's best art.">
+    <!-- Adds keywords to the page for search engines-->
+    <meta name="keywords" content="Siana's Gallery, Navigation Page, Main Page">
+    <!-- Links the favicon.ico file to the page so that it displays on shortcuts/tabs on browsers -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Tells internet explorer to use the latest rendering engine -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Sets the size of the viewport to the device size -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links the HTML page to the style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Sets the title shown by the browser to 'Siana's Gallery' -->
     <title>Siana's Gallery</title>
 </head>
-
+<!-- Gives the body an ID of nav-page-body to apply specific rules to this page's body -->
 <body id="nav-page-body">
+    <!-- Div used to wrap the entire page-->
     <div id="index-wrapper">
+        <!-- Siana's logo - slightly larger on this page -->
         <h1 id="index-header">Siana's Gallery</h1>
+        <!-- div used to wrap all of the navigation images-->
         <div id="nav-wrapper">
+            <!-- Wrapper for the left nav image-->
             <div id="nav-img-left">
+                <!-- Links the image and the text to the photography page -->
                 <a href="photography.html">
+                    <!-- The image used for navigation - aria-label used for accessibility -->
                     <img src="assets/images/index-images/daliah-falling.png" class="nav-img" alt="Photography Page Link"
                         aria-label="Go to Photography Page">
+                    <!-- Text caption for the navigation image -->
                     <p class="index-link">Photography</p>
                 </a>
             </div>
+            <!-- Wrapper for the center nav image-->
             <div id="nav-img-center">
+                <!-- Links the image and the text to the character design page -->
                 <a href="characterdesign.html">
+                    <!-- The image used for navigation - aria-label used for accessibility -->
                     <img src="assets/images/index-images/spindle-falling.png" class="nav-img"
                         alt="Character Design Link" aria-label="Go to Character Design Page">
+                    <!-- Text caption for the navigation image -->
                     <p class="index-link">Character Design</p>
                 </a>
             </div>
+            <!-- Wrapper for the right nav image-->
             <div id="nav-img-right">
+                <!-- Links the image and the text to the about page -->
                 <a href="about.html">
+                    <!-- The image used for navigation - aria-label used for accessibility -->
                     <img src="assets/images/index-images/tallulah-falling.png" class="nav-img" alt="About Page link"
                         aria-label="Find out about Siana">
+                    <!-- Text caption for the navigation image -->
                     <p class="index-link">About</p>
                 </a>
             </div>
@@ -63,6 +87,7 @@
 
         <!-- End of footer div -->
     </div>
+    <!-- Script used to import icons for the navbar and the footer. Placed at the bottom of the page due to impact on system resources. Provided by fontawesome.com -->
     <script src="https://kit.fontawesome.com/7a193223e3.js" crossorigin="anonymous"></script>
 </body>
 
