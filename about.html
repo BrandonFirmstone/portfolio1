@@ -92,7 +92,7 @@
                     <div class="youtube-video-div">
                         <p class="text-centered">
                             <iframe class="youtube-video" width="560" height="315"
-                                src="https://www.youtube.com/embed/gEolrA8F6xo" title="YouTube video player"
+                                src="https://www.youtube.com/embed/gEolrA8F6xo" title="Siana's Sketchbook Tour"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
@@ -106,7 +106,7 @@
                 <!-- Aside used for semantics -->
                 <aside>
                     <!-- Code below provided by Instagram to embed a post from Siana's Page -->
-                    <iframe class="insta-iframe" src="//instagram.com/p/B_5rVMwFNco/embed/" width="612" height="710"
+                    <iframe class="insta-iframe" title="Tatto Design Instagram Post" src="//instagram.com/p/B_5rVMwFNco/embed/" width="612" height="710"
                         frameborder="0" scrolling="no" allowtransparency="true"></iframe>
                 </aside>
             </div>
@@ -124,24 +124,24 @@
             <!-- Defines the below as a form. Using formdump.codeinstitute.net to test form functionality. ID is used to make it responsive -->
             <form action="https://formdump.codeinstitute.net" method="POST" target="_blank" id="contact-form">
                 <!-- Labels used to define to the user what the different input boxes are for. A <br> tag after each one to put the input box below it -->
-                <label for="name" class="contact-form-input">Name/Username:</label>
+                <label for="name" class="contact-form-input" aria-label="Enter your name or username">Name/Username:</label>
                 <!-- Using input type text for the user's full name. Complete accuracy over the name isn't necessary particularly, as a lot of people in the art community use usernames. Allows them to type any name without particularly specifying -->
                 <input type="text" id="name" class="contact-form-input" name="name" placeholder="Name or Username here" required><br>
-                <label for="email" class="contact-form-input">E-mail Address:</label>
+                <label for="email" class="contact-form-input" aria-label="Enter your e-mail address">E-mail Address:</label>
                 <!-- Using the input type email to ensure that the email is validated by format-->
                 <input type="email" id="email" class="contact-form-input" name="email"
                     placeholder="email-address@here.please" required><br>
-                <label for="enquiry" class="contact-form-input">Enquiry:</label>
+                <label for="enquiry" class="contact-form-input" aria-label="Type in your enquiry">Enquiry:</label>
                 <!-- Using a text area to provide a larger area for the user to type in their own enquiry.-->
                 <textarea id="enquiry" class="contact-form-input" name="enquiry"
                     placeholder="Please type your enquiry in this box." rows="5" columns="100" required></textarea><br>
                 <!-- Using a checkbox to so that the user has to willingly give consent to be contacted and information provided used for said purpose. Using the required tag means they cannot proceed without agreeing -->
                 <input type="checkbox" class="contact-form-input" id="consent" name="consent" required>
-                <label for="consent" class="contact-form-input" id="consent-label">I have read the privacy policy on
+                <label for="consent" class="contact-form-input" id="consent-label" aria-label="Read privacy policy and consent">I have read the privacy policy on
                     this form and consent to being contacted.</label><br>
 
                 <!-- The submission button, used to complete the form -->
-                <input class="mobile-hidden submit" type="submit" value="Submit Enquiry">
+                <input class="mobile-hidden submit" type="submit" value="Submit Enquiry" aria-label="Submit form">
                 <div id="privacy-policy" class="desktop-hidden">
                     <p>
                         This privacy policy is to confirm with the user of this website, 'Siana's Gallery', the use of the
@@ -184,7 +184,7 @@
                         progress.
                     </p>
                 </div>
-                <input class="desktop-hidden submit" type="submit" value="Submit Enquiry">
+                <input class="desktop-hidden submit" type="submit" value="Submit Enquiry" aria-label="Submit Form">
             </form>
 
             <!-- Div containing the privacy policy. The id is used to make it responsive -->
