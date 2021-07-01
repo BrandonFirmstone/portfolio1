@@ -506,6 +506,7 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
     + https://www.format.com/customers/art
 - Smooth scrolling found at https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2 
 - http://ami.responsivedesign.is/# used to take pictures of each page on different devices.
+- Sticky footer calcs found here https://css-tricks.com/couple-takes-sticky-footer/#there-is-calc-reduced-height-wrappers
 
 ## Content
 
