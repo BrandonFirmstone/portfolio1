@@ -113,6 +113,7 @@
         </div>
     </section>
     <section>
+        <!-- Used to link the link in the about text to this section -->
         <a id="contact-me-header">
             <header>
 
@@ -140,8 +141,9 @@
                 <label for="consent" class="contact-form-input" id="consent-label" aria-label="Read privacy policy and consent">I have read the privacy policy on
                     this form and consent to being contacted.</label><br>
 
-                <!-- The submission button, used to complete the form -->
+                <!-- The submission button, used to complete the form, hidden on mobile devices -->
                 <input class="mobile-hidden submit" type="submit" value="Submit Enquiry" aria-label="Submit form">
+                <!-- This privacy policy is hidden on desktop and is only used for mobile devices to present it in a more user-friendly manner -->
                 <div id="privacy-policy" class="desktop-hidden">
                     <p>
                         This privacy policy is to confirm with the user of this website, 'Siana's Gallery', the use of the
@@ -184,10 +186,11 @@
                         progress.
                     </p>
                 </div>
+                <!-- Used to submit the form only on mobile devices - so that it shows after the privacy policy rather than before it -->
                 <input class="desktop-hidden submit" type="submit" value="Submit Enquiry" aria-label="Submit Form">
             </form>
 
-            <!-- Div containing the privacy policy. The id is used to make it responsive -->
+            <!-- Div containing the privacy policy. The id is used to make it responsive. mobile-hidden class hides the div on mobile devices -->
             <div id="privacy-policy" class="mobile-hidden">
                 <p>
                     This privacy policy is to confirm with the user of this website, 'Siana's Gallery', the use of the
