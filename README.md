@@ -302,6 +302,9 @@ The below table details testing of the responsiveness of the site as well as fun
 <td>REAL: Honor 20</td><td>Chrome</td><td>Android 11</td><td>W1080px x H2340px</td><td>index.html: Noticed that on the index page there is a blank space when scrolling down due to Chrome hiding the url bar at the top. No other issues</td>
 </tr>
 <tr>
+<td>REAL: iPhone X</td><td>Safari</td><td>iOS 14.6</td><td>W1125px x H2436px</td><td>No issues found, but submit button does look slightly different on Safari</td>
+</tr>
+<tr>
 <td>CHROME: Moto G4</td><td>Chrome Developer Tools</td><td>Windows 10</td><td>W360px x H640px</td><td>No issues found</td>
 </tr>
 <tr>
