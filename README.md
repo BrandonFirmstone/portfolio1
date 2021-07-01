@@ -18,6 +18,7 @@ This website was produced by myself for Siana Gilbertson, an artist wanting to e
     + [Testing Responsiveness](#testing-responsiveness)
     + [Functionality testing](#functionality-testing)
       - [Form dump screenshot](#form-dump-screenshot)
+    + [Chrome Lighthouse Audit](#chrome-lighthouse-report)
     + [End User testing](#end-user-testing)
     + [W3.org Validators](#w3org-validators)
   * [Deployment](#deployment)
@@ -382,10 +383,39 @@ The below table details testing of the responsiveness of the site as well as fun
 </tr>
 </table>
 
-
-
 #### Form dump screenshot
 ![Form Dump Screenshot](./assets/images/readme-images/form-dump.png)
+
+### Chrome Lighthouse Report
+- Upon running the Chrome Developer tool Lighthouse on the website, initially it came up with some issues:
+  + The pages were lacking in meta descriptions and keywords 
+  + Every image on the photography page was lacking and alt tag and title
+  + The navigation button did not have an aria-label
+  + Every input label on the contact form needs an aria-label
+  + The Instagram post was lacking a title
+
+After making changes to the above issues, these were the results that each page received: <br>
+**About Page**
+![Lighthouse Results for About Page](./assets/images/readme-images/lighthouse-about.png)
+- The goal for myself was to ensure that each result was above 85 to ensure that the website is to as high a standard as possible.
+- Each result is in the green and best practices is 100
+- SEO is high which is good as SEO allows for more people to find the website online
+
+**Character Design Page**
+![Lighthouse Results for Character Design Page](./assets/images/readme-images/lighthouse-characterdesign.png)
+- The performance is very low for this page.
+- This is partly because of the size of the images shown.
+- In future, it might be an idea to reduce quality down a bit more to improve speed
+
+**Photography Page**
+![Lighthouse Results for Photography Page](./assets/images/readme-images/lighthouse-photography.png)
+- The performance on the photography page is higher than the character design page as the images it is loading are of lower quality
+- The SEO has been affected as the a tags do not lead to anywhere meaningful at the moment. This will be changed once I have images from Siana to open in another tab
+
+**Index Page**
+![Lighthouse Results for Index Page](./assets/images/readme-images/lighthouse-index.png)
+- Every score is in the green and above 95
+- Nothing needs to be touched with this page
 
 ### End User testing
 In order to see how a user would react to the website and use the website, I found a volunteer to use the website and try to find any issues or bugs with it. My volunteer is a man named Harry, aged 31. From using the site, the only issue raised is that the page titles were uneven. There was a gap on the left, but not on the right. To fix this, I added `padding-right: 50px;` to .page-title in the css file. This makes for a more aesthetically pleasing experience for the end user.
