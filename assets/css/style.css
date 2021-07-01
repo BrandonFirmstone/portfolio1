@@ -156,7 +156,7 @@ footer i {
 /* Used to transform and rotate the Facebook and Instagram icons on the footer */
 footer a:hover i {
 	transform: rotate(15deg) scale(1.7);
-	color: whitesmoke;
+	color: #F5F5F5;
 }
 
 /* Used to rotate the YouTube icon on the footer and increase the size */
@@ -195,7 +195,7 @@ a p {
 
 /* Psuedo class hover to apply an effect to the link text when hovered over */
 a p:hover {
-	color: whitesmoke;
+	color: #F5F5F5;
 	transform: scale(1.1); /* Increases the size of the text by a scale of 1.1 */
 }
 
