@@ -619,9 +619,9 @@ iframe.youtube-video {
 	}
 
 	#consent-label {
-		width: auto;
-		float: none;
-		margin: 0 auto;
+		width: 90%;
+		margin: 0;
+		float: right;
 	}
 
 	.column-about-left {
@@ -669,27 +669,15 @@ iframe.youtube-video {
 
 	label.contact-form-input {
 		font-size: 24px;
-		text-align: center;
+		text-align: left;
+		padding-left: 0;
+		max-width: 100%;
 	}
 
 	form#contact-form {
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
-	}
-
-	.contact-form-input {
-		margin: 0 auto;
-		display: block;
-	}
-
-	input.contact-form-input {
-		font-size: 24px;
-		height: 46px;
-		width: 100%;
-		margin: 0 auto;
-		display: block;
-		max-width: 100%;
 	}
 
 	textarea.contact-form-input {
@@ -700,11 +688,6 @@ iframe.youtube-video {
 	.submit {
 		height: 60px;
 		width: 70%;
-	}
-
-	label.contact-form-input {
-		font-size: 24px;
-		text-align: center;
 	}
 
 	iframe.insta-iframe {
@@ -719,18 +702,6 @@ iframe.youtube-video {
 		bottom: 50%;
 		border: none;
 		padding: 15px;
-	}
-
-	label.contact-form-input {
-		text-align: left;
-		padding-left: 0;
-		max-width: 100%;
-	}
-
-	#consent-label {
-		width: 90%;
-		margin: 0;
-		float: right;
 	}
 
 	#consent {
