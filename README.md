@@ -507,6 +507,12 @@ The above is a screenshot of the splashscreen "index.html" on my laptop screen. 
 - Smooth scrolling found at https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2 
 - http://ami.responsivedesign.is/# used to take pictures of each page on different devices.
 - Sticky footer calcs found here https://css-tricks.com/couple-takes-sticky-footer/#there-is-calc-reduced-height-wrappers
+- https://stackoverflow.com/questions/35700155/how-to-avoid-the-fixed-footer-overlapping-with-the-vertical-scroll-bar-appears-b helped with researching footer overlapping with scroll bar issue
+- https://www.youtube.com/watch?v=9YffrCViTVk&ab_channel=tipswithpunch helped with embedding YouTube video
+- https://developers.google.com/style/headings-targets#html_1 helped with making the link on the about page scroll down to the contact form
+- https://www.searchenginewatch.com/2018/04/04/a-quick-and-easy-guide-to-meta-tags-in-seo/ helped with understanding meta tags in SEO
+- https://favicon.io/tutorials/how-to-add-a-favicon-to-a-website-ico-format/ helped with adding the favicon.ico
+- https://www.w3schools.com/css/css_combinators.asp helped with CSS combinators
 
 ## Content
 
